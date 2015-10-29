@@ -1,0 +1,1982 @@
+﻿
+/***************************************************************************************/
+/*
+/*		Designed by 'AS Designing'
+/*		Web: http://www.asdesigning.com
+/*		Web: http://www.astemplates.com
+/*		License: ASDE Commercial
+/*
+/**************************************************************************************/
+
+/**************************************************************************************/
+/**************************************************************************************/
+/*   Elements
+/**************************************************************************************/
+/**************************************************************************************/
+
+body
+{
+	color: #333333;
+	background-image: url('../images/bg.body.top.png');
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+.body-wrapper
+{
+	background-image: url('../images/bg.body.png');
+}
+
+#facebox .popup
+{
+	border-radius: 3px !important;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+}
+
+.featured-view .spacer span,
+.latest-view .spacer span,
+.topten-view .spacer span,
+.recent-view .spacer span,
+.related-products-view .spacer span,
+.browse-view .row .product .spacer span,
+span.stock-level,
+#facebox .content,
+#facebox .content h2,
+#cmp_content .ask-a-question-view,
+#cmp_content .manufacturer-details-view,
+#cmp_content .manufacturer-details-view a,
+.popup a,
+.popup h4
+{
+	color: #333333;
+}
+
+#header .row3 .bottomrow,
+#header .row0 a,
+#colmain .row1,
+#colmain .row1 p,
+#colmain .row1 a,
+#colmain .row2 .row2col1,
+#colmain .row2 .row2col1 p,
+#colmain .row2 h1,
+#colmain .row2 h2,
+#colmain .row2 h3,
+#colmain #component,
+#colmain #component p,
+#colmain #adsense,
+#colmain .row4,
+#colmain .row4 p,
+#colmain .row4 a,
+#footer .row3,
+#footer .row3 a,
+#colleft .row2,
+#colleft .row3,
+#colleft .row2 a,
+#colleft .row3 a,
+#colright .row1,
+#colright .row2,
+#colright .row3,
+#colmain table.cart-summary a,
+#colmain a.terms-of-service,
+#colmain table.adminlist td a,
+#colmain .manufacturer a.modal,
+#header .row3 .bottomrow h1,
+#header .row3 .bottomrow h2,
+#header .row3 .bottomrow h3
+{
+	color: #333333;
+}
+
+.wrapper
+{
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.article-info,
+.vmcart_heading,
+.toggle
+{
+	color: #333333;
+}
+
+a
+{
+	color: #333333;
+}
+
+#colmain a.continue_link,
+#colmain .billto-shipto a.details,
+#colmain .cart-view a.vm-button-correct,
+#colmain .manufacturer-product-link a
+{
+	color: #189eda;
+}
+
+#colmain a.continue_link
+{
+	background-image: url(../images/bg.heading.png);
+	background-position: top left;
+	background-repeat: repeat-x;
+	display: block;
+	margin-bottom: 10px;
+}
+
+#colmain a.continue_link:hover
+{
+	background-image: none;
+	background-color: #FFFFFF;
+}
+
+a:hover
+{
+	color: #189eda;
+}
+
+#colmain a.continue_link:hover,
+#colmain .billto-shipto a.details:hover,
+#colmain .cart-view a.vm-button-correct:hover,
+#colmain .manufacturer-product-link a:hover
+{
+	color: #333333;
+}
+
+li
+{
+	background-image: url('../images/listimg.png');
+}
+
+li:hover
+{
+	background-image: url('../images/listimg.hover.png');
+}
+
+img.frame,
+.img-intro-left img,
+.img-fulltext-left img,
+.img-intro-none img,
+.img-fulltext-none img,
+.img-intro-right img,
+.img-fulltext-right img
+{
+	border: 1px solid #DDDDDD;	
+}
+
+select,
+input,
+textarea,
+.CodeMirror-wrapping,
+ table.user-details input.invalid,
+table.user-details input,
+form#userForm select,
+form#adminForm select,
+.user-details select,
+table.user-details input.invalid:hover,
+table.user-details input:hover,
+.ask-a-question-view input,
+.ask-a-question-view input#email,
+.ask-a-question-view input#email:hover,
+.ask-a-question-view .form-field textarea.field,
+.ask-a-question-view .form-field textarea.field:hover,
+.ask-a-question-view input.counter,
+.ask-a-question-view input.counter:hover,
+input.counter,
+input.counter:hover,
+input.quantity-input,
+ span.custom-variant-inputbox input.custom-attribute:hover,
+span.quantity-box input.quantity-input:hover,
+input.vm-default:hover,
+span.quantity-box input.quantity-input:hover,
+.ask-a-question-view input.counter:hover,
+.ask-a-question-view input#email:hover,
+table.user-details input:hover,
+a.ask-a-question:hover,
+a.details:hover,
+div.details:hover,
+a.product-details:hover,
+button.default:hover
+{
+	border: 1px solid #DDDDDD;
+	border-radius: 0px;
+	color: #333333;
+	background-image: none ;
+	background-color: #FDFDFD;
+}
+
+.orderlistcontainer div.activeOrder,
+.orderlistcontainer div.orderlist
+{
+	background-color: #FDFDFD;
+	border: 1px solid #DDDDDD;
+	color: #333333;
+}
+
+.orderlistcontainer div.orderlist div:hover,
+.orderlistcontainer div.orderlist a:hover
+{
+	background-color: #FDFDFD;
+}
+
+.inputbox,
+#jform_name,
+#jform_username,
+#jform_password1,
+#jform_password2,
+#jform_email,
+#jform_email1,
+#jform_email2,
+#jform_title,
+#jform_url,
+#jform_catid,
+#jform_state,
+#jform_params_editor,
+#jform_params_timezone,
+#jform_params_language,
+#jform_params_admin_style,
+#jform_params_admin_language,
+#jform_params_helpsite,
+#username,
+#password
+{
+	border: 1px solid #ddd;
+	border-radius: 0px;
+}
+
+/**************************************************************************************/
+/* Header
+/**************************************************************************************/
+/**************************************************************************************/
+
+#header
+{
+}
+
+#header h1,
+#header h2,
+#header h3
+{
+	color: #189eda;
+}
+
+.bottomrow #header h1,
+.bottomrow #header h2,
+.bottomrow #header h3
+{
+	color: #333;
+}
+
+#header a
+{
+	color: #333;
+}
+
+#header a:hover
+{
+	color: #189eda;
+}
+
+/**************************************************************************************/
+/* Header Row 0 																	  */
+
+#header .row0 .search input
+{
+	color: #CCC;
+}
+
+#header .row0
+{
+}
+
+/**************************************************************************************/
+/* Header Row 1 		                                                              */
+
+#header .row1
+{
+	color: #333333;
+}
+
+#header .row1 #companyname,
+#header .row1 #companyname a
+{
+	color: #333333;
+}
+
+#header .row1 #companyname a:hover
+{
+	color: #189eda;
+}
+
+#header .row1 .slogan
+{
+	color: #189eda;
+}
+
+.companycontacts
+{
+	color: #189eda;
+}
+
+.companycontacts .callnow b
+{
+	color: #333333;
+}
+
+/**************************************************************************************/
+/* Header Row 2 - Top menu                                                            */
+
+#header .row2 #topmenu
+{
+	background-color: #1c1c1c;
+	background-image: url('../images/bg.topmenu.png');
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+#header .row2 #topmenu ul.menu
+{
+	border-left: 1px solid #161616;
+	border-right: 1px solid #383838;
+}
+
+#header .row2 #topmenu ul.menu li a
+{
+	color: #fff;
+}
+
+#header .row2 #topmenu ul.menu li
+{
+	border-left: 1px solid #383838;
+	border-right: 1px solid #161616;
+}
+
+#header .row2 #topmenu ul.menu li.active li.current.active a,
+#header .row2 #topmenu ul.menu li.active.actives a.hover,
+#header .row2 #topmenu ul.menu li.active.actives a,
+#header .row2 #topmenu ul.menu li.current.active a,
+#header .row2 #topmenu ul.menu li.current a,
+#header .row2 #topmenu ul.menu li.active a,
+#header .row2 #topmenu ul.menu li a:hover
+{
+	color: #59A6E2;
+}
+
+#header .row2 #topmenu ul.menu li.active.actives li a
+{
+	color: #333;
+}
+
+#header .row2 #topmenu ul.menu ul
+{
+	border:  1px solid #dddddd;
+	color: #333333;
+	background-color: #FFFFFF;
+	background-image: linear-gradient(to bottom, #FFFFFF, #EEEEEE);
+}
+
+#header .row2 #topmenu ul.menu ul li a,
+#header .row2 #topmenu ul.menu ul li span.separator
+{
+	color: #333333;
+}
+
+/*
+#header .row2 #topmenu ul.menu ul li.current a:hover,
+#header .row2 #topmenu ul.menu ul li.active a:hover,
+#header .row2 #topmenu ul.menu ul li.actives a:hover,
+#header .row2 #topmenu ul.menu ul li.parent a:hover,
+#header .row2 #topmenu ul.menu li.deeper ul li a:hover,
+#header .row2 #topmenu ul.menu li.current ul li a:hover,
+#header .row2 #topmenu ul.menu li.active ul li a:hover,
+#header .row2 #topmenu ul.menu li.actives ul li a:hover,
+#header .row2 #topmenu ul.menu li.parent ul li a:hover,
+#header .row2 #topmenu ul.menu ul li a:hover,
+#header .row2 #topmenu ul.menu li a.hover
+{
+	color: #189eda;
+}
+*/
+
+
+
+/**************************************************************************************/
+/* Header Row 3 (Slider)                                                              */
+
+
+#header .row3col1
+{
+}
+
+#header .row3 .toprow
+{
+	background-color: #FFFFFF;
+	color: #333333;
+	border: 1px solid #DDDDDD;
+}
+
+#header .row3
+{
+}
+
+#header .row3 .bottomrow
+{
+}
+
+.nivo-caption h1,
+.nivo-caption h2,
+.nivo-caption h3
+{
+}
+
+/**************************************************************************************/
+/* Breadcrums                                                                         */
+
+
+#breadcrumb
+{
+	border: 1px solid #DDDDDD;
+	color: #333333;
+	background-color: #FFFFFF;
+	background-image: url(../images/bg.breadcrumb.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+#breadcrumb a
+{
+	color: #189eda;
+}
+
+#breadcrumb a:hover
+{
+	color: #333333;
+}
+
+.breadrow #search input
+{
+	color: #333333;
+}
+
+/**************************************************************************************/
+/* Header Row 4                                                                       */
+ 
+ 
+#header .row4 .wrapper
+{
+	border: 1px solid #DDDDDD;
+	background-color: #FDFDFD;
+	background-image: url('../images/bg.module.png');
+	background-position: bottom left;
+	background-repeat: repeat-x;
+	background-attachment: inherit;
+}
+
+#header .row4 h3 span
+{
+	color: #189eda;
+}
+
+/* Header Row 4 Column 1 */
+
+#header .row4 .row4col1,
+#header .row4 .wrapper
+{
+}
+
+#header .row4col1 h1,
+#header .row4col1 h2,
+#header .row4col1 h3,
+#header .row4col1 h4,
+#header .row4col1 h5
+{
+	color: #333333;
+}
+
+#header .row4col1
+{
+	color: #333333;
+}
+
+#header .row4col1 a
+{
+	color: #333333;
+}
+
+#header .row4col1 a:hover
+{
+	color: #189eda;
+}
+
+#header .row4col1 .button,
+#header .row4col1 .validate,
+#header .row4col1 .readmore,
+#header .row4col1 .readmore button,
+#header .row4col1 .readmore .button,
+#header .row4col1 input.button,
+#header .row4col1 button.button,
+#header .row4col1 button.validate,
+#header .row4col1 button
+{
+	color: #FFFFFF !important;
+}
+
+#header .row4col1 .button a,
+#header .row4col1 .readmore a,
+#header .row4col1 .readmore button a,
+#header .row4col1 .readmore .button a,
+#header .row4col1 input.button a,
+#header .row4col1 button.button a
+{
+	color: #FFFFFF !important;
+}
+
+#header .row4col1 .button a:hover,
+#header .row4col1 .readmore:hover,
+#header .row4col1 .readmore:hover a,
+#header .row4col1 .readmore a:hover,
+#header .row4col1 .readmore button:hover,
+#header .row4col1 .readmore .button:hover,
+#header .row4col1 .readmore button a:hover,
+#header .row4col1 .readmore .button a:hover,
+#header .row4col1 input.button:hover,
+#header .row4col1 input.button a:hover,
+#header .row4col1 button.validate:hover,
+#header .row4col1 button:hover,
+#header .row4col1 button.button:hover,
+#header .row4col1 button.button a:hover
+{
+	color: #FFFFFF !important;
+}
+
+/* Header Row 4 Column 2 */
+
+#header .row4 .row4col2
+{
+}
+
+#header .row4col2 h1,
+#header .row4col2 h2,
+#header .row4col2 h3,
+#header .row4col2 h4,
+#header .row4col2 h5
+{
+	color: #333333;
+}
+
+#header .row4col2
+{
+	color: #333333;
+}
+
+#header .row4col2 a
+{
+	color: #333333;
+}
+
+#header .row4col2 a:hover
+{
+	color: #189eda;
+}
+
+#header .row4col2 .button,
+#header .row4col2 .validate,
+#header .row4col2 .readmore,
+#header .row4col2 .readmore button,
+#header .row4col2 .readmore .button,
+#header .row4col2 input.button,
+#header .row4col2 button.button,
+#header .row4col2 button.validate,
+#header .row4col2 button
+{
+	color: #FFFFFF !important;
+}
+
+#header .row4col2 .button a,
+#header .row4col2 .readmore a,
+#header .row4col2 .readmore button a,
+#header .row4col2 .readmore .button a,
+#header .row4col2 input.button a,
+#header .row4col2 button.button a
+{
+	color: #FFFFFF !important;
+}
+
+#header .row4col2 .button a:hover,
+#header .row4col2 .readmore:hover,
+#header .row4col2 .readmore:hover a,
+#header .row4col2 .readmore a:hover,
+#header .row4col2 .readmore button:hover,
+#header .row4col2 .readmore .button:hover,
+#header .row4col2 .readmore button a:hover,
+#header .row4col2 .readmore .button a:hover,
+#header .row4col2 input.button:hover,
+#header .row4col2 input.button a:hover,
+#header .row4col2 button.validate:hover,
+#header .row4col2 button:hover,
+#header .row4col2 button.button:hover,
+#header .row4col2 button.button a:hover
+{
+	color: #FFFFFF !important;
+}
+
+/* Header Row 4 Column 3 */
+
+#header .row4 .row4col3
+{
+}
+
+#header .row4col3 h1,
+#header .row4col3 h2,
+#header .row4col3 h3,
+#header .row4col3 h4,
+#header .row4col3 h5
+{
+	color: #333333;
+}
+
+#header .row4col3
+{
+	color: #333333;
+}
+
+#header .row4col3 a
+{
+	color: #333333;
+}
+
+#header .row4col3 a:hover
+{
+	color: #189eda;
+}
+
+#header .row4col3 .button,
+#header .row4col3 .validate,
+#header .row4col3 .readmore,
+#header .row4col3 .readmore button,
+#header .row4col3 .readmore .button,
+#header .row4col3 input.button,
+#header .row4col3 button.button,
+#header .row4col3 button.validate,
+#header .row4col3 button
+{
+	color: #FFFFFF !important;
+}
+
+#header .row4col3 .button a,
+#header .row4col3 .readmore a,
+#header .row4col3 .readmore button a,
+#header .row4col3 .readmore .button a,
+#header .row4col3 input.button a,
+#header .row4col3 button.button a
+{
+	color: #FFFFFF !important;
+}
+
+#header .row4col3 .button a:hover,
+#header .row4col3 .readmore:hover,
+#header .row4col3 .readmore:hover a,
+#header .row4col3 .readmore a:hover,
+#header .row4col3 .readmore button:hover,
+#header .row4col3 .readmore .button:hover,
+#header .row4col3 .readmore button a:hover,
+#header .row4col3 .readmore .button a:hover,
+#header .row4col3 input.button:hover,
+#header .row4col3 input.button a:hover,
+#header .row4col3 button.validate:hover,
+#header .row4col3 button:hover,
+#header .row4col3 button.button:hover,
+#header .row4col3 button.button a:hover
+{
+	color: #FFFFFF !important;
+}
+
+/* Header Row 4 Column 4 */
+
+#header .row4 .row4col4
+{
+}
+
+#header .row4col4 h1,
+#header .row4col4 h2,
+#header .row4col4 h3,
+#header .row4col4 h4,
+#header .row4col4 h5
+{
+	color: #333333;
+}
+
+#header .row4col4
+{
+	color: #333333;
+}
+
+#header .row4col4 a
+{
+	color: #333333;
+}
+
+#header .row4col4 a:hover
+{
+	color: #189eda;
+}
+
+#header .row4col4 .button,
+#header .row4col4 .validate,
+#header .row4col4 .readmore,
+#header .row4col4 .readmore button,
+#header .row4col4 .readmore .button,
+#header .row4col4 input.button,
+#header .row4col4 button.button,
+#header .row4col4 button.validate,
+#header .row4col4 button
+{
+	color: #FFFFFF !important;
+}
+
+#header .row4col4 .button a,
+#header .row4col4 .readmore a,
+#header .row4col4 .readmore button a,
+#header .row4col4 .readmore .button a,
+#header .row4col4 input.button a,
+#header .row4col4 button.button a
+{
+	color: #FFFFFF !important;
+}
+
+#header .row4col4 .button a:hover,
+#header .row4col4 .readmore:hover,
+#header .row4col4 .readmore:hover a,
+#header .row4col4 .readmore a:hover,
+#header .row4col4 .readmore button:hover,
+#header .row4col4 .readmore .button:hover,
+#header .row4col4 .readmore button a:hover,
+#header .row4col4 .readmore .button a:hover,
+#header .row4col4 input.button:hover,
+#header .row4col4 input.button a:hover,
+#header .row4col4 button.validate:hover,
+#header .row4col4 button:hover,
+#header .row4col4 button.button:hover,
+#header .row4col4 button.button a:hover
+{
+	color: #FFFFFF !important;
+}
+
+/**************************************************************************************/
+/**************************************************************************************/
+/* Content
+/**************************************************************************************/
+/**************************************************************************************/
+
+/**************************************************************************************/
+/* Column Left
+/**************************************************************************************/
+/**************************************************************************************/
+
+#colleft ul li
+{
+}
+
+#colleft ul li:hover
+{
+}
+
+#colleft a
+{
+	color: #189eda;
+}
+
+#colleft a:hover
+{
+	color: #333;
+}
+
+#colleft ul li a,
+#colleft ul li.active ul li a
+{
+	color: #333333;
+	text-transform: none;
+}
+
+#colleft ul li a:hover,
+#colleft ul ul li a:hover
+{
+	color: #189eda;
+}
+
+#colleft .moduletable ul.menu li a,
+#colleft .moduletable_menu ul.menu li a,
+#colleft .moduletable #login-form ul li a
+{
+	color: #333333;
+}
+
+#colleft .moduletable ul.menu li a:hover,
+#colleft .moduletable_menu ul.menu li a:hover,
+#colleft .moduletable #login-form ul li a:hover
+{
+	color: #189eda;
+}
+
+#colleft input
+{
+	color: #333333;
+}
+
+#colleft .more a
+{
+	color: #189eda;
+}
+
+#colleft .more a:hover
+{
+	color: #FAB236;
+}
+
+/**************************************************************************************/
+/* Rows                                                                               */
+
+#colleft .row0,
+#colleft .row1
+{
+	color: #333333;
+}
+
+#colleft .row1 form#login-form,
+#colleft .row4,
+#colleft .row5
+{
+	color: #333333;
+	border: 0px solid #DDDDDD;
+}
+
+#colleft .row0 h1,
+#colleft .row0 h2,
+#colleft .row0 h3,
+#colleft .row1 h1,
+#colleft .row1 h2,
+#colleft .row1 h3,
+#colleft .row2 h1,
+#colleft .row2 h2,
+#colleft .row2 h3,
+#colleft .row3 h1,
+#colleft .row3 h2,
+#colleft .row3 h3
+{
+}
+
+#colleft .row0 h3 span,
+#colleft .row1 h3 span,
+#colleft .row2 h3 span,
+#colleft .row3 h3 span
+{
+	color: #189eda;
+}
+
+#colleft .row0 h1,
+#colleft .row0 h2,
+#colleft .row0 h3,
+#colleft .row1 h1,
+#colleft .row1 h2,
+#colleft .row1 h3,
+#colleft .row2 h1,
+#colleft .row2 h2,
+#colleft .row2 h3,
+#colleft .row3 h1,
+#colleft .row3 h2,
+#colleft .row3 h3,
+#colleft .row4 h1,
+#colleft .row4 h2,
+#colleft .row5 h1,
+#colleft .row5 h2
+{
+	color: #333333;
+	border-bottom: 3px solid #000;
+	line-height: 26px;
+	padding: 8px 0 5px !important;
+}
+
+#colleft .row4 h3,
+#colleft .row5 h3
+{
+	border: none;
+	background-color: #337cad;
+	color: #FFFFFF;
+	line-height: 26px;
+	padding: 8px 20px !important;	
+}
+
+#colleft .row4 h3 span,
+#colleft .row5 h3 span
+{
+	color: #189eda;
+}
+
+#colleft .row4 a,
+#colleft .row4 ul li a,
+#colleft .row4 ul li.active ul li a,
+#colleft .row4 .moduletable ul.menu li a,
+#colleft .row4 .moduletable_menu ul.menu li a,
+#colleft .row4 .moduletable #login-form ul li a,
+#colleft .row4 .more a,
+#colleft .row5 a,
+#colleft .row5 ul li a,
+#colleft .row5 ul li.active ul li a,
+#colleft .row5 .moduletable ul.menu li a,
+#colleft .row5 .moduletable_menu ul.menu li a,
+#colleft .row5 .moduletable #login-form ul li a,
+#colleft .row5 .more a
+{
+	color: #333333;
+}
+
+#colleft .row4 a:hover,
+#colleft .row4 ul li a:hover,
+#colleft .row4 ul ul li a:hover,
+#colleft .row4 .moduletable ul.menu li a:hover,
+#colleft .row4 .moduletable_menu ul.menu li a:hover,
+#colleft .row4 .moduletable #login-form ul li a:hover,
+#colleft .row4 .more a:hover,
+#colleft .row5 a:hover,
+#colleft .row5 ul li a:hover,
+#colleft .row5 ul ul li a:hover,
+#colleft .row5 .moduletable ul.menu li a:hover,
+#colleft .row5 .moduletable_menu ul.menu li a:hover,
+#colleft .row5 .moduletable #login-form ul li a:hover,
+#colleft .row5 .more a:hover
+{
+	color: #189eda;
+}
+
+#colleft .row4 .button,
+#colleft .row4 .validate,
+#colleft .row4 .readmore,
+#colleft .row4 .readmore button,
+#colleft .row4 .readmore .button,
+#colleft .row4 input.button,
+#colleft .row4 button.button,
+#colleft .row4 button.validate,
+#colleft .row4 button,
+#colleft .row5 .button,
+#colleft .row5 .validate,
+#colleft .row5 .readmore,
+#colleft .row5 .readmore button,
+#colleft .row5 .readmore .button,
+#colleft .row5 input.button,
+#colleft .row5 button.button,
+#colleft .row5 button.validate,
+#colleft .row5 button
+{
+	color: #FFFFFF !important;
+}
+
+#colleft .row4 .button a,
+#colleft .row4 .readmore a,
+#colleft .row4 .readmore button a,
+#colleft .row4 .readmore .button a,
+#colleft .row4 input.button a,
+#colleft .row4 button.button a,
+#colleft .row5 .button a,
+#colleft .row5 .readmore a,
+#colleft .row5 .readmore button a,
+#colleft .row5 .readmore .button a,
+#colleft .row5 input.button a,
+#colleft .row5 button.button a
+{
+	color: #FFFFFF !important;
+}
+
+#colleft .row4 .button a:hover,
+#colleft .row4 .readmore:hover,
+#colleft .row4 .readmore:hover a,
+#colleft .row4 .readmore a:hover,
+#colleft .row4 .readmore button:hover,
+#colleft .row4 .readmore .button:hover,
+#colleft .row4 .readmore button a:hover,
+#colleft .row4 .readmore .button a:hover,
+#colleft .row4 input.button:hover,
+#colleft .row4 input.button a:hover,
+#colleft .row4 button.validate:hover,
+#colleft .row4 button:hover,
+#colleft .row4 button.button:hover,
+#colleft .row4 button.button a:hover,
+#colleft .row5 .button a:hover,
+#colleft .row5 .readmore:hover,
+#colleft .row5 .readmore:hover a,
+#colleft .row5 .readmore a:hover,
+#colleft .row5 .readmore button:hover,
+#colleft .row5 .readmore .button:hover,
+#colleft .row5 .readmore button a:hover,
+#colleft .row5 .readmore .button a:hover,
+#colleft .row5 input.button:hover,
+#colleft .row5 input.button a:hover,
+#colleft .row5 button.validate:hover,
+#colleft .row5 button:hover,
+#colleft .row5 button.button:hover,
+#colleft .row5 button.button a:hover
+{
+	color: #FFFFFF !important;
+}
+
+#colleft .row4 .readmore:hover,
+#colleft .row4 .readmore button:hover,
+#colleft .row4 .readmore .button:hover,
+#colleft .row4 input.button:hover,
+#colleft .row4 button.validate:hover,
+#colleft .row4 button:hover,
+#colleft .row4 button.button:hover,
+#colleft .row5 .readmore:hover,
+#colleft .row5 .readmore button:hover,
+#colleft .row5 .readmore .button:hover,
+#colleft .row5 input.button:hover,
+#colleft .row5 button.validate:hover,
+#colleft .row5 button:hover,
+#colleft .row5 button.button:hover
+{
+	color: #FFFFFF !important;
+}
+
+/**************************************************************************************/
+/* Column Right
+/**************************************************************************************/
+/**************************************************************************************/
+
+#colright ul li
+{
+	background-image: url('../images/listimg.png');
+}
+
+#colright ul li:hover
+{
+	background-image: url('../images/listimg.hover.png');
+}
+
+#colright a
+{
+	color: #189eda;
+}
+
+#colright a:hover
+{
+	color: #333333;
+}
+
+#colright ul.menu li a,
+#colright ul li.active ul li a
+{
+	color: #189eda;
+}
+
+#colright ul li a:hover,
+#colright ul ul li a:hover
+{
+	color: #333333;
+}
+
+#colright .moduletable ul.menu li a,
+#colright .moduletable_menu ul.menu li a,
+#colright .moduletable #login-form ul li a
+{
+	color: #333333;
+}
+
+#colright .moduletable ul.menu li a:hover,
+#colright .moduletable_menu ul.menu li a:hover,
+#colright .moduletable #login-form ul li a:hover
+{
+	color: #189eda;
+}
+
+#colright input
+{
+	color: #333333;
+}
+
+#colright .more a
+{
+	color: #189eda;
+}
+
+#colright .more a:hover
+{
+	color: #FAB236;
+}
+
+/**************************************************************************************/
+/* Rows                                                                               */
+
+
+#colright .row4,
+#colright .row5
+{
+	color: #333333;
+	border: 0px solid #DDDDDD;
+}
+
+#colright .row1 h3 span,
+#colright .row2 h3 span,
+#colright .row3 h3 span
+{
+	color: #189eda;
+}
+
+#colright .row1 h1,
+#colright .row1 h2,
+#colright .row1 h3,
+#colright .row2 h1,
+#colright .row2 h2,
+#colright .row2 h3,
+#colright .row3 h1,
+#colright .row3 h2,
+#colright .row3 h3,
+#colright .row4 h1,
+#colright .row4 h2,
+#colright .row5 h1,
+#colright .row5 h2
+{
+	color: #333333;
+	border-bottom: 3px solid #337cad;
+	line-height: 26px;
+	padding: 8px 0 5px !important;
+}
+
+#colright .row4 h3,
+#colright .row5 h3
+{
+	border: none;
+	background-color: #337cad;
+	color: #FFFFFF;
+	line-height: 26px;
+	padding: 8px 20px !important;	
+}
+
+#colright .row4 h3 span,
+#colright .row5 h3 span
+{
+	color: #189eda;
+}
+
+#colright .row4 a,
+#colright .row4 ul li a,
+#colright .row4 ul li.active ul li a,
+#colright .row4 .moduletable ul.menu li a,
+#colright .row4 .moduletable_menu ul.menu li a,
+#colright .row4 .moduletable #login-form ul li a,
+#colright .row4 .more a,
+#colright .row5 a,
+#colright .row5 ul li a,
+#colright .row5 ul li.active ul li a,
+#colright .row5 .moduletable ul.menu li a,
+#colright .row5 .moduletable_menu ul.menu li a,
+#colright .row5 .moduletable #login-form ul li a,
+#colright .row5 .more a
+{
+	color: #333;
+}
+
+#colright .row4 a:hover,
+#colright .row4 ul li a:hover,
+#colright .row4 ul ul li a:hover,
+#colright .row4 .moduletable ul.menu li a:hover,
+#colright .row4 .moduletable_menu ul.menu li a:hover,
+#colright .row4 .moduletable #login-form ul li a:hover,
+#colright .row4 .more a:hover,
+#colright .row5 a:hover,
+#colright .row5 ul li a:hover,
+#colright .row5 ul ul li a:hover,
+#colright .row5 .moduletable ul.menu li a:hover,
+#colright .row5 .moduletable_menu ul.menu li a:hover,
+#colright .row5 .moduletable #login-form ul li a:hover,
+#colright .row5 .more a:hover
+{
+	color: #189eda;
+}
+
+#colright .row4 .button,
+#colright .row4 .validate,
+#colright .row4 .readmore,
+#colright .row4 .readmore button,
+#colright .row4 .readmore .button,
+#colright .row4 input.button,
+#colright .row4 button.button,
+#colright .row4 button.validate,
+#colright .row4 button,
+#colright .row5 .button,
+#colright .row5 .validate,
+#colright .row5 .readmore,
+#colright .row5 .readmore button,
+#colright .row5 .readmore .button,
+#colright .row5 input.button,
+#colright .row5 button.button,
+#colright .row5 button.validate,
+#colright .row5 button
+{
+	color: #FFFFFF !important;
+}
+
+#colright .row4 .button a,
+#colright .row4 .readmore a,
+#colright .row4 .readmore button a,
+#colright .row4 .readmore .button a,
+#colright .row4 input.button a,
+#colright .row4 button.button a,
+#colright .row5 .button a,
+#colright .row5 .readmore a,
+#colright .row5 .readmore button a,
+#colright .row5 .readmore .button a,
+#colright .row5 input.button a,
+#colright .row5 button.button a
+{
+	color: #FFFFFF !important;
+}
+
+#colright .row4 .button a:hover,
+#colright .row4 .readmore:hover,
+#colright .row4 .readmore:hover a,
+#colright .row4 .readmore a:hover,
+#colright .row4 .readmore button:hover,
+#colright .row4 .readmore .button:hover,
+#colright .row4 .readmore button a:hover,
+#colright .row4 .readmore .button a:hover,
+#colright .row4 input.button:hover,
+#colright .row4 input.button a:hover,
+#colright .row4 button.validate:hover,
+#colright .row4 button:hover,
+#colright .row4 button.button:hover,
+#colright .row4 button.button a:hover,
+#colright .row5 .button a:hover,
+#colright .row5 .readmore:hover,
+#colright .row5 .readmore:hover a,
+#colright .row5 .readmore a:hover,
+#colright .row5 .readmore button:hover,
+#colright .row5 .readmore .button:hover,
+#colright .row5 .readmore button a:hover,
+#colright .row5 .readmore .button a:hover,
+#colright .row5 input.button:hover,
+#colright .row5 input.button a:hover,
+#colright .row5 button.validate:hover,
+#colright .row5 button:hover,
+#colright .row5 button.button:hover,
+#colright .row5 button.button a:hover
+{
+	color: #FFFFFF !important;
+}
+
+#colright .row4 .readmore:hover,
+#colright .row4 .readmore button:hover,
+#colright .row4 .readmore .button:hover,
+#colright .row4 input.button:hover,
+#colright .row4 button.validate:hover,
+#colright .row4 button:hover,
+#colright .row4 button.button:hover,
+#colright .row5 .readmore:hover,
+#colright .row5 .readmore button:hover,
+#colright .row5 .readmore .button:hover,
+#colright .row5 input.button:hover,
+#colright .row5 button.validate:hover,
+#colright .row5 button:hover,
+#colright .row5 button.button:hover
+{
+}
+
+/**************************************************************************************/
+/* Column Main
+/**************************************************************************************/
+/**************************************************************************************/
+
+
+#colmain h1,
+#colmain h2,
+#colmain h3,
+#colmain #component .cart-view h2,
+#cmp_colmain h1,
+#cmp_colmain h2,
+#cmp_colmain h3,
+.vmgroup .vmheader
+{
+	color: #333333;
+}
+
+#colmain h4,
+#colmain h5
+{
+	color: #333333;
+}
+
+#colmain h1 a,
+#colmain h2 a,
+#colmain h3 a
+{
+	color: #189eda;
+}
+
+#colmain h1 a:hover,
+#colmain h2 a:hover,
+#colmain h3 a:hover
+{
+	color: #333333;
+}
+
+#colmain h4 #colmain h5
+{
+	color: #333333;
+}
+
+
+#colmain #component h1,
+#colmain #component .cart-view h2,
+#colmain #component h3,
+#colmain #adsense h1,
+#colmain #adsense h3,
+#cmp_colmain h1,
+#cmp_colmain h3,
+.vmgroup .vmheader
+{
+	border-bottom: 3px solid #333;
+	background-color: transparent;
+	line-height: 26px;
+	padding: 8px 0 5px !important;
+}
+
+#colmain #component h2,
+#colmain #adsense h2,
+#cmp_colmain h2
+{
+	border: none;
+	background-color: #1c1c1c;
+	color: #FFFFFF;
+	line-height: 26px;
+}
+
+#colmain #component #product-top-wrap h3
+{
+	padding: 10px 0px 0px !important;
+	border: none;
+}
+
+#colmain #component .category-view h2
+{
+	font-size: 12px;
+	background-color: #FDFDFD;
+	border: none;
+	color: #333333;
+	border: 1px solid #ddd;	
+	padding: 6px 0px 5px 0px;
+}
+
+#colmain #component .category-view h2:hover,
+#colmain #component .manufacturer h2 a:hover,
+#colmain .browse-view .row .product .spacer h2 a:hover,
+#colmain a
+{
+	color: #189eda;
+}
+
+#colmain #component .manufacturer h2 a,
+#colmain .browse-view .row .product .spacer h2 a
+{
+	color: #FFFFFF;
+}
+
+#colmain .orderlistcontainer div.activeOrder a,
+#colmain .orderlistcontainer div.orderlist a,
+#colmain .product .product-details,
+#colmain .back-to-category a,
+#colmain .ask-a-question a,
+#colmain .customer-reviews h4
+{
+	color: #189eda;
+}
+
+#colmain .product a.product-details:hover
+{
+	color: #333333;
+}
+
+#colmain a:hover,
+#cmp_content .manufacturer-details-view a:hover,
+#colmain .manufacturer a:hover
+{
+	color: #189eda;
+}
+
+#colmain input[type=checkbox], #colmain input[type=radio]
+{
+	background-color: transparent !important!
+}
+
+#colmain p
+{
+	color: #333333;
+}
+
+#colmain #component .article-info,
+#cmp_colmain .article-info
+{
+	color: #999;
+}
+
+#colmain #component .blog p.readmore a span
+{
+	color: #189eda;
+}
+
+#colmain span.spacer > span.text label
+{
+	color: #333333;
+}
+
+#colmain #jform_spacer-lbl,
+#colmain label.invalid,
+#colmain .red,
+#colmain .star,
+#colmain .asterisk
+{
+	color: #189eda;
+}
+
+.border_bottom
+{
+	border-bottom: 1px #E6E6E6 dotted;
+}
+
+.article-info
+{
+	color: #333333;
+}
+
+.toggle_content,
+#vm_reviews_characters input
+{
+	border: 1px solid #ddd;
+	background-color: #FDFDFD;
+	color: #333;
+}
+
+#colmain .toggle_content h1,
+#colmain .toggle_content h2,
+#colmain .toggle_content h3,
+#colmain .toggle_content h4,
+#colmain .toggle_content h5
+{
+	color: #272727;
+}
+
+/**************************************************************************************/
+
+
+#system-message dd.error ul,
+#system-message dd.warning ul,
+#system-message dd.notice ul
+{
+	border: 3px solid #FAB236;
+	border-radius: 0px;
+}
+
+#system-message ul li
+{
+	color: #FAB236;
+}
+
+.invalid
+{
+	border-color: #FAB236;
+}
+
+/**************************************************************************************/
+/* Colmain Row 1                                                                      */
+
+
+#colmain .row1 h1,
+#colmain .row1 h2,
+#colmain .row1 h3
+{
+	background-color: #FDFDFD;
+	background-repeat: repeat;
+	border: 1px solid #DDDDDD;
+}
+
+#colmain .row1 h3 span
+{
+	color: #189eda;
+}
+
+#colmain .row1 a:hover
+{
+	color: #189eda;
+}
+
+/**************************************************************************************/
+/* Colmain Row 2                                                                      */
+
+
+#colmain .row2 .row2col2
+{
+	color: #333333;
+	background-color: #FDFDFD;
+	border: 1px solid #DDDDDD;
+}
+
+#colmain .row2 .row2col2 h1,
+#colmain .row2 .row2col2 h2,
+#colmain .row2 .row2col2 h3
+{
+	color: #333333;
+}
+
+#colmain .row2 .row2col2 h3 span
+{
+	color: #189eda;
+}
+
+#colmain .row2 .row2col2 p
+{
+	color: #333333;
+}
+
+#colmain .row2 .row2col2 a
+{
+	color: #189eda;
+}
+
+#colmain .row2 .row2col2 a:hover
+{
+	color: #333333;
+}
+
+/**************************************************************************************/
+/* Colmain Row 3                                                                      */
+
+
+#colmain .row3
+{
+	color: #333333;
+	background-color: #FDFDFD;
+	border: 1px solid #DDDDDD;
+}
+
+#colmain .row3 h1,
+#colmain .row3 h2,
+#colmain .row3 h3
+{
+	color: #333333;
+}
+
+#colmain .row3 h3 span
+{
+	color: #189eda;
+}
+
+#colmain .row3 p
+{
+	color: #333333;
+}
+
+#colmain .row3 a
+{
+	color: #333333;
+}
+
+#colmain .row3 a:hover
+{
+	color: #189eda;
+}
+
+/**************************************************************************************/
+/* Colmain Row 4 */
+
+
+#colmain .row4 h1,
+#colmain .row4 h2,
+#colmain .row4 h3
+{
+	background-color: #FDFDFD;
+	border: 1px solid #DDDDDD;
+}
+
+#colmain .row4 h3 span
+{
+	color: #189eda;
+}
+
+#colmain .row4 a:hover
+{
+	color: #189eda;
+}
+
+/**************************************************************************************/
+/* Footer
+/**************************************************************************************/
+/**************************************************************************************/
+
+/**************************************************************************************/
+/* Footer Row 1                                                                       */
+
+
+#footer .row1 .body-content
+{
+	border: 1px solid #1C1C1C;
+	background-color: #1C1C1C;
+}
+
+#footer .row1 .inner-border
+{
+	border: 1px solid #FFFFFF;
+	overflow: hidden;	
+}
+
+#footer .row1 .moduletable
+{
+	padding: 25px 25px 22px;	
+}
+
+#footer .row1 h1,
+#footer .row1 h2,
+#footer .row1 h3,
+#footer .row1 h4,
+#footer .row1 h5
+{
+	color: #cccccc;
+}
+
+#footer .row1 a,
+#footer .row1 h1 a,
+#footer .row1 h2 a,
+#footer .row1 h3 a,
+#footer .row1 h4 a,
+#footer .row1 h5 a
+{
+	color: #189eda;
+}
+
+#footer .row1 a:hover,
+#footer .row1 h1 a:hover,
+#footer .row1 h2 a:hover,
+#footer .row1 h3 a:hover,
+#footer .row1 h4 a:hover,
+#footer .row1 h5 a:hover
+{
+	color: #333333;
+}
+
+#footer .row1 h3 span
+{
+	color: #189eda;
+}
+
+#footer .row1 .button,
+#footer .row1 .validate,
+#footer .row1 .readmore,
+#footer .row1 .readmore button,
+#footer .row1 .readmore .button,
+#footer .row1 input.button,
+#footer .row1 button.button,
+#footer .row1 button.validate,
+#footer .row1 button
+{
+	color: #FFFFFF !important;
+}
+
+#footer .row1 .button a,
+#footer .row1 .readmore a,
+#footer .row1 .readmore button a,
+#footer .row1 .readmore .button a,
+#footer .row1 input.button a,
+#footer .row1 button.button a
+{
+	color: #FFFFFF !important;
+}
+
+#footer .row1 .button a:hover,
+#footer .row1 .readmore:hover,
+#footer .row1 .readmore:hover a,
+#footer .row1 .readmore a:hover,
+#footer .row1 .readmore button:hover,
+#footer .row1 .readmore .button:hover,
+#footer .row1 .readmore button a:hover,
+#footer .row1 .readmore .button a:hover,
+#footer .row1 input.button:hover,
+#footer .row1 input.button a:hover,
+#footer .row1 button.validate:hover,
+#footer .row1 button:hover,
+#footer .row1 button.button:hover,
+#footer .row1 button.button a:hover
+{
+	color: #FFFFFF !important;
+}
+
+#footer .row1 .readmore:hover,
+#footer .row1 .readmore button:hover,
+#footer .row1 .readmore .button:hover,
+#footer .row1 input.button:hover,
+#footer .row1 button.validate:hover,
+#footer .row1 button:hover,
+#footer .row1 button.button:hover
+{
+}
+
+/**************************************************************************************/
+
+#footer .row1col1,
+#footer .row1col2,
+#footer .row1col3,
+#footer .row1col4
+{
+	color: #CCC;
+}
+
+/**************************************************************************************/
+/* Footer Row 2 */
+
+
+#footer .row2
+{
+	color: #333333;
+	border-top: 1px solid #ccc;
+	background-color: #FDFDFD;
+	background-image: url('../images/bg.footer.png');
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+#footer .row2 h3 span
+{
+	color: #189eda;
+}
+
+#footer .row2 h1,
+#footer .row2 h2,
+#footer .row2 h3,
+#footer .row2 h4,
+#footer .row2 h5
+{
+	color: #333333;
+}
+
+#footer .row2 input
+{
+	color: #333333;
+}
+
+#footer .row2 p,
+#footer .row2 #trademark
+{
+	color: #333333;
+}
+
+#footer .row2 a,
+#footer .row2 #footermenu li a
+{
+	color: #333333;
+}
+
+#footer .row2 a:hover
+{
+	color: #189eda;
+}
+
+#footer .row2 li
+{
+	background-image: url('../images/listimg.png');
+}
+
+#footer .row2 li:hover
+{
+	background-image: url('../images/listimg.hover.png');
+}
+
+/**************************************************************************************/
+/* Footer Row 3                                                                       */
+
+#footer .row3
+{
+	background-color: #1c1c1c;
+	color: #666;
+}
+
+#footer .row3 a
+{
+	color: #666;
+}
+
+#footer .row3 a:hover
+{
+	color: #189eda;
+}
+
+/**************************************************************************************/
+/**************************************************************************************/
+/* General Element IDs and classes
+/**************************************************************************************/
+/**************************************************************************************/
+
+.toggle
+{
+	background-image: url('../images/bg.toggle.open.png');
+}
+
+.toggle:hover
+{
+	background-image: url('../images/bg.toggle.open.hover.png');
+}
+
+.toggle.opened
+{
+	background-image: url('../images/bg.toggle.close.png');
+}
+
+.toggle.opened:hover
+{
+	background-image: url('../images/bg.toggle.close.hover.png');
+}
+
+.toggle span.title,
+.customer-reviews #reviewform .toggle h4
+{
+	border: none;
+	font-size: 11px;
+	color: #333333;
+}
+
+button,
+.button,
+.validate,
+.readmore,
+#component p.readmore,
+span.addtocart-button input.addtocart-button,
+span.addtocart-button input.notify-button,
+span.details-button input.details-button,
+.vm-button-correct,
+#ui-tabs ul#tabs li
+{
+	background-color: #307DB9 !important;
+	color: #FFFFFF !important;
+	border: 0px solid #9A9A9A;
+	background-image: none;
+	cursor: pointer !important;
+}
+
+.readmore a,
+#component p.readmore a
+{
+	color: #FFFFFF !important;
+}
+
+button:hover,
+.button:hover,
+.validate:hover,
+.readmore:hover,
+#component p.readmore:hover,
+span.addtocart-button input.addtocart-button:hover,
+span.addtocart-button input.notify-button:hover,
+span.details-button input.details-button:hover,
+.vm-button-correct:hover,
+#ui-tabs ul#tabs li.current
+{
+	color: #FFFFFF !important;
+	background-color: #1c1c1c !important;
+	background-image: none !important;
+}
+
+#component p.readmore a:hover
+{
+	color: #FFFFFF !important;
+}
+
+.moduletable_menu li a:hover
+{
+	color: #189eda;
+}
+
+.googlemap
+{
+	background-color: #FDFDFD;
+	color: #333333;
+	border: 1px solid #DDDDDD;
+}
+
+#as_accordionmenu
+{
+	background-color: #FDFDFD;
+	border: 1px solid #DDDDDD;
+	background-attachment: fixed;
+}
+
+.slider
+{
+}
+
+.as_slider-wrapper .nivoSlider
+{
+}
+
+span.title,
+.customer-reviews #reviewform h4,
+#header .row0 .content,
+div.product-price div,
+.product-fields-title,
+.addtocart-area .product-fields .product-field label.other-customfield,
+.orderby-displaynumber,
+.horizontal-separator
+{
+}
+
+.product-price,
+.orderby-displaynumber,
+.vm-pagination
+{
+}
+
+.product-fields .product-field,
+.product-related-categories .product-field,
+.manufacturer-view-default,
+.category-view,
+.vm_loginform,
+.vm_content_form_login,
+.vm_loginform input.inputbox,
+.billto-shipto,
+.vm_cart_order_information,
+.coupon,
+textarea.customer-comment,
+table.user-details,
+textarea.virtuemart
+{
+	border: 1px solid #ddd;
+}
+
+.horizontal-separator,
+.billto-shipto .asbillto,
+table.cart-summary tr th
+{
+}
+
+table.cart-summary tr td
+{
+}
+
+.vmgroup .spacer a img,
+.vmgroup ul.vmproduct li a img,
+ #facebox .popup,
+#sbox-window
+{
+	border: 1px solid #ddd;
+}
+
+.highlight-header,
+#colmain .category-view .row .category .spacer h2:hover
+{
+	color: #189eda;
+}
+
+.cloud-zoom-lens
+{
+	border: 1px solid #ddd !important;
+	border-radius: 0px;
+}
+
+.cloud-zoom-big
+{
+	border:1px solid #ddd !important;
+	border-radius: 0px !important;
+}

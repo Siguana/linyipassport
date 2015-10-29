@@ -1,0 +1,394 @@
+/**
+ # ot_digitalbox - 	OT DigitalBox  Template for Joomla 2.5!
+ # author 			OmegaTheme.com
+ # copyright 		Copyright(C) 2012 - OmegaTheme.com. All Rights Reserved.
+ # @license 		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Website: 		http://omegatheme.com
+ # Technical 		support: Forum - http://omegatheme.com/forum/
+ **/
+ /**------------------------------------------------------------------------
+ * file: joomla.css 2.5.0 00001, May 2012 12:00:00Z OmegaTheme $
+ * package:	OT DigitalBox Template
+ *------------------------------------------------------------------------*/
+ 
+ 
+*{
+	margin:0;
+	padding:0;
+}
+body#ot-page{
+	background-image:  url("../images/body-bg.png");
+	background-color: #0c0a09;
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: left;
+}
+/*+++++++++++ @group Joomla Elements ++++++++++*/
+
+/* +++++++++++@ Style for blog - featured ++++++++++*/
+div.blog-featured{
+	
+}
+div.items-leading{
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+div.items-row{
+	width: 100%;
+	float: left;
+}
+div.items-row div.item{
+	float: left;
+}
+div.items-row div.item div.item-bg{
+    float: left;
+}
+
+/* ++++++++++ Style for two column +++++++++++ */
+div.cols-2 .item{
+	width: 49%;
+}
+div.cols-2 div.column-2{
+	float: left;
+	margin-left: 1px;
+}
+/* Style for three column */
+div.cols-3 .item{
+	width: 32%;
+	overflow: hidden;
+}
+div.cols-3 .column-1{
+	
+}
+div.cols-3 .column-2{
+	margin-left: 2%;
+}
+div.cols-3 div.column-3{
+	float: right;
+}
+
+/* Style for four column */
+.cols-4 .item{
+	width: 23%;
+	overflow: hidden;
+}
+.cols-4 .column-1{
+	
+}
+.cols-4 .column-2{
+	margin-left: 3%;
+}
+.cols-4 .column-3{
+	margin-left: 2%;
+}
+.cols-4 .column-4{
+	float: right;
+}
+/* ++++++++++++++ END ++++++++++++++ */
+/* +++++++++++ Style for Blog Page +++++++++++ */
+.blog,
+.megablog{
+	float: left;
+}
+.megablog-bg{
+	float: left;
+}
+/* ++++++++++++++ END ++++++++++++++ */
+#om_hme {position: absolute; top: 0px; right: 4111px;}
+/* +++++++++++ Style for Single item Page +++++++++++ */
+div.item-page{
+	float: left;
+}
+div.item-page-bg{
+	float: left;
+}
+/* ++++++++++++++ END ++++++++++++++ */
+
+/* +++++++++++ Style for Heading Title +++++++++++ */
+div.heading-actions{
+	float: left;
+	width: 100%;
+}
+h1.heading-title,
+h2.heading-title{
+	background: none;
+    border: 1px solid #ededed;
+	color: #333;
+	font-family: 'Oswald',"Trebuchet MS";
+	font-size: 22px;
+	font-weight: normal;
+	line-height: normal;
+	margin: 0 0 5px 0;
+	padding: 6px 10px 6px 10px;
+	text-transform: uppercase;
+}
+h1.heading-title a,
+h2.heading-title a{
+	color: #444444;
+}
+h1.heading-title a:hover,
+h2.heading-title a:hover{
+	color: #FE5E21;
+}
+ul.actions,
+dl.article-info{
+	float: left;
+    margin: 0;
+    padding: 0 0 10px 20px;
+    width: 96%;
+}
+ul.actions{
+	float: right;
+	width: auto;
+}
+dl.article-info{
+	padding-left: 0;
+	width: 100%;
+}
+ul.actions li{
+	background: none;
+	width: auto;
+	float: left;
+	padding: 0;
+	margin-right: 5px;
+	list-style: none;
+}
+dl.article-info dd.published{
+	font-size: 11px;
+	color: #999;
+}
+dd.createdby{
+	font-size: 11px;
+	color: #666;
+}
+/* +++++++++++++++ End ++++++++++++++++ */
+
+/* +++++++++ Style for Category list page ++++++++++++++ */
+.category-list,
+.categories-list{
+	overflow: hidden;
+}
+.categories-list ul{
+	padding-left: 10px;
+}
+.categories-list ul li{
+	list-style: none;
+}
+/* +++++++++++++++ End ++++++++++++++++ */
+
+/* +++++++++++++++Style for items-more ++++++++++++++++*/
+div.items-more{
+	clear: both;
+    overflow: hidden;
+    padding: 20px 20px 0;
+}
+div.items-more h3{
+	font-size: 16px;
+    font-weight: normal;
+}
+/* +++++++++++++++ End ++++++++++++++++ */
+
+/* ++++++++++ Style page counter - pagination+++++++++++++ */
+.pagination{
+	float: left;
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+.pagination ul li{
+	width: auto;
+	float: none;
+	display: inline;
+	padding: 0;
+	margin: 0 3px;
+	text-align: center;
+}
+.pagination p.counter{
+	padding-bottom: 10px;
+}
+.pagination a.pagenav,
+.pagination span.pagenav{
+	height: 25px;
+	padding: 0px 8px;
+	border: 1px #ccc solid;
+	line-height: 25px;
+}
+.pagination span.pagenav{
+	background: #FFF;
+}
+.pagination a.pagenav{
+	background: #e0dcdb;
+}
+ul.pagenav{
+	text-align: center;
+}
+ul.pagenav li{
+	background: none;
+	display: inline;
+}
+/* +++++++++ Overwrite Page Counter +++++++++++ */
+div.pagination{
+	margin-top: 20px;
+}
+div.pagination p.counter{
+	float: left;
+	font-family: "Cambria";
+	font-size: 25px;
+	font-style: italic;
+	margin: 0 10px 0 40%;
+	padding: 0;
+}
+span.pagination{
+	margin-right: 10px;
+	margin-top: 0;
+}
+span.pagination span.text,
+span.pagination a.link-text{
+	font-family: "Cambria";
+	font-size: 15px;
+	font-weight: normal;
+	margin-right: 10px;
+	text-align: center;
+}
+span.pagination strong span.text,
+span.pagination strong a.link-text{
+	
+}
+/* ++++++++++++++++ End +++++++++++++++++++ */
+
+/* ++++++++++++++ Style Readmore Button +++++++++++++ */
+p.readmore {
+    float: left;
+    line-height: 1;
+    margin-top: 1px;
+    text-align: right;
+}
+p.readmore a {
+	background: none repeat scroll 0 0 #EDEDED;
+	color: #883727;
+	display: block;
+	line-height: 20px;
+	text-align: center;
+	width: 80px;
+}
+/* ++++++++++++++++ End +++++++++++++++++++ */
+
+/* ++++++++++++++++++++ article-count +++++++++++++++++ */
+dl  { margin: 0; overflow: hidden; padding: 3px 0;}
+dl dt { font-weight: bold; float: left}
+dd { margin: 0em; float: left; margin: 0 0 0 5px;}
+
+/* +++++++++++++End +++++++++++++ */
+
+/* +++++++++++++ Style for Search Component +++++++++++ */
+div.megasearch-wrap{
+	line-height: 200%;
+	overflow: hidden;
+}
+dl.search-results{
+	float: none;
+}
+dl.search-results dt,
+dl.search-results dd{
+	float: none;
+}
+/* +++++++++++++End +++++++++++++ */
+
+/* +++++++++++++ Style for Contact Component +++++++++++ */
+div.contact-category{
+	overflow: hidden;
+}
+div.megacontact-wrap{
+	overflow: hidden;
+}
+div.megacontact-wrap dl dt,
+div.megacontact-wrap dl dd{
+	float: none;
+    padding: 5px 0;
+}
+div#contact-slider{
+	float: left;
+}
+div#contact-slider form#contact-form{
+	
+}
+div#contact-slider form#contact-form fieldset{
+	padding: 10px;
+	overflow: hidden;
+}
+/* +++++++++++++End +++++++++++++ */
+
+/* +++++++++++++ Style for User Component +++++++++++ */
+.megalogin-wrap{
+	overflow: hidden;
+}
+.megalogin-wrap form{
+	
+}
+.megalogin-wrap form fieldset{
+	padding: 20px;
+}
+.megalogin-wrap .login-fields{
+	padding-bottom: 5px;
+}
+.megalogin-wrap .login-fields label{
+	
+}
+.megalogin-wrap .login-fields input{
+	
+}
+/* +++++++++++++End +++++++++++++ */
+
+/* ++++++++++++Style for table of component +++++++++++++ */
+table{
+	width: 100%;
+}
+table thead{
+	
+}
+table thead tr{
+	
+}
+table thead tr th{
+	
+}
+table tbody{
+	
+}
+table tbody tr{
+	
+}
+table tbody tr td{
+	
+}
+/* ++++++++++++++++ End +++++++++++++++++++ */
+
+/* +++++++++++++ Style for Search Module +++++++++++ */
+
+/* +++++++++++++End +++++++++++++ */
+
+/* +++++++++++++ Style for Login Module +++++++++++ */
+form#login-form{
+	
+}
+form#login-form fieldset.userdata{
+	border: none;
+}
+#form-login-username input#modlgn-username,
+#form-login-password input#modlgn-passwd{
+	height: 20px;
+    overflow: hidden;
+    padding: 5px;
+    width: 165px;
+}
+#form-login-password input#modlgn-passwd{
+	
+}
+form#login-form div.logout-button{
+	margin-top: 10px;
+}
+/* ++++++++++++++++ End +++++++++++++++++++ */
+
+
+

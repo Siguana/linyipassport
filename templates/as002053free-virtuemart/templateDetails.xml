@@ -1,0 +1,3096 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/2.5/template-install.dtd">
+<extension version="2.5" type="template" client="site" installation="quickstart">
+	<name>AS 002053 Free - Virtue Mart</name>
+	<creationDate>2013-08-05</creationDate>
+	<updateDate>2014-09-19</updateDate>
+	<version>2.0.0</version>
+	<author>AS Designing</author>
+    <authorUrl>http://www.asdesigning.com</authorUrl>
+    <copyright>AS Designing</copyright>
+    <license>Creative Commons</license>
+	<description>
+	
+	<![CDATA[
+
+			<img src="../templates/as002053free-virtuemart/template_thumbnail.png" align="left" class="template_thumbnail" 
+					style="margin: 0px 20px 10px 0px;" />
+					
+			<h1><span  style="padding-top: 10px; display: block">AS Template 002053 Free <br>VirtueMart 2 Template for Joomla! 2.5</span></h1>
+			
+			<a href="http://www.astemplates.com/virtuemart-template-documentation/193-002053" target="_blank">Click here</a>  to see the template documentation.
+			<br />Visit our site for more templates: <a href="http://www.astemplates.com" target="_blank">http://www.astemplates.com</a>.
+			<br /><br />
+			
+			<span style="color:red; font-weight: bold; font-size:18px ">
+			Free Version is limited and may not include all configuration parameters.<br />
+			</span>
+			<br />
+			<h3><b>Extensions used in this template:</b></h3>
+			    <a href="http://virtuemart.net/" target="_blank"><b>VirtueMart Component 2.6.10</b></a><br />
+			    <a href="http://www.astemplates.com/joomla-extension-details/116-asnivo-slider" target="_blank"><b>AS Nivo Slider</b></a><br />
+			    <a href="http://www.phoca.cz/" target="_blank"><b>Phoca gallery</b></a><br />				
+			    <a href="http://tech.reumer.net/" target="_blank"><b>Google map plugin</b></a><br /><br />																
+			<hr />
+			<h3><b>Most popular AS Templates:</b></h3>
+			    <a href="http://www.astemplates.com/joomla-template-details/55-002022" target="_blank"><b>AS Template 002022</b></a><br />
+			    <a href="http://www.astemplates.com/joomla-template-details/117-002036" target="_blank"><b>AS Template 002036</b></a><br />
+			    <a href="http://www.astemplates.com/joomla-template-details/115-002035" target="_blank"><b>AS Template 002035</b></a><br />
+			    <a href="http://www.astemplates.com/joomla-template-details/157-002044" target="_blank"><b>AS Template 002044</b></a><br />
+			    <a href="http://www.astemplates.com/joomla-template-details/205-002056" target="_blank"><b>AS Template 002056</b></a>
+			<br /><br />]]>	
+	</description>	
+				
+    <files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>lib</folder>		
+		<folder>params</folder>
+		<folder>scripts</folder>
+		
+		<filename>component.php</filename>
+        <filename>ie6warning.php</filename> 		
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>params.php</filename>
+		<filename>styles.php</filename>
+		<filename>template_thumbnail.png</filename>	
+		<filename>templateDetails.xml</filename>
+    </files>
+	
+	<positions>
+		<position>position-4</position>				<!-- header -->
+        <position>position-60</position>            <!-- header -->
+		<position>position-6</position>				<!-- header -->
+		<position>position-1</position>				<!-- header -->
+		<position>slider</position>					<!-- header -->
+		<position>position-7</position>				<!-- header -->
+		<position>position-8</position>				<!-- header -->
+		<position>position-2</position>				<!-- breadcrumbs -->		
+		<position>position-12</position>			<!-- header -->
+		<position>position-13</position>			<!-- header -->
+		<position>position-14</position>			<!-- header -->
+		<position>position-15</position>			<!-- header -->						
+
+		<position>position-0</position>				<!-- left column - custom -->
+		<position>position-40</position>			<!-- left column - custom -->
+		<position>position-41</position>			<!-- left column - custom -->
+		<position>position-42</position>			<!-- left column - custom -->
+		<position>position-43</position>			<!-- left column - custom -->
+		<position>position-44</position>			<!-- left column - custom -->
+
+		<position>position-5</position>				<!-- main column - banners -->
+		<position>position-28</position>			<!-- main column - row3 -->
+		<position>position-29</position>			<!-- main column - row3 -->
+		<position>position-30</position>			<!-- main column - row3 -->
+		<position>position-31</position>			<!-- main column - row3 -->
+		<position>position-32</position>			<!-- main column - row4 -->
+		<position>position-33</position>			<!-- main column - row4 -->
+		<position>position-34</position>			<!-- main column - row4 -->
+		<position>position-35</position>			<!-- main column - row4 -->
+
+		<position>position-45</position>			<!-- right column - custom -->
+		<position>position-46</position>			<!-- right column - custom -->
+		<position>position-47</position>			<!-- right column - custom -->
+		<position>position-48</position>			<!-- right column - custom -->
+		<position>position-49</position>			<!-- right column - custom -->
+
+		<position>position-56</position>			<!-- footer - row1 -->
+		<position>position-57</position>			<!-- footer - row1 -->
+		<position>position-58</position>			<!-- footer - row1 -->
+		<position>position-59</position>			<!-- footer - row1 -->
+        <position>position-61</position>            
+		
+		<position>position-50</position>			<!-- footer - row2 -->
+		<position>position-51</position>			<!-- footer - row2 -->
+		<position>position-52</position>			<!-- footer - row2 -->
+		<position>position-53</position>			<!-- footer - row2 -->
+		<position>position-54</position>			<!-- footer - row2 -->
+		
+	</positions>
+
+	<config>
+		<fields name="params" >
+		
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+			<!-- General Configuration Parameter ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+			
+			<fieldset name="basicparameters" addfieldpath="/templates/as002053free-virtuemart/lib/header" label="General Configuration Parameters">
+
+				<field type="spacer" label="&lt;script src='../templates/as002053free-virtuemart/scripts/jscolors/jscolor.js' type='text/javascript'&gt;&lt;/script&gt;" />
+
+				<field type="spacer" label="&lt;link rel='stylesheet' href='../templates/as002053free-virtuemart/css/tmpl.admin.css' type='text/css' /&gt;" />
+
+				<field type="spacer" label=" " />
+				<field type="spacer" label="&lt;span class='asnote' &gt;The saving process may take a few seconds&lt;/span&gt;" />
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				<field name="page_width" 
+					type="list" 
+					default="980" 
+					label="Page width" 
+					description="Select page width here">
+						<option value="900">900</option>
+						<option value="910">910</option>
+						<option value="920">920</option>
+						<option value="930">930</option>
+						<option value="940">940</option>
+						<option value="950">950</option>
+						<option value="960">960</option>
+						<option value="970">970</option>
+						<option value="980">980</option>
+						<option value="990">990</option>
+						<option value="1000">1000</option>
+						<option value="1010">1010</option>
+						<option value="1020">1020</option>
+						<option value="1030">1030</option>
+						<option value="1040">1040</option>
+						<option value="1050">1050</option>
+				</field>
+				<field name="sidebar_width" 
+					type="list" 
+					default="215" 
+					label="Sidebar width" 
+					description="Select sidebar width here">
+						<option value="200">200</option>
+						<option value="205">205</option>
+						<option value="210">210</option>
+						<option value="215">215</option>
+						<option value="220">220</option>
+						<option value="225">225</option>
+						<option value="230">230</option>
+						<option value="235">235</option>
+						<option value="240">240</option>
+						<option value="245">245</option>
+						<option value="250">250</option>																										
+						<option value="255">255</option>																												
+						<option value="260">260</option>																											
+						<option value="265">265</option>																										
+						<option value="270">270</option>																										
+						<option value="275">275</option>																										
+						<option value="280">280</option>																										
+						<option value="285">285</option>																												
+						<option value="290">200</option>																										
+						<option value="295">295</option>																										
+						<option value="300">300</option>																											
+				</field>
+				<field name="slider_width" 
+					type="text" 
+					default="0" 
+					label="Slider width (px)" 
+					description="Enter a slider width in pixels if the slider is not going 
+					to be used in the full size and there is published modules position 7 or position 8. 
+					Default value for full size is 0(zero)">
+				</field>				
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				
+				<field name="Header09" type="header" default="Page Background" label="" description="" />
+				<field type="spacer" label=" " />	
+
+				<field type="spacer" label=" " />
+								
+				<field name="body_bgcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Background color" 
+					description="Background color">
+				</field>
+				<field name="body_bgpattern" 
+					type="media" 
+					hide_none="false" 
+					default="" 
+					label="Background pattern" 
+					directory="" 
+					description="Background pattern, the image have to be uploaded using the Joomla! Media Manager" >
+				</field>					
+				<field name="body_bgrepeating" 
+					type="list" 
+					default="repeat-x" 
+					label="Background puttern repeating" 
+					description="Background puttern repeating">
+						<option value="repeat">repeat</option>
+						<option value="repeat-y">repeat vertical</option>
+						<option value="repeat-x">repeat horizontal</option>
+						<option value="no-repeat">no repeat</option>
+				</field>
+				<field name="body_bgpositioning" 
+					type="list" 
+					default="left top" 
+					label="Background pattern positioning" 
+					description="Background pattern positioning (doesn't work with full size screen repeating)">
+						<option value="left top">left top</option>
+						<option value="left center">left center</option>
+						<option value="left bottom">left bottom</option>
+						<option value="right top">right top</option>
+						<option value="right center">right center</option>
+						<option value="right bottom">right bottom</option>												
+						<option value="center top">center top</option>
+						<option value="center center">center center</option>
+						<option value="center bottom">center bottom</option>						
+				</field>				
+				<field name="body_bgoverlay" 
+					type="media" 
+					hide_none="false" 
+					default="" 
+					label="Overlay image" 
+					directory="" 
+					description="Overlay image, the image have to be uploaded using the Joomla! Media Manager" >
+				</field>					
+			
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+
+				<field name="Header10" type="header" default="Heading" label="" description="" />
+				<field type="spacer" label=" " />			
+								
+				<field name="body_hfontfamily" 
+					type="list" 
+					default="Arial, Helvetica, sans-serif" 
+					label="Heading font family" 
+					description="Select your favorite font-family here for the heading, main menu, buttons, company name, slogan and position 6.">
+						<option value="Tahoma, Geneva, sans-serif, Arial">Tahoma, Geneva, sans-serif, Arial</option>
+						<option value="Georgia, 'Times New Roman', Times, serif">Georgia, Times New Roman, Times, serif</option>
+						<option value="'Courier New', Courier, monospace">Courier New, Courier, monospace</option>
+						<option value="Arial, Helvetica, sans-serif">Arial, Helvetica, sans-serif</option>
+						<option value="'Trebuchet MS', Arial, Helvetica, sans-serif">Trebuchet MS, Arial, Helvetica, sans-serif</option>
+						<option value="'Verdana, Geneva, sans-serif">Verdana, Geneva, sans-serif</option>
+						<option value="'Times New Roman', Times, serif">Times New Roman, Times, serif</option>
+						<option value="'MS Serif', 'New York', serif">MS Serif, New York, serif</option>
+						<option value="'Comic Sans MS', cursive">Comic Sans MS, cursive</option>
+						<option value="'Lucida Sans Unicode', 'Lucida Grande', sans-serif">Lucida Sans Unicode, sans-serif</option>						
+						<option value="Acme">Google:Acme</option>
+						<option value="Advent Pro:100">Google:Advent Pro:100</option>
+						<option value="Advent Pro:200">Google:Advent Pro:200</option>
+						<option value="Advent Pro:300">Google:Advent Pro:300</option>
+						<option value="Advent Pro:400">Google:Advent Pro:400</option>
+						<option value="Advent Pro:500">Google:Advent Pro:500</option>
+						<option value="Advent Pro:600">Google:Advent Pro:600</option>
+						<option value="Advent Pro:700">Google:Advent Pro:700</option>
+						<option value="Arimo:400">Google:Arimo:400</option>
+						<option value="Arimo:400italic">Google:Arimo:400italic</option>
+						<option value="Arimo:700">Google:Arimo:700</option>
+						<option value="Arimo:700italic">Google:Arimo:700italic</option>
+						<option value="Average">Google:Average</option>
+						<option value="Convergence">Google:Convergence</option>
+						<option value="Cuprum:400">Google:Cuprum:400</option>
+						<option value="Cuprum:400italic">Google:Cuprum:400italic</option>
+						<option value="Cuprum:700">Google:Cuprum:700</option>
+						<option value="Cuprum:700italic">Google:Cuprum:700italic</option>
+						<option value="Exo:100">Google:Exo:100</option>
+						<option value="Exo:100italic">Google:Exo:100italic</option>
+						<option value="Exo:200">Google:Exo:200</option>
+						<option value="Exo:200italic">Google:Exo:200italic</option>
+						<option value="Exo:300">Google:Exo:300</option>
+						<option value="Exo:300italic">Google:Exo:300italic</option>
+						<option value="Exo:400">Google:Exo:400</option>
+						<option value="Exo:400italic">Google:Exo:400italic</option>
+						<option value="Exo:500">Google:Exo:500</option>
+						<option value="Exo:500italic">Google:Exo:500italic</option>
+						<option value="Exo:600">Google:Exo:600</option>
+						<option value="Exo:600italic">Google:Exo:600italic</option>
+						<option value="Exo:700">Google:Exo:700</option>
+						<option value="Exo:700italic">Google:Exo:700italic</option>
+						<option value="Exo:800">Google:Exo:800</option>
+						<option value="Exo:800italic">Google:Exo:800italic</option>
+						<option value="Exo:900">Google:Exo:900</option>
+						<option value="Exo:900italic">Google:Exo:900italic</option>
+						<option value="Fredoka One">Google:Fredoka One</option>
+						<option value="Hammersmith One">Google:Hammersmith One</option>
+						<option value="Homenaje">Google:Homenaje</option>
+						<option value="Jockey One">Google:Jockey One</option>
+						<option value="Jura:300">Google:Jura:300</option>
+						<option value="Jura:400">Google:Jura:400</option>
+						<option value="Jura:500">Google:Jura:500</option>
+						<option value="Jura:600">Google:Jura:600</option>
+						<option value="Macondo">Google:Macondo</option>
+						<option value="Marmelad">Google:Marmelad</option>
+						<option value="Montserrat">Google:Montserrat</option>
+						<option value="Muli:300">Google:Muli:300</option>
+						<option value="Muli:300italic">Google:Muli:300italic</option>
+						<option value="Muli:400">Google:Muli:400</option>
+						<option value="Muli:400italic">Google:Muli:400italic</option>
+						<option value="Numans">Google:Numans</option>
+						<option value="Oxygen">Google:Oxygen</option>
+						<option value="Pontano Sans">Google:Pontano Sans</option>
+						<option value="Prosto One">Google:Prosto One</option>
+						<option value="Russo One">Google:Russo One</option>
+						<option value="Salsa">Google:Salsa</option>
+						<option value="Signika:300">Google:Signika:300</option>
+						<option value="Signika:400">Google:Signika:400</option>
+						<option value="Signika:600">Google:Signika:600</option>
+						<option value="Signika:700">Google:Signika:700</option>
+						<option value="Six Caps">Google:Six Caps</option>
+						<option value="Tulpen One">Google:Tulpen One</option>												
+				</field>
+				<field name="body_h1fontsize" 
+					type="list" 
+					default="14px" 
+					label="Heading font size (H1)" 
+					description="Select a font size here">
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+						<option value="31px">31px</option>
+						<option value="32px">32px</option>
+				</field>
+				<field name="body_h2fontsize" 
+					type="list" 
+					default="16px" 
+					label="Heading font size (H2)" 
+					description="Select a font size here">
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+						<option value="31px">31px</option>
+						<option value="32px">32px</option>
+				</field>
+				<field name="body_h3fontsize" 
+					type="list" 
+					default="14px" 
+					label="Heading font size (H3)" 
+					description="Select a font size here">
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+						<option value="31px">31px</option>
+						<option value="32px">32px</option>
+				</field>
+				<field name="body_h4fontsize" 
+					type="list" 
+					default="12px" 
+					label="Heading font size (H4)" 
+					description="Select a font size here">
+						<option value="10px">10px</option>
+						<option value="11px">11px</option>
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+						<option value="31px">31px</option>
+						<option value="32px">32px</option>
+				</field>
+				<field name="body_h5fontsize" 
+					type="list" 
+					default="12px" 
+					label="Heading font size (H5)" 
+					description="Select a font size here">
+						<option value="10px">10px</option>
+						<option value="11px">11px</option>
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+						<option value="31px">31px</option>
+						<option value="32px">32px</option>
+				</field>
+				<field name="body_hfontweight" 
+					type="list" 
+					default="bold" 
+					label="Heading font weight" 
+					description="Select a font weight here">
+						<option value="normal">Normal</option>
+						<option value="bold">Bold</option>
+				</field>
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+								
+				<field name="body_htransform" 
+					type="radio" 
+					default="uppercase" 
+					label="Heading text transform" 
+					description="Heading text transform">
+						<option value="uppercase">uppercase</option>
+						<option value="none">none</option>
+				</field>				
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+
+				<field name="body_hbgimg" 
+					type="media" 
+					hide_none="true" 
+					hide_default="true" 
+					default="" 
+					label="Heading background pattern" 
+					directory="" 
+					description="Select a background image from the media folder." >
+				</field>
+				<field name="body_hbgcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading background color" 
+					description="Heading background color">
+				</field>				
+				<field name="body_hfontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading font color (H1-H3)" 
+					description="Heading font color, for H1, H2 and H3 only">
+				</field>
+				<field name="body_hshadowcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading shadow color (H1-H3)" 
+					description="Heading shadow color, HTML5 only, for H1, H2 and H3 only">
+				</field>				
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+							
+				<field name="Header11" type="header" default="Content Fonts" label="" description="" />
+				<field type="spacer" label=" " />									
+				
+				<field name="body_fontfamily" 
+					type="list" 
+					default="Arial, Helvetica, sans-serif" 
+					label="Content font family" 
+					description="Select your favorite font-family here">
+						<option value="Tahoma, Geneva, sans-serif, Arial">Tahoma, Geneva, sans-serif, Arial</option>
+						<option value="Georgia, 'Times New Roman', Times, serif">Georgia, Times New Roman, Times, serif</option>
+						<option value="'Courier New', Courier, monospace">Courier New, Courier, monospace</option>
+						<option value="Arial, Helvetica, sans-serif">Arial, Helvetica, sans-serif</option>
+						<option value="'Trebuchet MS', Arial, Helvetica, sans-serif">Trebuchet MS, Arial, Helvetica, sans-serif</option>
+						<option value="'Verdana, Geneva, sans-serif">Verdana, Geneva, sans-serif</option>
+						<option value="'Times New Roman', Times, serif">Times New Roman, Times, serif</option>
+						<option value="'MS Serif', 'New York', serif">MS Serif, New York, serif</option>
+						<option value="'Comic Sans MS', cursive">Comic Sans MS, cursive</option>
+						<option value="'Lucida Sans Unicode', 'Lucida Grande', sans-serif">Lucida Sans Unicode, sans-serif</option>						
+						<option value="Acme">Google:Acme</option>
+						<option value="Advent Pro:100">Google:Advent Pro:100</option>
+						<option value="Advent Pro:200">Google:Advent Pro:200</option>
+						<option value="Advent Pro:300">Google:Advent Pro:300</option>
+						<option value="Advent Pro:400">Google:Advent Pro:400</option>
+						<option value="Advent Pro:500">Google:Advent Pro:500</option>
+						<option value="Advent Pro:600">Google:Advent Pro:600</option>
+						<option value="Advent Pro:700">Google:Advent Pro:700</option>
+						<option value="Arimo:400">Google:Arimo:400</option>
+						<option value="Arimo:400italic">Google:Arimo:400italic</option>
+						<option value="Arimo:700">Google:Arimo:700</option>
+						<option value="Arimo:700italic">Google:Arimo:700italic</option>
+						<option value="Average">Google:Average</option>
+						<option value="Convergence">Google:Convergence</option>
+						<option value="Cuprum:400">Google:Cuprum:400</option>
+						<option value="Cuprum:400italic">Google:Cuprum:400italic</option>
+						<option value="Cuprum:700">Google:Cuprum:700</option>
+						<option value="Cuprum:700italic">Google:Cuprum:700italic</option>
+						<option value="Exo:100">Google:Exo:100</option>
+						<option value="Exo:100italic">Google:Exo:100italic</option>
+						<option value="Exo:200">Google:Exo:200</option>
+						<option value="Exo:200italic">Google:Exo:200italic</option>
+						<option value="Exo:300">Google:Exo:300</option>
+						<option value="Exo:300italic">Google:Exo:300italic</option>
+						<option value="Exo:400">Google:Exo:400</option>
+						<option value="Exo:400italic">Google:Exo:400italic</option>
+						<option value="Exo:500">Google:Exo:500</option>
+						<option value="Exo:500italic">Google:Exo:500italic</option>
+						<option value="Exo:600">Google:Exo:600</option>
+						<option value="Exo:600italic">Google:Exo:600italic</option>
+						<option value="Exo:700">Google:Exo:700</option>
+						<option value="Exo:700italic">Google:Exo:700italic</option>
+						<option value="Exo:800">Google:Exo:800</option>
+						<option value="Exo:800italic">Google:Exo:800italic</option>
+						<option value="Exo:900">Google:Exo:900</option>
+						<option value="Exo:900italic">Google:Exo:900italic</option>
+						<option value="Fredoka One">Google:Fredoka One</option>
+						<option value="Hammersmith One">Google:Hammersmith One</option>
+						<option value="Homenaje">Google:Homenaje</option>
+						<option value="Jockey One">Google:Jockey One</option>
+						<option value="Jura:300">Google:Jura:300</option>
+						<option value="Jura:400">Google:Jura:400</option>
+						<option value="Jura:500">Google:Jura:500</option>
+						<option value="Jura:600">Google:Jura:600</option>
+						<option value="Macondo">Google:Macondo</option>
+						<option value="Marmelad">Google:Marmelad</option>
+						<option value="Montserrat">Google:Montserrat</option>
+						<option value="Muli:300">Google:Muli:300</option>
+						<option value="Muli:300italic">Google:Muli:300italic</option>
+						<option value="Muli:400">Google:Muli:400</option>
+						<option value="Muli:400italic">Google:Muli:400italic</option>
+						<option value="Numans">Google:Numans</option>
+						<option value="Oxygen">Google:Oxygen</option>
+						<option value="Pontano Sans">Google:Pontano Sans</option>
+						<option value="Prosto One">Google:Prosto One</option>
+						<option value="Russo One">Google:Russo One</option>
+						<option value="Salsa">Google:Salsa</option>
+						<option value="Signika:300">Google:Signika:300</option>
+						<option value="Signika:400">Google:Signika:400</option>
+						<option value="Signika:600">Google:Signika:600</option>
+						<option value="Signika:700">Google:Signika:700</option>
+						<option value="Six Caps">Google:Six Caps</option>
+						<option value="Tulpen One">Google:Tulpen One</option>												
+				</field>
+
+				<field name="body_fontsize" 
+					type="list" 
+					default="12px" 
+					label="Content font size" 
+					description="Select a font size here">
+						<option value="10px">10px</option>
+						<option value="11px">11px</option>
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+				</field>
+				<field name="body_fontstyle" 
+					type="list" 
+					default="normal" 
+					label="Content font style" 
+					description="Select a font style here">
+						<option value="normal">Normal</option>
+						<option value="italic">Italic</option>
+				</field>
+				<field name="body_fontweight" 
+					type="list" 
+					default="normal" 
+					label="Content font weight" 
+					description="Select a font weight here">
+						<option value="normal">Normal</option>
+						<option value="bold">Bold</option>
+				</field>
+
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				<field name="body_fontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Font color" 
+					description="Font color">
+				</field>
+				<field name="body_linkcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Link color" 
+					description="Link color">
+				</field>
+				<field name="body_linkcolorhover" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Link hover color" 
+					description="Link hover color">
+				</field>					
+				<field name="body_errorfontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Error msg font color" 
+					description="Error/notice message font color">
+				</field>
+				
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				<field name="Header16" type="header" default="Inputs" label="" description="" />						
+				<field type="spacer" label=" " />
+
+				<field name="input_bgcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Inputbox background color"
+					description="Inputbox background color">
+				</field>
+				<field name="input_bordercolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Inputbox border color"
+					description="Inputbox border color">
+				</field>
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+
+				<field name="Header17" type="header" default="Buttons" label="" description="" />						
+				<field type="spacer" label=" " />
+				
+				<field name="btn_txttransform" 
+					type="radio" 
+					default="uppercase" 
+					label="Buttons text transform" 
+					description="Buttons text transform">
+						<option value="uppercase">uppercase</option>
+						<option value="none">none</option>
+				</field>
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+												
+				<field name="btn_bgpattern" 
+					type="media" 
+					hide_none="true" 
+					hide_default="true" 
+					default="" 
+					label="Button background pattern" 
+					directory="" 
+					description="Select a button background pattern from the media folder" >
+				</field>
+				<field name="btn_bgcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Button background color" 
+					description="Button background color">
+				</field>
+				<field name="btn_hoverbgcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Button hover background color" 
+					description="Button background mouseover color">
+				</field>	
+				<field name="btn_fontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Button font color" 
+					description="Button font color">
+				</field>
+				<field name="btn_hoverfontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Button hover font color" 
+					description="Button hover font color">
+				</field>
+				<field name="btn_bordercolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Button border color" 
+					description="Button border color">
+				</field>
+				<field name="btn_borderradius" 
+					type="list" 
+					default="3px" 
+					label="* Button border radius" 
+					description="Button border radius, HTML5 only">
+						<option value="0px">0px</option>
+						<option value="1px">1px</option>
+						<option value="2px">2px</option>
+						<option value="3px">3px</option>
+						<option value="4px">4px</option>
+						<option value="5px">5px</option>
+						<option value="6px">6px</option>
+						<option value="7px">7px</option>
+						<option value="8px">8px</option>
+						<option value="9px">9px</option>
+						<option value="10px">10px</option>
+				</field>											
+				<field name="btn_shadow" 
+					type="radio" 
+					default="1" 
+					label="* Button shadow" 
+					description="Button shadow, HTML5 only">
+						<option value="1">yes</option>
+						<option value="0">no</option>
+				</field>											
+				<field name="btn_shadowcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="* Button shadow color" 
+					description="Button shadow color, HTML5 only">
+				</field>
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				<field name="Header18" type="header" default="Boxes / Heading Boxes" label="" description="" />						
+				<field type="spacer" label=" " />
+								
+				<field name="box_bordercolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading/boxes border color" 
+					description="Heading border color for positions: 0, 20-23, 32-35, 40-42 and 45-47. 
+								 Boxes border color for positions: 1, 7, 12-15, 25, 28-31, 43, 44, 48, 49, 56-59, footer and slider.">
+				</field>
+				<field name="box_borderradius" 
+					type="list" 
+					default="" 
+					label="* Heading/boxes border radius" 					
+					description="HTML5 only. Heading border radius for positions: 0, 20-23, 32-35, 40-42 and 45-47. 
+								 Boxes border radius for positions: 1, 7, 12-15, 25, 28-31, 43, 44, 48, 49, 56-59, footer and slider.">
+						<option value="">none</option>
+						<option value="1px">1px</option>
+						<option value="2px">2px</option>
+						<option value="3px">3px</option>
+						<option value="4px">4px</option>
+						<option value="5px">5px</option>
+						<option value="6px">6px</option>
+						<option value="7px">7px</option>
+						<option value="8px">8px</option>
+						<option value="9px">9px</option>
+						<option value="10px">10px</option>
+				</field>											
+				<field name="box_shadow" 
+					type="radio" 
+					default="1" 
+					label="* Heading/boxes shadow" 
+					description="HTML5 only. Heading shadow for positions: 0, 20-23, 32-35, 40-42 and 45-47. 
+								 Boxes shadow for positions: 1, 7, 12-15, 25, 28-31, 43, 44, 48, 49, 56-59, footer and slider.">
+						<option value="1">yes</option>
+						<option value="0">no</option>
+				</field>				
+				<field name="box_shadowcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="* Heading/boxes shadow color"
+					description="HTML5 only. Heading shadow color for positions: 0, 20-23, 32-35, 40-42 and 45-47. 
+								 Boxes shadow color for positions: 1, 7, 12-15, 25, 28-31, 43, 44, 48, 49, 56-59, footer and slider.">
+				</field>
+
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+												
+				<field name="Header19" type="header" default="jQuery Library" label="" description="" />
+
+				<field type="spacer" label=" " />
+				<field name="jQuery_load" 
+					type="radio" 
+					default="1" 
+					label="jQuery load" 
+					description="Option to load jquery script into site">
+						<option value="0">no</option>
+						<option value="1">yes</option>
+				</field>
+
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+								
+			</fieldset>
+			
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+			<!-- Header Configuration Parameter ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+			
+			<fieldset name="advancedheaderparameters" addfieldpath="/templates/as002053free-virtuemart/lib/header" label="Header Configuration Parameters">
+
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />				
+				<field name="header_showoverlayimg" 
+					type="radio" 
+					default="1" 
+					label="Show overlay image" 
+					description="Show or not the header overlay image">
+						<option value="1">yes</option>
+						<option value="0">no</option>
+				</field>			
+				<field name="header_overlayimg" 
+					type="media" 
+					hide_none="false" 
+					default="" 
+					label="Overlay image" 
+					directory="" 
+					description="Overlay image, the image have to be uploaded using the Joomla! Media Manager" >
+				</field>					
+			
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+																
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+				<!-- Company Logo, Slogan &amp; Address Bar  -->							
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+				
+				<field name="Header21" type="header" default="Company Logo" label="" description="" />
+				<field type="spacer" label=" " />				
+				<field name="logo_type" 
+					type="radio" 
+					default="0" 
+					label="Logo type" 
+					description="Here you can choose if a Logo should be shown as Image or Text">
+						<option value="0">image</option>
+						<option value="1">text</option>
+				</field>			
+				<field name="logo_img" 
+					type="media" 
+					hide_none="true" 
+					hide_default="true" 
+					default="companylogo.png" 
+					label="Logo image home" 
+					directory="" 
+					description="Select a Logo for the home page from the media folder" >
+				</field>
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				<!-- Logo Configuration-->
+				
+				<field name="logo_txt" 
+					type="text" 
+					default="" 
+					label="Logo text" 
+					description="Enter a Text that will be shown in the Company Logo place">
+				</field>
+				<field name="logo_txtfontsize" 
+					type="list" 
+					default="36px" 
+					label="Logo font size" 
+					description="Select a font size here">
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+						<option value="31px">31px</option>
+						<option value="32px">32px</option>
+						<option value="33px">33px</option>
+						<option value="34px">34px</option>
+						<option value="35px">35px</option>
+						<option value="36px">36px</option>
+						<option value="37px">37px</option>
+						<option value="38px">38px</option>
+						<option value="39px">39px</option>
+						<option value="40px">40px</option>
+						<option value="41px">41px</option>
+						<option value="42px">42px</option>
+						<option value="43px">43px</option>
+						<option value="44px">44px</option>
+						<option value="45px">45px</option>
+						<option value="46px">46px</option>
+						<option value="47px">47px</option>
+						<option value="48px">48px</option>
+						<option value="49px">49px</option>
+						<option value="50px">50px</option>
+				</field>
+				<field name="logo_txtfontstyle" 
+					type="list" 
+					default="normal" 
+					label="Logo font style" 
+					description="Select a font style here">
+						<option value="normal">Normal</option>
+						<option value="italic">Italic</option>
+				</field>
+				<field name="logo_txtfontweight" 
+					type="list" 
+					default="normal" 
+					label="Logo font weight" 
+					description="Select a font weight here">
+						<option value="normal">Normal</option>
+						<option value="bold">Bold</option>
+				</field>
+				<field name="logo_txtcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Logo font color" 
+					description="Logo font color">
+				</field>
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+
+				<!-- Slogan Configuration-->
+				
+				<field name="slogan_txt" 
+					type="text" 
+					default="" 
+					label="Slogan text" 
+					description="Enter a Text that will be shown in the Company Slogan place">
+				</field>
+				<field name="slogan_txtfontsize" 
+					type="list" 
+					default="11px" 
+					label="Slogan font size" 
+					description="Select a font size here">
+						<option value="10px">10px</option>
+						<option value="11px">11px</option>
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+				</field>
+				<field name="slogan_txtfontstyle" 
+					type="list" 
+					default="normal" 
+					label="Slogan font style" 
+					description="Select a font style here">
+						<option value="normal">Normal</option>
+						<option value="italic">Italic</option>
+				</field>
+				<field name="slogan_txtfontweight" 
+					type="list" 
+					default="normal" 
+					label="Slogan font weight" 
+					description="Select a font weight here">
+						<option value="normal">Normal</option>
+						<option value="bold">Bold</option>
+				</field>
+				<field name="slogan_txtcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Slogan font color" 
+					description="Slogan font color">
+				</field>
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+				<!-- Header - Top menu -->
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+
+				<field name="Header22" addfieldpath="templates/as002053free-virtuemart/images" type="header" default="Top Menu" label="" description="" />
+				<field type="spacer" label=" " />	
+				
+				<field name="topmenu_bgimg" 
+					type="media" 
+					hide_none="true" 
+					hide_default="true" 
+					default="" 
+					label="Background pattern" 
+					directory="" 
+					description="Select a background image from the media folder." >
+				</field>
+				<field name="topmenu_bgcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Background color" 
+					description="Background color">
+				</field>
+				<field name="topmenu_sepcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Items separator color" 
+					description="Background color">
+				</field>				
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+											
+				<field name="topmenu_fontsize" 
+					type="list" 
+					default="15px" 
+					label="Font size" 
+					description="Select a font size here">
+						<option value="10px">10px</option>
+						<option value="11px">11px</option>
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+				</field>
+				<field name="topmenu_fontweight" 
+					type="list" 
+					default="normal" 
+					label="Font weight" 
+					description="Select a font weight here">
+						<option value="normal">Normal</option>
+						<option value="bold">Bold</option>
+				</field>
+				<field name="topmenu_fontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Font color" 
+					description="Font color">
+				</field>
+				<field name="topmenu_hoverfontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Hover font color" 
+					description="Menu hover font color">
+				</field>
+				<field name="topmenu_shadowcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Shadow font color" 
+					description="Menu shadow font color, HTML5 only">
+				</field>
+
+				<field type="spacer" label="" />
+				<field type="spacer" label="" />
+
+				<field name="submenu_bgcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Submenu background color" 
+					description="Submenu background color">
+				</field>
+				<field name="submenu_bordercolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Submenu border color" 
+					description="Submenu border color">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label="" />								
+								
+				<field name="submenu_fontsize" 
+					type="list" 
+					default="12px" 
+					label="Submenu font size" 
+					description="Select a font size here">
+						<option value="10px">10px</option>
+						<option value="11px">11px</option>
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+				</field>
+				<field name="submenu_fontweight" 
+					type="list" 
+					default="normal" 
+					label="Submenu font weight" 
+					description="Select a font weight here">
+						<option value="normal">Normal</option>
+						<option value="bold">Bold</option>
+				</field>
+				<field name="submenu_fontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Submenu font color" 
+					description="Submenu font color">
+				</field>				
+				<field name="submenu_hoverfontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Submenu hover font color" 
+					description="Submenu hover font color">
+				</field>
+				<field name="submenu_width" 
+					type="list" 
+					default="200" 
+					label="Submenu width" 
+					description="Select a submenu width here">
+						<option value="160">160px</option>
+						<option value="165">165px</option>						
+						<option value="170">170px</option>
+						<option value="175">175px</option>						
+						<option value="180">180px</option>
+						<option value="185">185px</option>						
+						<option value="190">190px</option>
+						<option value="195">195px</option>						
+						<option value="200">200px</option>
+						<option value="205">205px</option>						
+						<option value="210">210px</option>
+						<option value="215">215px</option>						
+						<option value="220">220px</option>
+						<option value="225">225px</option>						
+						<option value="230">230px</option>
+						<option value="235">235px</option>						
+						<option value="240">240px</option>
+						<option value="245">245px</option>						
+						<option value="250">250px</option>
+						<option value="255">255px</option>						
+						<option value="260">260px</option>																														
+						<option value="265">265px</option>
+						<option value="270">270px</option>
+						<option value="275">275px</option>						
+						<option value="280">280px</option>
+						<option value="285">285px</option>
+						<option value="290">290px</option>
+						<option value="295">295px</option>
+						<option value="300">300px</option>
+				</field>								
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+				<!-- Breadcrumbs -->
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+				
+				<field name="Header50" type="header" default="Breadcrumbs" label="" description="" />
+				<field type="spacer" label=" " />				
+
+				<field name="breadrow_customrow_bgimg" 
+					type="media" 
+					hide_none="true" 
+					hide_default="true" 
+					default="" 
+					label="Background pattern" 
+					directory="" 
+					description="Select a background image from the media folder." >
+				</field>
+				<field name="breadrow_customrow_bgcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Background color" 
+					description="Background color">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+				
+				<field name="breadrow_texttransform" 
+					type="radio" 
+					default="uppercase" 
+					label="Text transform" 
+					description="Convert text to upper case">
+						<option value="uppercase">uppercase</option>
+						<option value="none">none</option>
+				</field>
+				<field name="breadrow_textalign" 
+					type="radio" 
+					default="left" 
+					label="Text alignment" 
+					description="Text alignment">
+						<option value="left">left</option>
+						<option value="right">right</option>
+				</field>						
+				<field name="breadrow_fontsize" 
+					type="list" 
+					default="11px" 
+					label="Font size" 
+					description="Select a font size here">
+						<option value="10px">10px</option>
+						<option value="11px">11px</option>
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+				</field>
+				<field name="breadrow_fontweight" 
+					type="list" 
+					default="normal" 
+					label="Font weight" 
+					description="Select a font weight here">
+						<option value="normal">normal</option>
+						<option value="bold">bold</option>
+				</field>
+				<field name="breadrow_fontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Font color" 
+					description="Font color">
+				</field>
+				<field name="breadrow_hoverfontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Hover font color" 
+					description="Hover font color">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+				
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+				<!-- Header - Custom Modules Area -->
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+				
+				<field name="Header26" type="header" default="Header Custom Modules" label="" description="" />
+				<field type="spacer" label=" " />
+
+				<field name="header_customrow_h1fontsize" 
+					type="list" 
+					default="18px" 
+					label="Heading font size (H1)" 
+					description="Select a heading font size here">
+						<option value="10px">10px</option>
+						<option value="11px">11px</option>
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+				</field>
+				<field name="header_customrow_h2fontsize" 
+					type="list" 
+					default="16px" 
+					label="Heading font size (H2)" 
+					description="Select a heading font size here">
+						<option value="10px">10px</option>
+						<option value="11px">11px</option>
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+				</field>
+				<field name="header_customrow_h3fontsize" 
+					type="list" 
+					default="14px" 
+					label="Heading font size (H3)" 
+					description="Select a heading font size here">
+						<option value="10px">10px</option>
+						<option value="11px">11px</option>
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+				</field>
+				<field name="header_customrow_h4fontsize" 
+					type="list" 
+					default="12px" 
+					label="Heading font size (H4)" 
+					description="Select a heading font size here">
+						<option value="10px">10px</option>
+						<option value="11px">11px</option>
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+				</field>
+				<field name="header_customrow_h5fontsize" 
+					type="list" 
+					default="12px" 
+					label="Heading font size (H5)" 
+					description="Select a heading font size here">
+						<option value="10px">10px</option>
+						<option value="11px">11px</option>
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+				</field>
+				<field name="header_customrow_hfontweight" 
+					type="list" 
+					default="normal" 
+					label="Heading font weight" 
+					description="Select a heading font weight here">
+						<option value="normal">Normal</option>
+						<option value="bold">Bold</option>
+				</field>
+				<field name="header_customrow_htransform" 
+					type="radio" 
+					default="uppercase" 
+					label="Heading text transform" 
+					description="Heading text transform">
+						<option value="uppercase">uppercase</option>
+						<option value="none">none</option>
+				</field>
+				<field type="spacer" label=" " />
+				
+				<field name="header_customrow_fontsize" 
+					type="list" 
+					default="12px" 
+					label="Font size" 
+					description="Select a font size here">
+						<option value="10px">10px</option>
+						<option value="11px">11px</option>
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+				</field>
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+
+				<field type="spacer" label="&lt;b&gt;Positions 7&lt;/b&gt;" />
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				<field name="header_topcustomrow_bgimg" 
+					type="media" 
+					hide_none="true" 
+					hide_default="true" 
+					default="" 
+					label="Background pattern" 
+					directory="" 
+					description="Select a background image from the media folder." >
+				</field>
+				<field name="header_topcustomrow_bgcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Background color" 
+					description="Background color">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+
+				<field name="header_topcustomrow_hfontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading font color" 
+					description="Heading font color">
+				</field>
+				<field name="header_topcustomrow_hshadowcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading shadow color" 
+					description="Heading text shadow color, HTML5 only">
+				</field>
+
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+				
+				<field name="header_topcustomrow_fontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Font color" 
+					description="Font color">
+				</field>
+				<field name="header_topcustomrow_linkcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Link font color" 
+					description="Link font color">
+				</field>
+				<field name="header_topcustomrow_linkcolorhover" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Hover font color" 
+					description="Hover font color">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+
+				<field type="spacer" label="&lt;b&gt;Position 8&lt;/b&gt;" />
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				<field name="header_mdlcustomrow_hfontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading font color" 
+					description="Heading font color">
+				</field>
+				<field name="header_mdlcustomrow_hshadowcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading shadow color" 
+					description="Heading text shadow color, HTML5 only">
+				</field>
+
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+
+				<field name="header_mdlcustomrow_fontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Font color" 
+					description="Font color">
+				</field>
+				<field name="header_mdlcustomrow_linkcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Link font color" 
+					description="Link font color">
+				</field>
+				<field name="header_mdlcustomrow_linkcolorhover" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Hover font color" 
+					description="Hover font color">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+
+				<field type="spacer" label="&lt;b&gt;Positions 12, 13, 14 &amp; 15&lt;/b&gt;" />
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				<field name="header_customrow_bgimg" 
+					type="media" 
+					hide_none="true" 
+					hide_default="true" 
+					default="" 
+					label="Background pattern" 
+					directory="" 
+					description="Select a background image from the media folder." >
+				</field>
+				<field name="header_customrow_bgcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Background color" 
+					description="Background color">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+
+				<field name="header_customrow_hfontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading font color" 
+					description="Heading font color">
+				</field>
+				<field name="header_customrow_hshadowcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading shadow color" 
+					description="Heading text shadow color, HTML5 only">
+				</field>
+
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+				
+				<field name="header_customrow_hspan" 
+					type="radio" 
+					default="1" 
+					label="Apply heading (H3) first word color" 
+					description="Apply a different color to the first word color in the H3 tag.">
+						<option value="1">yes</option>
+						<option value="0">no</option>
+				</field>				
+				<field name="header_customrow_hspancolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading (H3) first word color" 
+					description="The first word color in the H3 tag.">
+				</field>
+								
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+
+				<field name="header_customrow_fontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Font color" 
+					description="Font color">
+				</field>
+				<field name="header_customrow_linkcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Link font color" 
+					description="Link font color">
+				</field>
+				<field name="header_customrow_linkcolorhover" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Hover font color" 
+					description="Hover font color">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+								
+			</fieldset>
+			
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+			<!-- Side Columns Configuration Parameters ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+			
+			<fieldset name="advancedsideoptions" addfieldpath="/templates/as002053free-virtuemart/lib/header" label="Side Columns Configuration Parameters">
+						
+				<field type="spacer" label=" " />						
+				<field name="sidecolumn_h1fontsize" 
+					type="list" 
+					default="18px" 
+					label="Heading font size (H1)" 
+					description="Select a font size herex">
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+						<option value="31px">31px</option>
+						<option value="32px">32px</option>
+				</field>
+				<field name="sidecolumn_h2fontsize" 
+					type="list" 
+					default="16px" 
+					label="Heading font size (H2)" 
+					description="Select a font size here">
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+						<option value="31px">31px</option>
+						<option value="32px">32px</option>
+				</field>
+				<field name="sidecolumn_h3fontsize" 
+					type="list" 
+					default="14px" 
+					label="Heading font size (H3)" 
+					description="Select a font size here">
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+						<option value="31px">31px</option>
+						<option value="32px">32px</option>
+				</field>
+				<field name="sidecolumn_h4fontsize" 
+					type="list" 
+					default="12px" 
+					label="Heading font size (H4)" 
+					description="Select a font size here">
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+						<option value="31px">31px</option>
+						<option value="32px">32px</option>
+				</field>
+				<field name="sidecolumn_h5fontsize" 
+					type="list" 
+					default="12px" 
+					label="Heading font size (H5)" 
+					description="Select a font size here">
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+						<option value="31px">31px</option>
+						<option value="32px">32px</option>
+				</field>
+				<field name="sidecolumn_hfontweight" 
+					type="list" 
+					default="bold" 
+					label="Heading font weight" 
+					description="Select a font weight here">
+						<option value="normal">Normal</option>
+						<option value="bold">Bold</option>
+				</field>
+				<field name="sidecolumn_htransform" 
+					type="radio" 
+					default="uppercase" 
+					label="Heading text transform" 
+					description="Heading text transform">
+						<option value="uppercase">uppercase</option>
+						<option value="none">none</option>
+				</field>				
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+
+				<field name="sidecolumn_menufontsize" 
+					type="list" 
+					default="12px" 
+					label="List / Menu font size" 
+					description="Select a font size here for your menu or linked list items">
+						<option value="10px">10px</option>
+						<option value="11px">11px</option>						
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+				</field>				
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+				<!-- Left Column -->
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+				
+				<field name="Header31" type="header" default="Left Column" label="" description="" />
+
+				<field type="spacer" label="&lt;b&gt;Positions 0, 40, 41 &amp; 42&lt;/b&gt;" />
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				<field name="leftcolrows_123_hbgpattern" 
+					type="media" 
+					hide_none="false" 
+					default="" 
+					label="Heading background pattern" 
+					directory="" 
+					description="Heading background pattern, the image have to be uploaded using the Joomla! Media Manager" >
+				</field>
+				<field name="leftcolrows_123_hbgcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading background color" 
+					description="Heading background color">
+				</field>
+				<field name="leftcolrows_123_hfontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading font color" 
+					description="Heading font color">
+				</field>
+				<field name="leftcolrows_123_hshadowcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading shadow color" 
+					description="Heading shadow color, HTML5 only">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+
+				<field name="leftcolrows_123_hspan" 
+					type="radio" 
+					default="1" 
+					label="Apply heading (H3) first word color" 
+					description="Apply a different color to the first word color in the H3 tag.">
+						<option value="1">yes</option>
+						<option value="0">no</option>
+				</field>				
+				<field name="leftcolrows_123_hspancolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading (H3) first word color" 
+					description="The color for the first word in the H3 tag.">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+
+				<field name="leftcolrows_123_fontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Font color" 
+					description="Font color">
+				</field>
+				<field name="leftcolrows_123_linkcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Link color" 
+					description="Link color">
+				</field>
+				<field name="leftcolrows_123_linkhovercolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Link hover color" 
+					description="Link hover color">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				<field type="spacer" label="&lt;b&gt;Positions 43 &amp; 44&lt;/b&gt;" />
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+
+				<field name="leftcolrows_45_bgpattern" 
+					type="media" 
+					hide_none="false" 
+					default="" 
+					label="Background pattern" 
+					directory="" 
+					description="Background pattern, the image have to be uploaded using the Joomla! Media Manager" >
+				</field>				
+				<field name="leftcolrows_45_bgcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Background color" 
+					description="Background color">
+				</field>
+
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+
+				<field name="leftcolrows_45_hfontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading font color" 
+					description="Heading font color">
+				</field>
+				<field name="leftcolrows_45_hshadowcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading shadow color" 
+					description="Heading shadow color, HTML5 only">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+
+				<field name="leftcolrows_45_hspan" 
+					type="radio" 
+					default="1" 
+					label="Apply heading (H3) first word color" 
+					description="Apply a different color to the first word color in the H3 tag.">
+						<option value="1">yes</option>
+						<option value="0">no</option>
+				</field>				
+				<field name="leftcolrows_45_hspancolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading (H3) first word color" 
+					description="The color for the first word in the H3 tag.">
+				</field>								
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+				
+				<field name="leftcolrows_45_fontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Font color" 
+					description="Font color">
+				</field>
+				<field name="leftcolrows_45_linkcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Link color" 
+					description="Link color">
+				</field>
+				<field name="leftcolrows_45_linkhovercolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Link hover color" 
+					description="Link hover color">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+
+				
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+				<!-- Right Columns -->
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+				
+				<field name="Header32" type="header" default="Right Column" label="" description="" />
+				
+				<field type="spacer" label=" " />
+								
+				<field name="rightcolumn_location" 
+					type="list" 
+					default="right" 
+					label="Location" 
+					description="Location relative to the main column">
+						<option value="right">on the right side</option>
+						<option value="left_all">left side on all pages</option>
+						<option value="left_home">left side on the home page</option>						
+						<option value="left_featured">left side on the featured pages</option>												
+						<option value="left_home_featured">left side on the home and featured pages</option>																		
+				</field>
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+
+				<field type="spacer" label="&lt;b&gt;Positions 45, 46 &amp; 47&lt;/b&gt;" />
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				<field name="rightcolrows_123_hbgpattern" 
+					type="media" 
+					hide_none="false" 
+					default="" 
+					label="Heading background pattern" 
+					directory="" 
+					description="Heading background pattern, the image have to be uploaded using the Joomla! Media Manager" >
+				</field>	
+				<field name="rightcolrows_123_hbgcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading background color" 
+					description="Heading background color">
+				</field>
+				<field name="rightcolrows_123_hfontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading font color" 
+					description="Heading font color">
+				</field>
+				<field name="rightcolrows_123_hshadowcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading shadow color" 
+					description="Heading shadow color, HTML5 only">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+
+				<field name="rightcolrows_123_hspan" 
+					type="radio" 
+					default="1" 
+					label="Apply heading (H3) first word color" 
+					description="Apply a different color to the first word color in the H3 tag.">
+						<option value="1">yes</option>
+						<option value="0">no</option>
+				</field>
+				<field name="rightcolrows_123_hspancolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading (H3) first word color" 
+					description="The color for the first word in the H3 tag.">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+												
+				<field name="rightcolrows_123_fontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Font color" 
+					description="Font color">
+				</field>
+				<field name="rightcolrows_123_linkcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Link color" 
+					description="Link color">
+				</field>
+				<field name="rightcolrows_123_linkhovercolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Link hover color" 
+					description="Link hover color">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				<field type="spacer" label="&lt;b&gt;Positions 48 &amp; 49&lt;/b&gt;" />
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				<field name="rightcolrows_45_bgpattern" 
+					type="media" 
+					hide_none="false" 
+					default="" 
+					label="Background pattern" 
+					directory="" 
+					description="Background pattern, the image have to be uploaded using the Joomla! Media Manager" >
+				</field>
+				<field name="rightcolrows_45_bgcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Background color" 
+					description="Background color">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+
+				<field name="rightcolrows_45_hfontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading font color" 
+					description="Heading font color">
+				</field>
+				<field name="rightcolrows_45_hshadowcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading shadow color" 
+					description="Heading shadow color, HTML5 only">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+
+				<field name="rightcolrows_45_hspan" 
+					type="radio" 
+					default="1" 
+					label="Apply heading (H3) first word color" 
+					description="Apply a different color to the first word color in the H3 tag.">
+						<option value="1">yes</option>
+						<option value="0">no</option>
+				</field>
+				<field name="rightcolrows_45_hspancolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading (H3) first word color" 
+					description="The color for the first word in the H3 tag.">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />								
+
+				<field name="rightcolrows_45_fontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Font color" 
+					description="Font color">
+				</field>
+				<field name="rightcolrows_45_linkcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Link color" 
+					description="Link color">
+				</field>
+				<field name="rightcolrows_45_linkhovercolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Link hover color" 
+					description="Link hover color">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+
+			</fieldset>			
+
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+			<!-- Main Column Configuration Parameters  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+			
+			<fieldset name="maincolparameters" addfieldpath="/templates/as002053free-virtuemart/lib/header" label="Main Column Configuration Parameters">
+
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />				
+
+				<!-- Article separator -->
+				
+				<field name="main_itemseparator" 
+					type="text" 
+					default="25" 
+					label="Article separator height" 
+					description="Featured article separator height, in pixels" >
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+				
+				<field name="Header41" type="header" default="Toggling" label="" description="" />
+
+				<field type="spacer" label=" " />
+								
+				<field name="toggle_bgcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Toggle background color" 
+					description="Toggle content background color">
+				</field>
+				<field name="toggle_bordercolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Toggle border color" 
+					description="Toggle border color">
+				</field>
+				<field name="toggle_fontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Toggle font color" 
+					description="Toggle font color">
+				</field>				
+				<field name="toggle_pattern" 
+					type="media" 
+					size="35"
+					hide_none="false" 
+					default="" 
+					label="Toggle pattern" 
+					directory="" 
+					description="The image have to be uploaded using the Joomla! Media Manager" >
+				</field>					
+				<field name="toggle_patternrepeating" 
+					type="list" 
+					default="repeat" 
+					label="Puttern repeating" 
+					description="Toggle puttern repeating">
+						<option value="repeat">repeat</option>
+						<option value="repeat-y">repeat vertical</option>
+						<option value="repeat-x">repeat horizontal</option>
+						<option value="no-repeat">no repeat</option>
+				</field>
+				<field name="toggle_patternpositioning" 
+					type="list" 
+					default="left top" 
+					label="Toggle pattern positioning" 
+					description="Toggle pattern positioning">
+						<option value="left top">left top</option>
+						<option value="left center">left center</option>
+						<option value="left bottom">left bottom</option>
+						<option value="right top">right top</option>
+						<option value="right center">right center</option>
+						<option value="right bottom">right bottom</option>												
+						<option value="center top">center top</option>
+						<option value="center center">center center</option>
+						<option value="center bottom">center bottom</option>						
+				</field>				
+				
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+
+
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+				<!-- Main Column - Row 3  -->
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+
+				
+				<field name="Header44" type="header" default="Main Column - Top Row Custom Modules" label="" description="" />
+
+				<field type="spacer" label=" " />
+				<field type="spacer" label="&lt;b&gt;Positions 28, 29, 30 &amp; 31&lt;/b&gt;" />
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				<!-- Backgrounds -->
+				
+				<field name="main_row3_bgpattern" 
+					type="media" 
+					hide_none="true" 
+					hide_default="true" 
+					default="" 
+					label="Background pattern" 
+					directory="" 
+					description="Select a background image from the media folder." >
+				</field>
+				<field name="main_row3_bgcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Background color" 
+					description="Background color">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+								
+				<!-- Fonts -->
+				
+				<field name="main_row3_hfontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading font color" 
+					description="Heading font color">
+				</field>
+				<field name="main_row3_hshadowcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading shadow color" 
+					description="Heading shadow color, HTML5 only">
+				</field>
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				<field name="main_row3_hspan" 
+					type="radio" 
+					default="1" 
+					label="Apply heading (H3) first word color" 
+					description="Apply a different color to the first word color in the H3 tag.">
+						<option value="1">yes</option>
+						<option value="0">no</option>
+				</field>					
+				<field name="main_row3_hspancolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading (H3) first word color" 
+					description="The color for the first word in the H3 tag.">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+																
+				<field name="main_row3_fontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Font color" 
+					description="Font color">
+				</field>
+				<field name="main_row3_linkcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Link color" 
+					description="Link font color">
+				</field>
+				<field name="main_row3_linkcolorhover" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Link hover color" 
+					description="Link hover font color">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+				
+			
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+				<!-- Main Column - Row 4  -->
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+				
+				<field name="Header45" type="header" default="Main Column - Bottom Row Custom Modules" label="" description="" />
+
+				<field type="spacer" label=" " />
+				<field type="spacer" label="&lt;b&gt;Positions 32, 33, 34 &amp; 35&lt;/b&gt;" />
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				<field name="main_row4_hbgpattern" 
+					type="media" 
+					hide_none="true" 
+					hide_default="true" 
+					default="" 
+					label="Heading background pattern" 
+					directory="" 
+					description="Select a background image from the media folder, H1-H3 tags only." >
+				</field>	
+				<field name="main_row4_hbgcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading background color" 
+					description="Heading background color, H1-H3 tags only, if no heading background pattern.">
+				</field>				
+				<field name="main_row4_hfontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading font color" 
+					description="Heading font color">
+				</field>
+				<field name="main_row4_hshadowcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading shadow color" 
+					description="Heading shadow color, HTML5 only">
+				</field>
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				<field name="main_row4_hspan" 
+					type="radio" 
+					default="1" 
+					label="Apply heading (H3) first word color" 
+					description="Apply a different color to the first word color in the H3 tag.">
+						<option value="1">yes</option>
+						<option value="0">no</option>
+				</field>				
+				<field name="main_row4_hspancolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading (H3) first word color" 
+					description="The color for the first word in the H3 tag.">
+				</field>				
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+													
+				<field name="main_row4_fontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Font color" 
+					description="Font color">
+				</field>
+				<field name="main_row4_linkcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Link color" 
+					description="Link font color">
+				</field>
+				<field name="main_row4_linkcolorhover" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Link hover color" 
+					description="Link hover font color">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+				
+			</fieldset>			
+			
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+			<!-- Footer Configuration Parameter   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+					
+			<fieldset name="footerparameters" addfieldpath="/templates/as002053free-virtuemart/lib/header" label="Footer Configuration Parameters">
+
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+				<!-- Footer - Row 1 -->				
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+
+				<field name="Header51" type="header" default="Footer - Row 1 Custom Modules" label="" description="" />
+
+				<field type="spacer" label=" " />
+				<field type="spacer" label="&lt;b&gt;Positions 56, 57, 58 &amp; 59&lt;/b&gt;" />
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				<field name="footer_row1_bgpattern" 
+					type="media" 
+					hide_none="false" 
+					default="" 
+					label="Background pattern" 
+					directory="" 
+					description="Background pattern, the image have to be uploaded using the Joomla! Media Manager" >
+				</field>
+				<field name="footer_row1_bgcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Background color" 
+					description="Backgroound color">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+				
+				<field name="footer_row1_h1fontsize" 
+					type="list" 
+					default="18px" 
+					label="Heading font size (H1)" 
+					description="Select a font size here">
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+						<option value="31px">31px</option>
+						<option value="32px">32px</option>
+				</field>
+				<field name="footer_row1_h2fontsize" 
+					type="list" 
+					default="16px" 
+					label="Heading font size (H2)" 
+					description="Select a font size here">
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+						<option value="31px">31px</option>
+						<option value="32px">32px</option>
+				</field>
+				<field name="footer_row1_h3fontsize" 
+					type="list" 
+					default="14px" 
+					label="Heading font size (H3)" 
+					description="Select a font size here">
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+						<option value="31px">31px</option>
+						<option value="32px">32px</option>
+				</field>
+				<field name="footer_row1_h4fontsize" 
+					type="list" 
+					default="12px" 
+					label="Heading font size (H4)" 
+					description="Select a font size here">
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+						<option value="31px">31px</option>
+						<option value="32px">32px</option>
+				</field>
+				<field name="footer_row1_h5fontsize" 
+					type="list" 
+					default="12px" 
+					label="Heading font size (H5)" 
+					description="Select a font size here">
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+						<option value="31px">31px</option>
+						<option value="32px">32px</option>
+				</field>
+				<field name="footer_row1_hfontweight" 
+					type="list" 
+					default="normal" 
+					label="Heading font weight" 
+					description="Select a font weight here">
+						<option value="normal">Normal</option>
+						<option value="bold">Bold</option>
+				</field>				
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				<field name="footer_row1_htransform" 
+					type="radio" 
+					default="uppercase" 
+					label="Heading text transform" 
+					description="Heading text transform">
+						<option value="uppercase">uppercase</option>
+						<option value="none">none</option>
+				</field>
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+								
+				<field name="footer_row1_hfontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading font color" 
+					description="Heading font color">
+				</field>
+				<field name="footer_row1_hshadowcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading shadow color" 
+					description="Heading shadow font color, HTML5 only">
+				</field>
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				<field name="footer_row1_hspan" 
+					type="radio" 
+					default="1" 
+					label="Apply heading (H3) first word color" 
+					description="Apply a different color to the first word color in the H3 tag.">
+						<option value="1">yes</option>
+						<option value="0">no</option>
+				</field>
+				<field name="footer_row1_hspancolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading (H3) first word color" 
+					description="The color for the first word in the H3 tag.">
+				</field>								
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+
+				<field name="footer_row1_fontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Font color" 
+					description="Font color">
+				</field>
+				<field name="footer_row1_linkcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Link font color" 
+					description="Link font color">
+				</field>
+				<field name="footer_row1_linkcolorhover" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Hover font color" 
+					description="Hover font color">
+				</field>
+				
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+
+				
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+				<!-- Footer - Row 2 -->			
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+
+				
+				<field name="Header52" type="header" default="Footer - Row 2  Custom Modules" label="" description="" />
+
+				<field type="spacer" label=" " />
+				<field type="spacer" label="&lt;b&gt;Positions 50, 51, 52, 53 &amp; 54&lt;/b&gt;" />
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				<field name="footer_row2_bgpattern" 
+					type="media" 
+					hide_none="false" 
+					default="" 
+					label="Background pattern" 
+					directory="" 
+					description="Background pattern, the image have to be uploaded using the Joomla! Media Manager" >
+				</field>
+				<field name="footer_row2_bgcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Background color" 
+					description="Backgroound color">
+				</field>				
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				<field name="footer_row2_h1fontsize" 
+					type="list" 
+					default="18px" 
+					label="Heading font size (H1)" 
+					description="Select a font size herex">
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+						<option value="31px">31px</option>
+						<option value="32px">32px</option>
+				</field>
+				<field name="footer_row2_h2fontsize" 
+					type="list" 
+					default="16px" 
+					label="Heading font size (H2)" 
+					description="Select a font size here">
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+						<option value="31px">31px</option>
+						<option value="32px">32px</option>
+				</field>
+				<field name="footer_row2_h3fontsize" 
+					type="list" 
+					default="14px" 
+					label="Heading font size (H3)" 
+					description="Select a font size here">
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+						<option value="31px">31px</option>
+						<option value="32px">32px</option>
+				</field>
+				<field name="footer_row2_h4fontsize" 
+					type="list" 
+					default="12px" 
+					label="Heading font size (H4)" 
+					description="Select a font size here">
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+						<option value="31px">31px</option>
+						<option value="32px">32px</option>
+				</field>
+				<field name="footer_row2_h5fontsize" 
+					type="list" 
+					default="12px" 
+					label="Heading font size (H5)" 
+					description="Select a font size here">
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+						<option value="25px">25px</option>
+						<option value="26px">26px</option>
+						<option value="27px">27px</option>
+						<option value="28px">28px</option>
+						<option value="29px">29px</option>
+						<option value="30px">30px</option>
+						<option value="31px">31px</option>
+						<option value="32px">32px</option>
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+							
+				<field name="footer_row2_htexttransform" 
+					type="radio" 
+					default="uppercase" 
+					label="Heading text transform" 
+					description="Heading text transform">
+						<option value="uppercase">uppercase</option>
+						<option value="none">none</option>
+				</field>				
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+												
+				<field name="footer_row2_hfontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading font color" 
+					description="Heading font color">
+				</field>
+				<field name="footer_row2_hshadowcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading shadow color" 
+					description="Heading shadow font color, HTML5 only">
+				</field>
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				<field name="footer_row2_hspan" 
+					type="radio" 
+					default="1" 
+					label="Apply heading (H3) first word color" 
+					description="Apply a different color to the first word color in the H3 tag.">
+						<option value="1">yes</option>
+						<option value="0">no</option>
+				</field>				
+				<field name="footer_row2_hspancolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Heading (H3) first word color" 
+					description="The color for the first word in the H3 tag.">
+				</field>									
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				<field name="footer_row2_fontsize" 
+					type="list" 
+					default="12px" 
+					label="Font size" 
+					description="Select a font size here">
+						<option value="10px">10px</option>
+						<option value="11px">11px</option>
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+						<option value="19px">19px</option>
+						<option value="20px">20px</option>
+						<option value="21px">21px</option>
+						<option value="22px">22px</option>
+						<option value="23px">23px</option>
+						<option value="24px">24px</option>
+				</field>
+				<field name="footer_row2_fontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Font color" 
+					description="Font color">
+				</field>
+				<field name="footer_row2_linkcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Link font color" 
+					description="Link font color">
+				</field>
+				<field name="footer_row2_linkcolorhover" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Hover font color" 
+					description="Link hover font color">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />				
+						
+				<field name="footer_row2col1_extension" 
+					type="radio" 
+					default="2"
+					label="Extend column 1 to column 2" 
+					description="Extend the column 1 to the column 2, only if some module published in position 50.">
+						<option value="1">home page</option>
+						<option value="2">all pages</option>
+						<option value="0">not extend</option>
+				</field>
+				
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+																
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+				<!-- Footer - Row 3 -->			
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+				
+				<field name="Header53" type="header" default="Footer - Row 3" label="" description="" />
+
+				<field type="spacer" label=" " />
+				<field type="spacer" label="&lt;b&gt;Position 55 &amp; Copyright&lt;/b&gt;" />
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+								
+				<field name="footer_row3_fontsize" 
+					type="list" 
+					default="11px" 
+					label="Font size" 
+					description="Select a font size here">
+						<option value="10px">10px</option>
+						<option value="11px">11px</option>
+						<option value="12px">12px</option>
+						<option value="13px">13px</option>
+						<option value="14px">14px</option>
+						<option value="15px">15px</option>
+						<option value="16px">16px</option>
+						<option value="17px">17px</option>
+						<option value="18px">18px</option>
+				</field>
+				<field name="footer_row3_fontweight" 
+					type="list" 
+					default="normal" 
+					label="Font weight" 
+					description="Select a font weight here">
+						<option value="normal">Normal</option>
+						<option value="bold">Bold</option>
+				</field>
+				<field name="footer_row3_texttransform" 
+					type="radio" 
+					default="uppercase" 
+					label="Text transform" 
+					description="Text transform">
+						<option value="uppercase">uppercase</option>
+						<option value="none">none</option>
+				</field>				
+				<field type="spacer" label=" " />
+				<field type="spacer" label=" " />
+				
+				<field name="footer_row3_fontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Font color" 
+					description="Font color">
+				</field>
+				<field name="footer_row3_linkcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Link font color" 
+					description="Link font color">
+				</field>
+				<field name="footer_row3_linkcolorhover" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="Hover font color" 
+					description="Link hover font color">
+				</field>
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+				
+			</fieldset>			
+			
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+			<!-- Custom CSS   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+			
+			<fieldset name="customcss" label="Custom CSS">			
+
+				<field type="spacer" label="" />	
+
+				<field name="custom_css" 
+					type="textarea" 
+					default="" 
+					label="Custom CSS area" 
+					description="You can put your css here" 
+					cols="45" 
+					rows="30" >
+				</field>     
+				<field type="spacer" label="" />
+				<field type="spacer" label=" " />
+				
+			</fieldset>
+			
+		</fields>
+	</config>
+</extension>	

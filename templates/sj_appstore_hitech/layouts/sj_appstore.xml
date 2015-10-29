@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout type="main-left-right">	
+	<head>
+	</head>
+	<groups>
+		<group width="580px" height="">footnavs</group>
+		<group height="55px">main-top</group>
+	</groups>
+	<blocks>
+		<slideshow order="4" id="yt_slideshow">
+			<positions>
+				<position height="" width="" style="xhtml" type="modules">slide_show</position>
+			</positions>
+		</slideshow>
+
+		<content order="7" id="content" showDivTop="0" showDivBottom="0">
+			<positions>
+				<position group="sidebar" width="" type="feature">@logo</position>
+				<position group="sidebar" width="" type="modules">nav2</position>
+				<position group="sidebar" width="" colspan="1" style="ytmod_addfirstword" type="modules">position-5</position>
+				<position group="main-top" width="" type="modules">nav_top</position>
+				<position group="main-top" width="" type="modules">mycart</position>
+				<position group="main-top" width="" type="feature">@menu</position>
+				<position group="main" width="" colspan="1" type="component">component</position>
+				<position group="main" width=""  style="ytmod_addfirstword" type="modules">main_bottom</position>
+			</positions>
+		</content>
+		<spotlight2 order="9" id="yt_spotlight2">
+			<positions>
+				<position width="" style="ytmod" type="modules">user9</position>
+			</positions>
+		</spotlight2>
+		<spotlight3 order="9" id="yt_spotlight3">
+			<positions>
+				<position width="" style="ytmod" type="modules">user10</position>
+				<position width="" style="ytmod" type="modules">user11</position>
+				<position width="" style="ytmod" type="modules">user12</position>
+				<position width="" style="ytmod" type="modules">user13</position>
+				<position width="" style="ytmod" type="modules">user14</position>
+			</positions>
+		</spotlight3>
+		
+		<footer order="10" id="yt_footer">
+			<positions>
+				<position type="html" width="120px">
+					<![CDATA[
+						<div class="logo-footer">
+							<a href="http://joomlana.net/"  target="_blank">YT Framework</a>
+						</div>
+					]]>
+				</position>
+				<position group="footnavs" width="100%" type="modules">footnav1</position>
+				<position group="footnavs" width="100%" type="feature">@copyright</position>
+				<position width="140px" type="modules">footnav2</position>
+			</positions>
+		</footer>
+	</blocks>
+</layout>

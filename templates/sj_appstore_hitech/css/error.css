@@ -1,0 +1,183 @@
+/**
+ * @copyright	Copyright (C) 2005 - 2012 Open Source Matters, Inc. All rights reserved.
+ * @license		GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+/* Start Common Styles */
+* {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 12px;
+	color: #444;
+}
+* {
+
+}
+html {
+	height: 100%;
+	margin-bottom: 1px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 1px;
+	background: #fff;
+	font-weight: normal;
+	padding-top: 0px;
+	margin-top: 0px;
+	background: #deebff;
+}
+
+.error {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table, td, th, div, pre, blockquote, ul, ol, dl, address,.componentheading,.contentheading,.contentpagetitle,.sectiontableheader,.newsfeedheading {
+	font-family: helvetica, arial, sans-serif;
+	font-weight: normal;
+}
+
+#outline {
+	margin-top: 50px;
+}
+#errorboxoutline {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+.errorboxoutline-inner {
+	background: url(../images/page404/bg-404.png) no-repeat;
+    margin: 0px auto;
+    width: 573px;
+    height: 329px;
+    padding: 32px 104px 99px;
+    position: relative;
+}
+.errorboxoutline-inner1 {
+    width: 573px;
+    height: 329px;
+    overflow-y: auto;
+}
+.logo {
+	background: url(../images/e404-bg.png) no-repeat center bottom;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.logo a {
+	background:#fff url(../images/logo.png) no-repeat center;
+	display:block;
+	width: 220px;
+	height: 80px;
+	text-indent: -999em;
+	margin: 0 auto;
+	border-radius: 30px;
+	box-shadow: 0px 2px 3px #ccc,inset 0px 0 3px 0 #eee ;
+}
+.e404 {
+	font-weight: bold;
+	font-size: 150% !important;
+	margin: 0 20px;
+}
+#errorboxheader {
+	margin: 0px;
+	padding: 55px 0 0;
+	font-size: 250%;
+	line-height: 38px;
+	text-align: center;
+}
+#errorboxheader span {
+    display: inline-block;
+    font-size: 100%;
+    height: 305px;
+    left: 49px;
+    position: absolute;
+    text-indent: -999em;
+    top: 0;
+    width: 305px;
+	background: url(../images/page404/error404.png) no-repeat center center;
+}
+ul.links {
+	padding: 0;
+}
+ul.links a {
+	color: #7B96CF;
+	text-decoration: none;
+	position: relative;
+	z-index: 999;
+	height: 43px;
+	width: 163px;
+	display: block;
+}
+ul.links li.homepage a {
+	background: url(../images/page404/bt-home-404.png) no-repeat;
+	text-indent: -999em;
+}
+ul.links li.homepage a:hover {
+	background: url(../images/page404/bt-home-404-ov.png) no-repeat;
+}
+ul.links li {
+	list-style: none;
+}
+ul.links li.homepage {
+
+}
+.errorboxfooter {
+	width:100%;
+	height:18px;
+	background: url(../images/e404Bg-footer-l.png) no-repeat left top;
+}
+.errorboxfooter-inner {
+	width:100%;
+	height:18px;
+	background: url(../images/e404Bg-footer-r.png) no-repeat right top;
+}
+#errorboxbody {
+	padding: 10px 10px 10px 120px;
+	margin: 0px;
+	text-align: left;
+	line-height: 200%;
+}
+#techinfo {
+	margin: 10px;
+	padding: 10px;
+	text-align: left;
+	border: 1px solid #CCCCCC;
+	color: #CCCCCC;
+}
+#techinfo p {
+	color: #666;
+}
+@media only screen and (max-width: 768px) {
+#outline {
+	margin-top: 0 !important;
+}
+.errorboxoutline-inner {
+	padding: 0;
+	background: none;
+}
+.errorboxoutline-inner,
+.errorboxoutline-inner1 {
+	width: auto;
+	height: auto;
+}
+#errorboxheader span {
+	left: 0;
+	margin: 0;
+	width: 220px;
+	height: 220px;
+	background: url(../images/page404/error404-small.png) no-repeat;
+}
+.logo {
+	top: 10px;
+}
+#errorboxheader {
+	padding: 80px 0 0;
+}
+#errorboxbody {
+	padding: 10px 20px;
+}
+}

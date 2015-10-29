@@ -1,0 +1,90 @@
+/**
+ # ot_digitalbox - 	OT DigitalBox  Template for Joomla 1.7!
+ # author 			OmegaTheme.com
+ # copyright 		Copyright(C) 2012 - OmegaTheme.com. All Rights Reserved.
+ # @license 		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Website: 		http://omegatheme.com
+ # Technical 		support: Forum - http://omegatheme.com/forum/
+ **/
+ /**------------------------------------------------------------------------
+ * file: customs.thumb.productdetails.css 1.7.0 00001, December 2011 12:00:00Z OmegaTheme $
+ * package:	OT DigitalBox Template
+ *------------------------------------------------------------------------*/
+
+/* CUSTOM STYLE PRODUCTDETAILS PAGE */
+div#large_image_holder{
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+div#large_image_holder ul{
+	border: 1px solid #eee;
+	float: left;
+    height: 268px;
+    padding: 10px;
+    position: relative;
+    width: 268px;
+    z-index: 10;
+}
+div#large_image_holder ul li{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	overflow: hidden;
+	height: 268px;
+	width: 268px;
+	z-index: 9;
+}
+div#large_image_holder ul li img{
+/*	width: 290px; */
+	max-width: 268px;
+}
+div#large_image_holder ul li.hide{
+	display: none;
+}
+div#large_image_holder ul li,
+ul#thumb_holder li{
+	background: none;
+	padding: 0;
+	margin: 0;
+}
+div.additional-images{
+	width: 100%;
+	float: left;
+}
+ul#thumb_holder li{
+	border: 1px solid #eee;
+	float: left;
+	height: 75px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    padding: 5px;
+    width: 75px;
+    overflow: hidden;
+    text-align: center;
+}
+ul#thumb_holder li a{
+	display: block;
+	height: 75px;
+	width: 75px;
+	overflow: hidden;
+}
+ul#thumb_holder li img{
+	height: 75px;
+	width: auto;
+	margin: 0;
+	padding: 0;
+/*	max-width: 160px; */
+}
+
+
+
+
+
+
+
+
+
+
+

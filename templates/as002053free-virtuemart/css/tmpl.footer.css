@@ -1,0 +1,343 @@
+/**************************************************************************************/
+/*
+/*		Designed by 'AS Designing'
+/*		Web: http://www.asdesigning.com
+/*		Web: http://www.astemplates.com
+/*		License: Creative Commons
+/*
+/**************************************************************************************/
+
+/**************************************************************************************/
+/*   Footer
+/**************************************************************************************/
+/**************************************************************************************/
+
+#footer
+{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	overflow: hidden;
+}
+
+#footer h1, 
+#footer h2, 
+#footer h3
+{
+	margin: 0px 0px 30px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#footer p
+{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;	
+}
+
+#footer a
+{
+	text-decoration: none;
+	outline-style: none;	
+}
+
+#footer a:hover
+{
+	border: none;
+}
+
+#footer ul 
+{
+	margin: 0px 0px 0px 0px;
+	list-style: outside none;
+}
+
+#footer li
+{
+    padding: 3px 0px 3px 25px;
+	margin: 0px 0px 0px 0px;
+}
+
+#footer ul ul
+{
+	margin: 0px 0px 0px 0px;
+	padding: 6px 0px 0px 0px;
+}
+
+#footer .menu li
+{
+}
+
+#footer .menu li a
+{
+}
+
+#footer .content
+{
+	margin: 0px auto 0px auto;
+	overflow: hidden;	
+	padding: 0px 0px 0px 0px;
+}
+
+/**************************************************************************************/
+
+#footer .moduletable,
+#footer .moduletable_text, 
+#footer .moduletable_menu,
+#footer .contentpaneopen
+{
+	clear: both;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	overflow: visible;
+}
+
+#footer .inputbox
+{
+	float: left;
+	font-size: 11px;
+}
+
+/**************************************************************************************/
+/*   Footer Row 1 			  														  */
+
+#footer .row1
+{
+	width: auto;
+	margin: 0px 0px 25px 0px;
+	padding: 10px 0px 10px 0px;	
+}
+
+#footer .row1 p
+{
+	padding: 3px 0px 0px 0px;	
+}
+
+#footer .row1 .content
+{
+	margin: 0px auto 0px auto;
+	overflow: hidden;
+}
+
+#footer .row1 .row1col1,
+#footer .row1 .row1col2,
+#footer .row1 .row1col3,
+#footer .row1 .row1col4
+{
+	float: left;
+    margin: 0px 0px 3px 0px;
+    overflow: hidden;
+    padding: 0px;	
+    background-attachment: fixed;
+}
+
+#footer .row1 h1,
+#footer .row1 h2,
+#footer .row1 h3
+{
+	margin: 0px 0px 15px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#footer .row1 h4
+{
+	text-shadow: none;
+}
+
+#footer .row1 h1 a, 
+#footer .row1 h2 a, 
+#footer .row1 h3 a
+{
+}
+
+#footer .row1 .menu li a
+{
+    padding: 0px 0px 0px 18px;	
+}
+
+
+/**************************************************************************************/
+/*  Footer Row 2 																	  */
+
+#footer .row2
+{
+	margin: 0px 0px 0px 0px;
+	padding: 20px 0px 5px;
+	overflow: hidden;
+	background-repeat: repeat-x;
+}
+
+
+
+#footer .row2 .content
+{
+	margin: 0px auto 0px auto;
+	overflow: hidden;	
+	padding: 0px 0px 0 0px;
+}
+
+#footer .row2 .moduletable
+{
+    padding: 20px 0px;
+}
+	
+#footer .row2 h1, 
+#footer .row2 h2, 
+#footer .row2 h3
+{
+    margin: 0px 0px 25px 0px;
+    padding: 0px 0px 10px 0px;	
+}
+
+#footer .row2 .row2col1,
+#footer .row2 .row2col2,
+#footer .row2 .row2col3,
+#footer .row2 .row2col4
+{
+	float: left;
+	min-height: 0%;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#footer .row2 .row2col4
+{
+	float: right;
+}
+
+#footer .row2 li:hover
+{
+	background-image: url('../images/listimg.png');
+	background-position: left top;		
+	background-repeat: no-repeat;
+}
+
+#footer .row2 #search
+{
+	width: 100%;
+	clear: both;
+	float: left;
+	margin: 0px 0px 0px 0px;
+}
+
+#footer .row2 #search input
+{
+}
+
+#footer .row2 #contactus
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+
+#footer .row2 #contactus .custom
+{
+	padding: 2px 0px 0px 0px;
+	line-height: 17px;
+	text-align: right;	
+}
+
+#footer .row2 .moduletable_social
+{
+    padding: 0px;
+}
+
+#footer .row2 #social
+{
+	width: 100%;	
+	clear: both;
+	float: right;
+	text-align: right;
+}
+
+#footer .row2 #social img
+{
+	opacity: 0.9;
+	transition: opacity 0.3s ease 0.1s;	
+}
+
+#footer .row2 #social img:hover
+{
+	opacity: 0.6;
+}
+
+#footer .row2 #whosonline
+{
+	width: 100%;	
+	clear: both;
+	float: left;
+	margin: 40px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#footer .row2 .sepline
+{
+	float: left;
+	width: 2px;
+    margin: 0px 24px 0px 24px;
+	padding: 0px 0px 0px 0px;	
+}
+
+
+/**************************************************************************************/
+/*  Footer Row 3 																	  */
+
+
+#footer .row3
+{
+	padding: 0px 0px 0px 0px;
+	overflow: hidden;	
+}
+
+#footer .row3 .wrapper
+{
+	padding: 20px 0px 25px 0px;
+	background-image: none;
+}
+	
+#footer .row3 .content
+{	
+	margin: 0px auto 0px auto;
+	overflow: hidden;	
+}
+
+#footer .row3 #trademark
+{
+	text-align: right;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-transform: uppercase;
+}
+
+#footer .row3 ul
+{
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+
+#footer .row3 li
+{
+	display: inline;
+	background-image: none;
+	padding: 0px 20px 0px 0px;
+	margin: 0px;
+	line-height: 14px;	
+}
+
+#footer .row3 .row3col1
+{
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 11px;
+}
+
+#footer .row3 .row3col2
+{
+	float: right;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: right;
+	font-size: 11px;
+}
+

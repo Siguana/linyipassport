@@ -1,0 +1,54 @@
+/******************************************
+***          YT Framework: CSS          ***
+*******************************************/
+body .yt-main {
+    width: 1200px !important;
+}
+#content_sidebar{width: 240px;}
+
+#content_main {
+	padding: 0;
+    width: 960px;
+}
+.group-main-top {
+	padding: 0 15px;
+    width: 928px;
+}
+.group-footnavs {
+	width: 800px;
+}
+.content.no-sidebar #content_main{
+	width:100%;
+}
+#content_listing .item {
+	width: 25%;
+}
+/* component vm */
+.com_virtuemart .images-detail {
+	width: 50%;
+}
+.com_virtuemart .form-detail {
+	width: 50%;
+}
+.com_virtuemart .product-details.cols-2 .form-detail {
+	width: 240px;
+}
+.com_virtuemart .product-details.cols-2 .images-detail {
+	width: 460px;
+}
+#footnav2 {
+	float: right !important;
+}
+.category.isotope-item {
+	width: 24.9999%;
+}
+#content_listing .item-inner{
+	/*height:244px;*/
+	height:auto;
+}
+#content_listing .item-inner .item-inner1 {
+    margin: 5px 0 7px 8px;
+}
+.rtl #content_listing .item-inner .item-inner1 {
+    margin: 5px 5px 5px 0 !important;
+}

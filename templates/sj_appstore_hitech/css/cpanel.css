@@ -1,0 +1,249 @@
+#cpanel_wrapper {
+    background:#FFF;
+	border:1px solid #CCC;
+	border-right:none;
+    color: #555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+    padding:10px 15px 15px;
+    position: fixed;
+    top: 65px;
+    width: 300px;
+    z-index: 999;
+	right:-331px;
+}
+
+#cpanel_wrapper input.inputbox{
+	border-radius: 0 0 0 0 !important;
+    box-shadow: none !important;
+    font-size: 11px !important;
+    margin: 0 3px 0 0 !important;
+    padding: 0 3px !important;
+    width: 80px !important;
+}
+select.cp_select{
+	font-size: 11px;
+    height: auto;
+    padding: 2px;
+    width: 120px;
+	border-radius:0px;
+}
+
+#cpanel_wrapper input.inputbox{
+	border-radius: 0 0 0 0 !important;
+    box-shadow: none !important;
+    font-size: 11px !important;
+    margin: 0 3px 0 0 !important;
+    padding: 0 3px !important;
+    width: 80px !important;
+}
+select.cp_select{
+	font-size: 11px;
+    height: auto;
+    padding: 2px;
+    width: 120px;
+	border-color:#CCC;
+	color:inherit;
+	border-radius:0px;
+}
+
+.cpanel-head{
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:0 0 5px;;
+	border-bottom:1px solid #CCC;
+}
+.theme-color-heading{
+	font-weight:bold;
+	padding: 5px 0;
+	display:block;
+}
+.cpanel-theme-color .theme-color.active{box-shadow: 0 0 0 2px rgba(0,0,0,0.4) inset;}
+.cpanel-theme-color .theme-color{
+	background-color:#CCC;
+	width:50px;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	float:left;
+	margin:0 5px 5px 0;
+	cursor:pointer;
+	overflow: hidden;text-indent: 100%;white-space: nowrap;
+}
+.cpanel-theme-color .theme-color:hover{opacity: 0.7;}
+.cpanel-theme-color .theme-color.red{background-color:#ea2929;}
+.cpanel-theme-color .theme-color.green{background-color:#4fce28;}
+.cpanel-theme-color .theme-color.blue{background-color:#068ceb;}
+.cpanel-theme-color .theme-color.gray{background-color:#999;}
+
+.cpanel-theme-color .theme-color.red{background-color:#ea2929;}
+.cpanel-theme-color .theme-color.green{background-color:#4fce28;}
+.cpanel-theme-color .theme-color.black{background-color:#333;}
+.cpanel-theme-color .theme-color.gray{background-color:#999;}
+
+#cpanel_wrapper input.miniColors{ 
+	border-color: #CCCCCC;
+    display: inline-block;
+    float: left;
+    height: 20px;
+    line-height: 16px;}
+#ytcpanel_accordion .accordion-group{
+	border:none;
+	border-bottom:1px solid #CCC;
+	border-radius:0;
+}
+#ytcpanel_accordion .accordion-heading .accordion-toggle{
+	padding:3px 0;
+	color:#555;
+	font-weight:bold;
+	display:block;
+}
+#ytcpanel_accordion .cp-item{
+	width:33%;
+	float:left;
+}
+#ytcpanel_accordion .cp-item.body-backgroud-image{
+	width:100%;
+}
+#ytcpanel_accordion .cpanel-spotlight3 .cp-item.spotlight3-backgroud-image,
+#ytcpanel_accordion .cpanel-footer .cp-item.footer-backgroud-image,
+#ytcpanel_accordion .cpanel-header .cp-item.header-backgroud-image{
+	width:66%;
+}
+#ytcpanel_accordion .cpanel-typography .cp-item{
+	width:50%;
+}
+#ytcpanel_accordion .accordion-inner{
+	padding:5px 5px 25px;
+	border:none;
+}
+
+.cp-item .pattern{
+	height: 20px;
+    margin: 0 3px 0 0;
+    width: 30px;
+	border:1px solid #CCC;
+	float:left;
+	cursor:pointer;
+	text-indent:-999em;
+	background-color: #ddd;
+}
+
+.cp-item .pattern:hover{background-color: #ccc; border-color: #ccc #ccc #999999 #999999;}
+.cp-item .pattern.active{border-color:#999999;}
+
+.cp-item .pattern:hover{background-color: #999; border-color: #666;}
+.cp-item .pattern.active{
+	border-color:#5BC0DE;
+}
+
+#cpanel_wrapper a.reset{
+	margin:0 0 0 10px;
+	color:#000;
+}
+
+.cpanel-input{
+	padding:1px 5px !important;
+	width:30px;
+	font-size:11px !important;
+}
+.cpanel-select{
+	height: auto;
+    padding: 2px !important;
+    width: 90px;
+	font-size:11px !important;
+}
+#cpanel_btn{
+	background:#FFF;
+	width:14px;
+	border:1px solid #CCC;
+	border-right:none;
+	position:absolute;
+	left:-35px;
+	top:30px;
+	padding:10px;
+	cursor:pointer
+}
+#cpanel_btn i{
+	vertical-align:top;
+}
+#cpanel_wrapper .action .btn{
+	font-size:14px;
+	color:#FFF !important;
+	padding:4px 15px;
+}
+[class^="icon-"], [class*=" icon-"] {
+    background-image: url("../images/glyphicons-halflings.png");
+    background-position: 14px 14px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    margin-top: 1px;
+    vertical-align: text-top;
+    width: 14px;
+}
+.icon-hand-right {
+    background-position: -144px -144px;
+}
+.icon-hand-left {
+    background-position: -168px -144px;
+}
+.btn {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F5F5F5;
+    background-image: -moz-linear-gradient(center top , #FFFFFF, #E6E6E6);
+    background-repeat: repeat-x;
+    border-color: #E6E6E6 #E6E6E6 #A2A2A2;
+    border-image: none;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 4px 14px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+.btn {
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+}
+.btn-info {
+    background-color: #49AFCD;
+    background-image: -moz-linear-gradient(center top , #5BC0DE, #2F96B4);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.accordion {
+    margin-bottom: 20px;
+}
+
+
+#ytcpanel_accordion .collapse {
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: height 0.35s ease;
+     -moz-transition: height 0.35s ease;
+       -o-transition: height 0.35s ease;
+          transition: height 0.35s ease;
+}
+
+#ytcpanel_accordion .collapse.in {
+    height: auto;
+}
+#ytcpanel_accordion  .nav-collapse.collapse {
+  height: auto;
+}

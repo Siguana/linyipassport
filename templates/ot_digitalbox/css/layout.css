@@ -1,0 +1,684 @@
+/**
+ # ot_digitalbox - 	OT DigitalBox  Template for Joomla 2.5!
+ # author 			OmegaTheme.com
+ # copyright 		Copyright(C) 2012 - OmegaTheme.com. All Rights Reserved.
+ # @license 		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Website: 		http://omegatheme.com
+ # Technical 		support: Forum - http://omegatheme.com/forum/
+ **/
+ /**------------------------------------------------------------------------
+ * file: layout.css 2.5.0 00001, May 2012 12:00:00Z OmegaTheme $
+ * package:	OT DigitalBox Template
+ *------------------------------------------------------------------------*/
+
+@font-face {
+	font-family: 'CarbonBlock';
+	src: url("fonts/CarbonBlock.ttf");
+}
+@font-face {
+	font-family: 'Oswald';
+	src: url("fonts/Oswald.ttf");
+}
+
+body#ot-body{
+	background: #FFF url(../images/body-bg.png);
+	color: #333333;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+div.ot-wrap{
+	
+}
+div.ot-widthTemp{
+	background: #FFF;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 980px;
+}
+.ot-widthTemp-i{
+	padding: 0 10px;
+}
+div.ot-wrap-i,
+div.ot-header,
+.ot-headertop-1,
+.ot-logo-headertop,
+.ot-top-extend,
+.ot-banner,
+div.ot-mainmenu,
+div.ot-breadcrumb,
+div.ot-banner-topboxes,
+div.ot-banner,
+div.ot-topboxes,
+div.ot-mainbody,
+div.ot-bottom-extends,
+div.ot-bottomboxes,
+div.ot-footer{
+	float: left;
+	width: 100%;
+}
+
+/* +++++++++++++++ STYLE HEADER +++++++++++++++ */
+div.ot-header{
+	position: relative;
+	z-index: 999;
+}
+div.ot-header .ot-widthTemp-i{
+	position: relative;
+}
+div.ot-headertop-1{
+	
+}
+div.ot-headertop-1-i{
+	background: url(../images/headertop-bg.png) center 0;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+div.ot-headertop-1-i,
+.ot-logo-headertop-i{
+	margin: 0 10px;
+	overflow: hidden;
+}
+div.ot-headertop-1 ul{
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+div.ot-headertop-1 ul li{
+	background: none;
+	display: inline;
+	padding: 0 15px;
+}
+div.ot-headertop-1 ul li a{
+	color: #D2D2D2;
+}
+.ot-logo-headertop{
+	
+}
+.ot-logo-headertop-i{
+	background: url(../images/header-bg.png) repeat-x;
+	height: 90px;
+}
+div.ot-logo{
+	float: left;
+    width: 30%;
+}
+div.ot-logo a.logo{
+	background: url(../images/logo.png) no-repeat;
+	width: 255px;
+	height: 61px;
+	margin-top: 15px;
+	margin-left: 20px;
+	display: block;
+}
+.ot-headertop-2{
+	color: #FFF;
+	width: 68%;
+	float: right;
+}
+.ot-headertop-2 .otModule{
+	float: left;
+}
+form.default-search{
+	
+}
+div.ot-logo-mainmenu{
+	position: relative;
+}
+div.mainmenu-lefttop-bg{
+	background: url(../images/mainmenu-topleft-bg.png) no-repeat;
+	height: 72px;
+	left: -12px;
+	position: absolute;
+	top: -20px;
+	width: 72px;
+	z-index: 0;
+}
+div.mainmenu-righttop-bg{
+	background: url(../images/mainmenu-topright-bg.png) no-repeat;
+	height: 54px;
+	right: 1px;
+	position: absolute;
+	top: 1px;
+	width: 60px;
+	z-index: 0;
+}
+div.ot-mainmenu{
+	height: 68px;
+	margin-top: -10px;
+	position: relative;
+	z-index: 9999;
+}
+div.mainmenu-leftbg,
+div.mainmenu-rightbg{
+	width: 10px;
+	height: 68px;
+	position: absolute;
+	top: 0;
+}
+div.mainmenu-midbg{
+	background: url("../images/mainmenu-midbg.png") repeat-x scroll 0 0 transparent;
+    height: 68px;
+    margin: 0 10px;
+    position: relative;
+}
+div.mainmenu-leftbg{
+	background: url(../images/mainmenu-leftbg.png) no-repeat;
+}
+div.mainmenu-rightbg{
+	background: url(../images/mainmenu-rightbg.png) no-repeat;
+	right: 0;
+}
+.ot-banner{
+	position: relative;
+	margin-bottom: 1px;
+}
+.ot-banner-i{
+	float: left;
+	width: 100%;
+	padding-top: 11px;
+}
+.ot-banner-leftbg,
+.ot-banner-rightbg{
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	top: 0;
+}
+.ot-banner-leftbg{
+	background: url(../images/banner-top-left-bg.png);
+	left: 0;
+}
+.ot-banner-rightbg{
+	background: url(../images/banner-top-right-bg.png);
+	right: 0;
+}
+.ot-banner .otModule{
+	background: #f0f0f0;
+	overflow: hidden;
+}
+
+/*
+div.ot-breadcrumb-i{
+	background: #efefef url(../images/breadcrumb-bg.png) repeat-x;
+	overflow: hidden;
+	padding: 12px 0 25px;
+}
+div.ot-breadcrumb-i{
+	
+}
+span.breadcrumbs{
+	padding-left: 27%;
+}
+a.breadcrumb-arrow,
+span.breadcrumb-arrow{
+	background: url("../images/breadcrumb-space-bg.png") no-repeat scroll 90% 0 transparent;
+	padding-right: 33px;
+}
+div.ot-banner-topboxes{
+	background: url(../images/banner-bg.png) repeat-x 0 0;
+}
+div.ot-breadcrumb,
+div.ot-banner-topboxes-i{
+	background: url(../images/space-bg.png) repeat-x 0 bottom;
+	padding-bottom: 4px;
+	float: left;
+	width: 100%;
+}
+*/
+/* +++++++++++++++ END HEADER +++++++++++++++ */
+.ot-top-extend{
+	margin-top: -7px;
+}
+.ot-top-extend-i{
+	background: #fff url(../images/top-extend-bg.png) repeat-x 0 bottom;
+	border: 1px solid #efefef;
+	overflow: hidden;
+	padding: 0 20px;
+	margin: 0 10px;
+}
+.ot-top-extend-i .otModule-i{
+	
+}
+.ot-top-extend h1,
+.ot-top-extend h2,
+.ot-top-extend h3,
+.ot-top-extend h4,
+.ot-top-extend h5,
+.ot-top-extend h6{
+	margin: 0;
+	padding: 0;
+}
+.ot-top-extend .otModule{
+	float: left;
+}
+.ot-top-extend .otModule table tr td{
+	padding: 0;
+}
+.ot-top-extend .otModule .big-sale{
+	background: url(../images/demo/space.png) no-repeat right center;
+	margin-right: 20px;
+    padding-right: 20px;
+}
+.ot-breadcrumb{
+	margin-top: 10px;
+}
+.ot-breadcrumb-i{
+	border: 1px solid #efefef;
+	overflow: hidden;
+	padding: 10px 20px;
+	margin: 0 10px;
+}
+.ot-breadcrumb span.breadcrumbs .breadcrumb-arrow{
+	background: url(../images/arrow.png) no-repeat right 5px;
+	padding-right: 15px;
+	margin-right: 10px;
+}
+
+/* +++++++++++++++ STYLE MAINBODY +++++++++++++++ */
+div.ot-mainbody{
+	margin-top: 10px;
+}
+div.ot-mainbody-i{
+    float: left;
+    padding-bottom: 10px;
+    width: 100%;
+}
+#system-message-container dl#system-message dd{
+	padding: 0;
+	float: none;
+}
+#system-message-container dl#system-message dd ul{
+	
+}
+#system-message-container dl#system-message dd ul li{
+	background: none;
+}
+
+/* +++++++++++++++ STYLE LEFT-RIGHT COLUMN +++++++++++++++ */
+div.ot-rightcolumn,
+div.ot-leftcolumn{
+	float: left;
+	width: 240px;
+	margin: 0 10px 0 0;
+}
+div.ot-rightcolumn-i,
+div.ot-leftcolumn-i{
+	
+}
+div.ot-rightcolumn .otModule,
+div.ot-leftcolumn .otModule{
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+div.ot-rightcolumn .otModule-i,
+div.ot-leftcolumn .otModule-i{
+	border: 1px solid #ededed;
+	margin: 0 0 0 11px;
+	padding: 8px 0 8px 0;
+}
+div.ot-rightcolumn .otModule-i .otRounded-mid,
+div.ot-leftcolumn .otModule-i .otRounded-mid{
+	padding-bottom: 10px;
+}
+div.ot-rightcolumn .otModule-i h3,
+div.ot-leftcolumn .otModule-i h3{
+	background: url(../images/leftright-title-leftbg.png) no-repeat 0 0;
+	color: #FFF;
+	font-family: 'Oswald',"Trebuchet MS";
+	font-size: 16px;
+	font-weight: normal;
+	height: 53px;
+	line-height: 53px;
+	text-transform: uppercase;
+	margin: 0 0 0 -12px;
+	padding: 0px 0px 0 11px;
+}
+div.ot-rightcolumn .otModule-i h3 span,
+div.ot-leftcolumn .otModule-i h3 span{
+	background: url(../images/leftright-title-rightbg.png) no-repeat 100% 100%;
+	display: block;
+	height: 53px;
+	line-height: 63px;
+	margin-right: 10px;
+	padding: 0 20px 0 25px;
+}
+div.ot-rightcolumn .otModuleContent-i,
+div.ot-leftcolumn .otModuleContent-i{
+	overflow: hidden;
+    padding: 5px 15px 5px 25px;
+}
+div.ot-rightcolumn ul,
+div.ot-leftcolumn ul{
+	padding: 0;
+	margin: 0;
+}
+div.ot-rightcolumn ul li,
+div.ot-leftcolumn ul li{
+	background: none;
+	border-bottom: 1px solid #ededed;
+	padding: 8px 0px;
+	margin: 0;
+}
+div.ot-rightcolumn ul li a,
+div.ot-leftcolumn ul li a{
+	color: #363946;
+	text-transform: none;
+}
+div.ot-rightcolumn ul li a,
+div.ot-leftcolumn ul li a{
+	
+}
+div.ot-rightcolumn{
+	float: right;
+	margin: 0 0 0 22px;
+}
+div.ot-rightcolumn .otmodule,
+div.ot-leftcolumn .otmodule{
+	float: left;
+	margin-bottom: 20px;
+	width: 100%;
+}
+div.ot-rightcolumn .otmodule .otmodule-ext,
+div.ot-leftcolumn .otmodule .otmodule-ext{
+	overflow: hidden;
+}
+
+/* +++++++++++++++ END LEFT-RIGHT +++++++++++++++ */
+.ot-topboxes {
+	padding: 0px;
+}
+.ot-topboxes .top-box{
+	float: left;
+}
+.ot-topboxes .lastbox{
+	float: left;
+}
+.ot-topboxes .top-box .otRounded{
+	margin-left: 0px;
+}
+.ot-topboxes .width100 .otRounded{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.ot-topboxes .firstbox .otRounded{
+	margin-left: 0;
+	margin-right: 0px;
+}
+.ot-topboxes .top-box h3{
+	
+}
+
+div.ot-content{
+	overflow: hidden;
+}
+.content-full-right{
+	padding-right: 10px;
+}
+.content-full-left{
+	padding-left: 10px;
+}
+.content-full-leftfull-right{
+	padding: 0 10px;
+}
+div.ot-content-i{
+	clear: both;
+}
+div.ot-top-content,
+div.ot-bottom-content{
+	clear: both;
+	margin-bottom: 10px;
+}
+div.ot-top-content h3,
+div.ot-bottom-content h3{
+	border: 1px solid #ededed;
+	color: #333;
+	font-family: 'Oswald',"Trebuchet MS";
+	font-size: 22px;
+	font-weight: normal;
+	line-height: normal;
+	margin: 0 0 5px 0;
+	padding: 6px 10px 6px 10px;
+	text-transform: uppercase;
+}
+.ot-topboxes{
+	background: #100f14;
+	color: #FFF;
+}
+.ot-topboxes-i{
+	padding: 10px 10px;
+	overflow: hidden;
+}
+.ot-topboxes .top-box h3{
+	padding: 0px 50px 0 20px;
+	height: 60px;
+	line-height: 60px;
+}
+.ot-topboxes .lastbox h3{
+	
+}
+.ot-topboxes .top-box .otRounded-mid-i{
+	
+}
+
+/* +++++++++++++++ END MAINBODY +++++++++++++++ */
+
+/* +++++++++++++++ BOTTOM EXTENDS +++++++++++++++ */
+.ot-bottom-extends{
+	
+}
+.ot-bottom-extends-i{
+	background: url(../images/footer-bg.png);
+	color: #bbb;
+	margin: 0 10px;
+	overflow: hidden;
+}
+.ot-bottom-extends .bottom-extend{
+	border-left: 1px dotted #bbb;
+	float: left;
+}
+.ot-bottom-extends .firstbox{
+	border: none;
+}
+.ot-bottom-extends .midbox{
+	
+}
+.ot-bottom-extends .lastbox{
+	float: right;
+}
+.ot-bottom-extends .bottom-extend .otRounded{
+	height: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.ot-bottom-extends .firstbox .otRounded{
+	padding-left: 20px;
+	padding-right: 15px;
+}
+.ot-bottom-extends .midbox .otRounded{
+	padding: 15px 15px;
+}
+.ot-bottom-extends .lastbox .otRounded{
+	padding-right: 20px;
+	padding-left: 15px;
+}
+.ot-bottom-extends .bottom-extend h3{
+	margin-top: 0;
+}
+/* +++++++++++++++ END BOTTOM EXTENDS +++++++++++++++ */
+
+/* +++++++++++++++ STYLE BOTTOMBOXES +++++++++++++++ */
+div.ot-bottomboxes{
+	
+}
+div.ot-bottomboxes-i{
+	background: #f7f7f7;
+	margin: 0 10px;
+    overflow: hidden;
+    padding: 0px 0 20px 0;
+}
+.ot-bottomboxes .bottom-box{
+	float: left;
+}
+.ot-bottomboxes .lastbox{
+	float: right;
+}
+.ot-bottomboxes .bottom-box .otRounded{
+	margin-left: 10px;
+	padding: 15px 10px;
+}
+.ot-bottomboxes .width100 .otRounded{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.ot-bottomboxes .firstbox .otRounded{
+	margin-left: 0;
+	margin-right: 10px;
+	padding-bottom: 15px;
+}
+div.ot-bottomboxes .bottom-box h3{
+	color: #808080;
+	font-family: "Trebuchet MS";
+	font-size: 18px;
+	font-weight: normal;
+	line-height: normal;
+	margin: 0 0 5px 0;
+	padding: 0 0 5px 0;
+	text-transform: none;
+}
+div.ot-bottomboxes .bottom-box .otmodules-i{
+	
+}
+div.ot-bottomboxes .bottom-box .first h3,
+div.ot-bottomboxes .bottom-box .first .otmodules-i{
+	
+}
+div.ot-bottomboxes .bottom-box ul{
+	margin: 0;
+	padding: 0;
+}
+div.ot-bottomboxes .bottom-box ul li{
+	background: url("../images/bottomboxes-arrow.png") no-repeat scroll 0 10px transparent;
+	margin: 0;
+	padding: 5px 0 5px 10px;
+}
+div.ot-bottomboxes .bottom-box ul li a{
+	display: inline;
+	font-size: 12px;
+}
+/* CUSTOM STYLE */
+.ot-bottomboxes .bottom-box .module-space{
+	background: url(../images/custom-space.png) no-repeat 0 100%;
+	margin-left: 20px;
+	padding-left: 35px;
+}
+.ot-bottomboxes .bottom-box .module-space a.create-an-account{
+	background: url(../images/creat-an-account-bg.png) repeat-x;
+	color: #FFFFFF;
+	float: left;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 10px;
+	text-transform: uppercase;
+}
+form.get-deals{
+	
+}
+form.get-deals input.email{
+	padding: 4px 0;
+}
+form.get-deals input.submit{
+	background: url(../images/get-deals-submit.png) repeat-x;
+	border: medium none;
+    font-family: arial;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+}
+
+/* +++++++++++++++ END BOTTOMBOXES +++++++++++++++ */
+
+/* +++++++++++++++ STYLE FOOTER +++++++++++++++ */
+div.ot-footer{
+	margin-top: -10px;
+    padding-top: 10px;
+    position: relative;
+}
+.ot-footer-top-left,
+.ot-footer-top-right{
+	position: absolute;
+	height: 10px;
+	width: 11px;
+	top: 0;
+}
+.ot-footer-top-left{
+	background: url(../images/footer-top-left.png);
+}
+.ot-footer-top-right{
+	background: url(../images/footer-top-right.png);
+	right: 0;
+}
+
+.ot-footer-i{
+	background: url(../images/footer-bg.png);
+	color: #aaa7a7;
+	padding: 10px 30px;
+    margin: 0 0px;
+    overflow: hidden;
+}
+
+div.ot-bottom-1,
+div.ot-bottom-2{
+	color: #aaa7a7;
+	width: 53%;
+	float: left;
+}
+div.ot-bottom-1 ul.menu,
+div.ot-bottom-2 ul.menu{
+	float: left;
+}
+div.ot-bottom-1 ul.menu li,
+div.ot-bottom-2 ul.menu li{
+	background: none;
+	border-left: 1px dotted #aaa7a7;
+	display: inline;
+	margin: 0;
+	padding: 0 15px;
+}
+div.ot-bottom-1 ul.menu li.first,
+div.ot-bottom-2 ul.menu li.first{
+	background: none;
+	padding-left: 0;
+}
+div.ot-bottom-1 ul.menu li.first{
+	border: none;
+}
+div.ot-bottom-1 ul.menu li a,
+div.ot-bottom-2 ul.menu li a{
+	font-weight: normal;
+	text-transform: none;
+}
+div.ot-bottom-1 ul li a,
+div.ot-bottom-2 ul li a{
+	color: #aaa7a7;
+}
+
+div.ot-bottom-2{
+	float: right;
+	width: 45%;
+	text-align: right;
+}
+
+/* +++++++++++++++ END FOOTER +++++++++++++++ */
+
+
+
+
+
+
+
+
+
+
+

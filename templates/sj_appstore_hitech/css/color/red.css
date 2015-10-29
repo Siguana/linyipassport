@@ -1,0 +1,45 @@
+body {
+
+}
+#option_com .sort_by #sort-by,
+.moduletable_menu ul:first-child > li.active > a,
+.moduletable_menu ul:first-child > li.active > span,
+.moduletable_menu ul:first-child > li:hover > a,
+.moduletable_menu ul:first-child > li:hover > span,
+.productdetails-view .tab_desc .tab_desc_title a:hover, .productdetails-view .tab_desc .tab_desc_title a.active {
+	background-color: #d20000;
+}
+.moduletable_menu ul li li li.active .separator, .moduletable_menu ul li li li.active a,
+.moduletable_menu ul li li.active .separator, .moduletable_menu ul li li.active a,
+a, span.separator, div.userBlock h2, div.itemListCategory h2, h1.componentheading, .componentheading,
+.productdetails-view h1,
+a:hover, span.separator:hover, div.userBlock h2:hover, div.itemListCategory h2:hover, h1.componentheading:hover, .componentheading:hover {
+	color: #d20000;
+}
+.moduletable_menu ul li li li .separator:hover, .moduletable_menu ul li li li a:hover,
+.moduletable_menu ul li li .separator:hover, .moduletable_menu ul li li a:hover {
+	color: #d20000;
+	text-decoration: underline;
+}
+
+.red .sj-accordion-menu li.level2.opened > .sj-item-wrapper a,
+.red .sj-accordion-menu li.level4.opened > .sj-item-wrapper a,
+.red .sj-accordion-menu li.level2 > .sj-item-wrapper a:hover,
+.red .sj-accordion-menu li.level4 > .sj-item-wrapper a:hover,
+.red .sj-accordion-menu li.level1 > .sj-item-wrapper a,
+.red .sj-accordion-menu li.level3 > .sj-item-wrapper a {
+	color: #d20000;
+}
+.sj-login-regis .sj_box_title h3 {
+	color: #d20000;
+}
+.sj-login-regis .sj_box_content {
+	background: #d20000;
+}
+.red .mc-product:hover,
+.sj-login .login_input > p,
+.sj-register form label {
+	background: #9b0000;
+}
+a.bt-buy{background-color: #D20000;}
+a.bt-buy:hover{background-color: #e70505;}

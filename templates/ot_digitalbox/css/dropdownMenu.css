@@ -1,0 +1,314 @@
+/**
+ # ot_digitalbox - 	OT DigitalBox  Template for Joomla 2.5!
+ # author 			OmegaTheme.com
+ # copyright 		Copyright(C) 2012 - OmegaTheme.com. All Rights Reserved.
+ # @license 		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Website: 		http://omegatheme.com
+ # Technical 		support: Forum - http://omegatheme.com/forum/
+ **/
+ /**------------------------------------------------------------------------
+ * file: dropdownMenu.css 2.5.0 00001, May 2012 12:00:00Z OmegaTheme $
+ * package:	OT DigitalBox Template
+ *------------------------------------------------------------------------*/
+ 
+ 
+#ot-mainmenu, 
+#ot-mainmenu ul.level0{
+	font-family: 'Oswald',"Trebuchet MS";
+    line-height: 50px;
+	padding: 0;
+	margin: 0;
+}
+#ot-mainmenu li,
+#ot-mainmenu li li { /* all list items */
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+/* -------- Top level -------- */
+#ot-mainmenu ul.level0 {
+	float: left;
+	margin: 0px 0 0 0px;
+	padding: 10px 0 8px 0px;
+	height: 50px;
+}
+#ot-mainmenu ul.level0 li .menu_round {
+	float: left;
+	margin: 0 0 0 0px;
+	padding: 0 0 0 0px;
+}
+
+#ot-mainmenu ul.level0 li {
+	background: none;
+    cursor: pointer;
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#ot-mainmenu ul.level0 li .menu_round,
+#ot-mainmenu ul.level0 li .menu_round .menu_round{
+	width: 225px;
+	position: absolute;
+	z-index: 8;
+	height: auto;
+}
+#ot-mainmenu ul.level0 li .menu_round,
+#ot-mainmenu ul.level0 li .menu_round .menu_round,
+#ot-mainmenu ul.level0 li.sfhover .menu_round .menu_round{
+	left: -999em;
+}
+#ot-mainmenu ul.level0 li .menu_round .menu_round,
+#ot-mainmenu ul.level0 li.sfhover .menu_round .menu_round{
+	margin: -44px 0 0 205px; 
+}
+#ot-mainmenu ul.level0 li li {
+	padding: 0;
+	margin: 0;
+	width: 205px;
+}
+/* STYLING THE MENU
+-----------------------------------*/
+/* 1st level */
+#ot-mainmenu ul.level0 li {
+    margin: 0 0 0 0px;
+	padding: 0px ;
+}
+#ot-mainmenu ul.level0 li.level0{
+	background: url(../images/mainmenu-border-item-bg.png) no-repeat 0 0;
+	padding-left: 2px;
+}
+#ot-mainmenu ul.level0 li a {
+	color: #3c3a3d;
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 0;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+#ot-mainmenu ul.level0 li.parent a span{
+	background: url("../images/drop-arrow-icon.png") no-repeat right center;
+	padding-right: 10px;
+}
+#ot-mainmenu ul.level0 li.parent.sfhover a span,
+#ot-mainmenu ul.level0 li.active.parent a span{
+	background: url("../images/drop-arrow-icon.png") no-repeat right center;
+}
+#ot-mainmenu ul.level0 li a span{
+	height: 50px;
+	line-height: 50px;
+	padding: 0;
+	text-transform: uppercase;
+}
+#ot-mainmenu ul.level0 li.active,
+#ot-mainmenu ul.level0 li.sfhover{
+	
+}
+#ot-mainmenu ul.level0 li.parent a span{
+	
+}
+#ot-mainmenu ul.level0 li.first,
+#ot-mainmenu ul.level0 li.first a{
+	background: none;
+}
+#ot-mainmenu ul.level0 li.first{
+	padding-left: 0;
+}
+#ot-mainmenu ul.level0 li.last,
+#ot-mainmenu ul.level0 li.last a{
+	
+}
+#ot-mainmenu ul.level0 li a:hover,
+#ot-mainmenu ul.level0 li.active a,
+#ot-mainmenu ul.level0 li.active a:hover,
+#ot-mainmenu ul.level0 li.sfhover a{
+	background: url(../images/mainmenu-active-bg.png) repeat-x;
+	color: #FFF;
+	text-decoration: none;
+}
+/* 2nd level and above */
+#ot-mainmenu ul.level0 ul,
+#ot-mainmenu ul.level0 ul ul{
+	background: #cc0001 url(../images/mainmenu-active-bg.png) repeat-x;
+	float: left;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 10px;
+	position: relative;
+	top: 0;
+}
+#ot-mainmenu ul.level0 li li{
+	border-bottom: none;
+	margin: 1px 0 0 0px;
+	padding: 0 0 0 0px;
+}
+#ot-mainmenu ul.level0 li .menu_round,
+#ot-mainmenu ul.level0 li.sfhover .menu_round{
+	
+}
+#ot-mainmenu li .menu_top,
+#ot-mainmenu li .menu_mid,
+#ot-mainmenu li .menu_bot{
+	width: 100%;
+	float: left;
+}
+#ot-mainmenu li .menu_mid{
+	margin-top: 0!important;
+	margin-top: -11px;
+}
+#ot-mainmenu li .menu_top{
+	height: 0px;
+}
+#ot-mainmenu li li .menu_top{
+	height: 0px;
+}
+#ot-mainmenu li .menu_bot{
+	height: 0px;
+}
+#ot-mainmenu li .menu_mid{
+	background: #cc0001 url(../images/mainmenu-active-bg.png) repeat-x;
+}
+#ot-mainmenu ul.level0 li li{
+	width: 205px;
+	padding: 0;
+	border-left: none;
+	border-right: none;
+}
+#ot-mainmenu ul.level0 li.parent li.sfhover,
+#ot-mainmenu ul.level0 li.parent li.parent.sfhover{
+	background: #f2f1f1;
+}
+#ot-mainmenu ul.level0 li.parent li.parent a span,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent a span,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent a span,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li.parent a span,
+#ot-mainmenu ul.level0 li.parent.sfhover li.parent a span,
+#ot-mainmenu ul.level0 li.parent li.parent.sfhover li.parent a span,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent.sfhover li.parent a span,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent.sfhover li.parent a span{
+    background: url("../images/arrow.png") no-repeat 96% 12px;
+}
+#ot-mainmenu ul.level0 li.parent li a span,
+#ot-mainmenu ul.level0 li.parent li.parent li a span,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li a span,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li a span,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li.parent li a span,
+#ot-mainmenu ul.level0 li.parent.sfhover li a span,
+#ot-mainmenu ul.level0 li.parent li.parent.sfhover li a span,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent.sfhover li a span,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent.sfhover li a span,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li.parent.sfhover li a span{
+	background: none;
+}
+#ot-mainmenu ul.level0 li.parent li.first{
+	border: none;
+	margin-top: 0;
+}
+#ot-mainmenu ul.level0 li.parent ul li{
+	border: none;
+	padding: 0;
+}
+#ot-mainmenu ul.level0 li.parent ul li a {
+	background: #f2f1f1;
+	border-right: medium none;
+	color: #3c3a3d;
+	cursor: pointer;
+	display: block;
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+	height: auto;
+	line-height: normal;
+	margin: 0;
+	padding: 0;
+	text-transform: none;
+	width: auto;
+}
+#ot-mainmenu ul.level0 li.parent ul li a span{
+	background: none repeat scroll 0 0 transparent;
+	color: #3c3a3d;
+	display: block;
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	height: auto;
+	line-height: normal;
+	padding: 8px 25px 8px 15px;
+	text-transform: none;
+}
+#ot-mainmenu ul.level0 li.parent ul li.sfhover a span,
+#ot-mainmenu ul.level0 li.parent ul li.sfhover li.sfhover a span,
+#ot-mainmenu ul.level0 li.parent ul li.sfhover li.sfhover li.sfhover a span{
+	color: #ed0101;
+}
+#ot-mainmenu ul.level0 li.parent ul li.sfhover li a span,
+#ot-mainmenu ul.level0 li.parent ul li.sfhover li.sfhover li a span,
+#ot-mainmenu ul.level0 li.parent ul li.sfhover li.sfhover li.sfhover li a span{
+	color: #3c3a3d;
+}
+#ot-mainmenu ul.level0 li.parent ul li.active a,
+#ot-mainmenu ul.level0 li.parent ul li.active li.active a,
+#ot-mainmenu ul.level0 li.parent ul li.active li.active li.active a,
+#ot-mainmenu ul.level0 li.parent ul li.active li.active li.active li.active a,
+#ot-mainmenu ul.level0 li.parent ul li.active li.active li.active li.active li.active a,
+#ot-mainmenu ul.level0 li.parent ul li.active a span,
+#ot-mainmenu ul.level0 li.parent ul li.active li.active a span,
+#ot-mainmenu ul.level0 li.parent ul li.active li.active li.active a span,
+#ot-mainmenu ul.level0 li.parent ul li.active li.active li.active li.active a span,
+#ot-mainmenu ul.level0 li.parent ul li.active li.active li.active li.active li.active a span{
+	color: #ed0101;
+}
+#ot-mainmenu ul.level0 li.parent ul li.sfhover li a,
+#ot-mainmenu ul.level0 li.parent ul li.active li a,
+#ot-mainmenu ul.level0 li.parent ul li.active li.active li a,
+#ot-mainmenu ul.level0 li.parent ul li.active li.active li.active li a,
+#ot-mainmenu ul.level0 li.parent ul li.active li.active li.active li.active li a,
+#ot-mainmenu ul.level0 li.parent ul li.active li.active li.active li.active li.active li a,
+#ot-mainmenu ul.level0 li.parent ul li.sfhover li a span,
+#ot-mainmenu ul.level0 li.parent ul li.active li a span,
+#ot-mainmenu ul.level0 li.parent ul li.active li.active li a span,
+#ot-mainmenu ul.level0 li.parent ul li.active li.active li.active li a span,
+#ot-mainmenu ul.level0 li.parent ul li.active li.active li.active li.active li a span,
+#ot-mainmenu ul.level0 li.parent ul li.active li.active li.active li.active li.active li a span{
+	color: #3c3a3d;
+}
+#ot-mainmenu ul.level0 li.parent ul li.sfhover a,
+#ot-mainmenu ul.level0 li.parent ul li a:hover,
+#ot-mainmenu ul.level0 li.parent ul li.parent li a:hover,
+#ot-mainmenu ul.level0 li.parent ul li.parent li.parent li a:hover,
+#ot-mainmenu ul.level0 li.parent ul li.active li a:hover{
+	background-image: none;
+}
+#ot-mainmenu ul.level0 li.parent li.parent a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li.parent a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li.parent li.parent a{
+	
+}
+#ot-mainmenu ul.level0 li.parent li.parent a:hover,
+#ot-mainmenu ul.level0 li.parent li.parent.sfhover a:hover,
+#ot-mainmenu ul.level0 li.parent li.parent.active a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent.active a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent.active a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li.parent.active a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li.parent li.parent.active a{
+	
+}
+#ot-mainmenu ul.level0 li.parent li.parent li a:hover,
+#ot-mainmenu ul.level0 li.parent li.parent.sfhover li a:hover,
+#ot-mainmenu ul.level0 li.parent li.parent li a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li.parent li a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li.parent li.parent li a,
+#ot-mainmenu ul.level0 li.parent li.parent.active li a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent.active li a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent.active li a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li.parent.active li a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li.parent li.parent.active li a{
+	
+}

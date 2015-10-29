@@ -1,0 +1,8 @@
+.sj-accordion-menu a{
+	color: #fffff;
+}
+.sj-accordion-menu .sj-item-wrapper:hover a,
+.sj-accordion-menu li.current > .sj-item-wrapper a{
+	color: #fffff;	
+}
+

@@ -1,0 +1,18 @@
+/* CSS Document */
+.rtl .component-inner{
+	direction:ltr;
+}
+.rtl .component-inner *{
+	direction:rtl;
+}
+.post-inner img{
+	max-width:none;
+}
+#content_listing .item img {
+	width: auto;
+}
+.sj-register form label span{width:110px;display: inline-block;box-sizing: border-box;}
+.sj-register form label input{width:170px;box-sizing: border-box;}
+
+.button{padding: 2px 8px !important;}
+#content_listing .item-inner{word-wrap: break-word;      /* IE 5+ */}

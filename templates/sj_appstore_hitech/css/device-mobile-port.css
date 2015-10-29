@@ -1,0 +1,143 @@
+/******************************************
+***          YT Framework: CSS          ***
+*******************************************/
+body .yt-main {
+    width: 100%;
+    max-width: 690px;
+}
+
+
+#content_main{
+	width:100% !important;
+}
+#user3,
+#user4,
+#user5,
+#user6,
+#usera,
+#userb,
+#userc,
+#userd,
+#user10,
+#user11,
+#user12,
+#user13,
+#user14
+{
+	width:100% !important;
+}
+#user10 {
+	display: inline;
+}
+.masonry-brick.grid-05,
+.masonry-brick.grid-1,
+.masonry-brick.grid-2,
+.masonry-brick.grid-3,
+.masonry-brick.grid-50
+{
+	width:100% !important;
+}
+
+
+/* ----------------------------*/
+/*     Block: yt_header        */
+/* ----------------------------*/
+#yt_header .yt-main{
+	height:75px;
+}
+#yt_header h1.logo{
+	float:none;
+	margin:20px auto 0;
+	width:67px;
+}
+.yt-logo{
+	width:auto !important;
+}
+#yt_header h1.logo a {
+	background:url(../images/logo_mobileport.png) no-repeat top left;
+    display: block;
+    height: 38px;
+    width: 67px;
+}
+#yt_header h1.logo a img{
+	display:none;
+}
+
+ul.yt-login-regis li a.login-switch {
+    background:url(../images/m_login.gif) no-repeat left top;
+	width:25px;
+	height:25px;
+	text-indent:-999em;
+	padding:0 0;
+}
+ul.yt-login-regis li a.register-switch {
+	background:url(../images/m_regis.gif) no-repeat left top;
+    width:25px;
+	height:25px;
+	text-indent:-999em;
+	padding:0 0;
+}
+ul.yt-login-regis .show-box{
+	top:26px;
+}
+ul.yt-login-regis {
+	margin:28px 0 0;
+}
+/* ----------------------------*/
+/*     Block: yt_menuwrap      */
+/* ----------------------------*/
+#yt_menuwrap .yt-menu{
+	/*display:none;*/
+}
+#yt_menuwrap #nav2 .finder,
+#yt_menuwrap #nav2 .search{
+	padding:10px;
+}
+
+/* ----------------------------*/
+/*     Block: yt_spotlight1    */
+/* ----------------------------*/
+
+
+/* ----------------------------*/
+/*     Block: content          */
+/* ----------------------------*/
+#yt_component{
+	width:100%;
+}
+#left1,
+#left2,
+#right1,
+#right2{
+	width:49.9% !important;
+}
+.cols-2 .item{
+	width:100% !important;
+}
+.cols-2 .column-2 .item-inner{
+	padding:0 0;
+}
+
+
+/* ----------------------------*/
+/*     Block: yt_footer1       */
+/* ----------------------------*/
+.group-footnav{
+	display:none;
+}
+.yt-copyright{
+	width:100% !important;
+	text-align:center;
+}
+#content_listing .item,
+div.cart-item,
+.category.isotope-item {
+	width: 100%;
+}
+.com_content .categories-list ul li{
+	width:100%;
+}
+#option_com,
+#wrapslider {
+	display: none;
+}

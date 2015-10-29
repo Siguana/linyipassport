@@ -1,0 +1,48 @@
+/* COMMON STYLE
+
+--------------------------------------------------------- */
+.ja-megamenu {float:left;}
+.ja-megamenu ul.level0 li {}
+.ja-megamenu ul.level0 li.mega a.mega {color:#fff; font-weight:normal!important;}
+.ja-megamenu ul li a.active {background:url(../../images/active-arrow.png) 50% 100% no-repeat; }
+#ja-mainnav ul.level0 li.haschild-over a.haschild.over{background-image:none!important;}
+.ja-megamenu ul.level0 li.haschild a.mega span.menu-title,
+.ja-megamenu ul.level0 li.haschild-over a.mega span.menu-title{background-image:none; padding-left:0;}
+.ja-megamenu ul.level1 .childcontent {margin:-45px 0 0 5px!important;}
+.ja-megamenu .megacol, .ja-megamenu .childcontent-inner {/*width:180px!Important;submenu column width*/} 
+
+
+/* lv - 1 and below
+-----------------------------------*/
+/* Styling ---*/
+.ja-megamenu ul.level1 li.mega a.mega.over{color:#888;}
+#ja-mainnav .ja-megamenu ul.level1 li.mega{background:url(../../images/light-transparent.png) 0 0 repeat-x;}
+#ja-mainnav .ja-megamenu ul.level1 li.first { background:none;}
+.ja-megamenu ul.level1 li.mega a.mega {border:0; height:auto;}
+.ja-megamenu ul.level1 li.haschild a.mega span.menu-title, .ja-megamenu ul.level1 li.haschild-over a.mega span.menu-title {
+	background-image: url(../../images/arrow.png);
+	background-repeat: no-repeat!important;
+	background-position: 95% center!important;
+	padding: 0;}
+	
+.ja-megamenu ul.level2 li a.mega span.menu-title, .ja-megamenu ul.level2 li a.mega span.menu-title {
+	background-image:none!important;}
+
+
+ /* CHILD CONTENT
+-----------------------------------*/
+.ja-megamenu .childcontent-inner {color: #fff; margin-top:1px; padding:0; opacity:0.95; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)"; filter: alpha(opacity=95); background-image:url(../../images/transparent.png);}
+.ja-megamenu .level1 .childcontent-inner {margin-left:1px;}
+.ja-megamenu .childcontent .ja-moduletable { color: #333; }
+.ja-megamenu .childcontent .ja-moduletable h3 {background: none; border-bottom: 1px dotted #ccc; text-transform: uppercase;}
+
+/* Grouped --- */
+.ja-megamenu .group-title {background:url(../../images/light-transparent.png) 0 100% repeat-x;}
+.ja-megamenu .group-content{background:url(../../images/light-transparent.png) 0 0 repeat-x;}
+.ja-megamenu .group-title .menu-title {color:#fff;	text-transform: uppercase; font-weight: bold; font-size: 100%;}
+.ja-megamenu .group-title .menu-desc {color:#fff; padding-left: 0 !important;}
+span.menu-desc{padding-left: 0 !important;}
+.ja-megamenu .group-content .ja-moduletable,
+.ja-megamenu .group-content ul.megamenu  {
+	margin:1px 0 0 0; /* Group-content's gutter*/
+}

@@ -1,0 +1,115 @@
+/* --------------- LOGO HEIGHT AND WIDTH -------------*/
+h1.logo, h1.logo a{
+	width:171px; 	/*width of your logo image*/
+	height:72px;  	/*height of your logo image*/
+}
+
+h1.logo a{
+	background: url(../images/logo.png) no-repeat; /*please check on themes folder if you're not using default color skin*/
+}
+
+
+
+/* ------------------- COLOR SETTING ----------------*/
+
+::-webkit-selection {background: #47b0ba;}
+   ::-moz-selection {background: #47b0ba;}
+        ::selection {background: #47b0ba;}
+
+a:hover, #ja-container a:hover, #ja-wrapper h4.nspHeader a:hover, div.k2LatestCommentsBlock ul li a span:hover, .itemToolbar a, #ja-container .xt-nav.top a.current, #ja-portfolio .xt-nav.top a.current, .asterisk, #ja-topsl a, a.readon, table.cart-summary tr:last-child span, div.control-buttons strong, .cart-view a.continue_link, .dtree a.nodeSel {color:#47b0ba;}
+
+#user-login .button, #ja-container p.readmore span, ul.social li a, .pagination ul li span.pagenav, div.k2Pagination ul li span.pagenav, .pagination ul li:hover a, div.k2Pagination ul li:hover a, #filter a.active, #ja-mainnav .main, .ja-megamenu .childcontent-inner, a.k2ReadMore, .custom .xt-nav a.current span, #ja-navhelper strong, #ja-topsl .ja-moduletable h4, .nspVmStore .addtocart-bar span.addtocart-button input.addtocart-button, table.cart-summary .vm2-add_quantity_cart, .row .product .product-info a.product-details, #facebox .popup > div > div > a:hover, .homepage h4.nspHeader a, .gkTabsWrap.vertical ol li.active, .gkTabsWrap.horizontal ol li.active, .gkTabsContainer h4.nspHeader a, .category-view .row .category .spacer h2 a span, #ja-botsl input[type="submit"], #mycart .circle-in-cart, div.vmCartModule .show_cart a{background-color:#47b0ba;}
+
+button:hover, .button:hover, input[type="submit"]:hover, input[type="button"]:hover, #ja-container p.readmore span:hover, #filter a.active:hover, a.k2ReadMore:hover, div.control-buttons .default:hover, .product-info a.product-details:hover, .homepage h4.nspHeader a:hover, div.checkout-button-top .vm-button-correct:hover, .gkTabsWrap.vertical ol li:hover, .gkTabsWrap.horizontal ol li:hover, div.addtocart-bar span.addtocart-button input.addtocart-button:hover, div.vmCartModule .show_cart a:hover {background-color:#39a5af;}
+.xt-pane{border-top:6px solid #47b0ba;}
+
+span.custom-variant-inputbox input.custom-attribute:hover, input.vm-default:hover, span.quantity-box input.quantity-input:hover, .ask-a-question-view input.counter:hover, .ask-a-question-view input#email:hover, table.user-details input:hover, #userForm select:hover{border:1px solid #47b0ba;}
+
+.ja-moduletable h3 span, .row .product h2 a, .productdetails-view h1, .product-description .title, .customer-reviews .title, .productdetails-view h4, div.billto-shipto span, .userfields_info, legend .userfields_info, #pop-up-vmcart .moduletable h3, h3.heading {background:url(../images/title-span.png) 0 100% no-repeat;}
+
+
+/* ------------------- FONT FAMILY -----------------*/
+
+body#bd, .inputbox, #filter span, #filter a, #stage li a .description, .button, #ja-mainnav li ul li a, h4.nspHeader, #ja-topsl .ja-moduletable h5, #com-form-login h3, 
+.category-view .row .product .spacer h2, 
+.featured-view .row .product .spacer h2, 
+.latest-view .row .product .spacer h2, 
+.topten-view .row .product .spacer h2, 
+.related-products-view .row .product .spacer h2,
+.browse-view .row .product .spacer h2,
+.productdetails-view h4{font-family:'PTSansRegular', Helvetica, Arial, sans-serif;	}
+	
+h1, h2, h3, h4, h5, h5, .ja-megamenu ul.level0 li, #stage li a .description h3, .nspVmStore .PricesalesPrice, .nspVmStore .PricebasePriceWithTax {font-family:'DroidSansBold', Helvetica, Arial, sans-serif;}
+.moduletable-testimonial .nspText, .itemImageBlock{font-family: Georgia, "Times New Roman", Times, serif;}
+
+
+/* --------------------- FONT SIZE -----------------*/
+
+h1{font-size:30px;}
+h2, h2.itemTitle, #ja-container h2.contentheading, #ja-container h1.contentheading, .contentheading, #ja-promo .text h3{font-size:26px;}
+h3, #ja-promo .text h3, .subCategory h2, h2.genericItemTitle, h3.catItemTitle, h2.tagItemTitle{font-size:22px;}
+h4, .feed h4, .items-more h3, div.categories-list ul li .jitem-title{font-size:18px;}
+h5, h1.componentheading, .componentheading, .feed h5, .cat-children h3, .itemListSubCategories h3, .moduletable h3, #ja-topsl h4, .moduletable-testimonial h3, div.vmCartModule .total, div.vmCartModule .total_products{font-size:16px;}
+h6, .item-title, #ja-botsl .moduletable h3, h4.nspHeader, .moduletable-testimonial .nspText, .productdetails-view h4{font-size:14px;}
+
+#ja-mainnav li ul li a {font-size:11px;}
+#ja-mainnav ul li, #ja-header, #ja-botsl, .pagination {font-size:12px;}
+body#bd, p.site-slogan, #itemListLinks h3, #filter span, #filter a{font-size:13px;}
+#ja-footer,  #ja-navhelper, #ja-topmodules, #login-form li, .article-tools dl.article-info, div.bannergroup_text div.bannerfooter a, p.modifydate, #topmodules{font-size:11px;}
+p.nspInfo{font-size:11px;}
+dt.result-title{font-size:15px;}
+
+
+/* ----------------- ANIMATED CSS -----------------*/
+
+img.nspImage:hover, .item-page img:hover, .items-leading img:hover, .items-row img:hover, #pop-up-overlay,
+/* Start K2 Stuff --*/ span.catItemImage img:hover, span.itemImage img:hover, span.userItemImage img:hover, a.subCategoryImage img:hover,
+/* Start virtuemart stuff */ .category-view .category:hover img, .featured-view img:hover, .latest-view img:hover, .related-products-view img:hover, .browse-view img:hover{
+	 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";	
+	  opacity:0.6;
+	  filter: alpha(opacity=60); 
+	 }
+	
+ul.social li a, #ja-topsl .ja-moduletable img, .item-page img, .items-leading img, .items-row img, .button, #member-registration .validate, .form-validate button, .foxform input, .foxform textarea, input.validfoxtext, textarea.validfoxtext, input.invalidfoxtext, textarea.invalidfoxtext, select.foxtext, select.validfoxtext, select.invalidfoxtext, .foxcheckbox, .foxbutton, .validcheckbox, .invalidcheckbox, .outer_dropdown, .foxcheckbox, #ja-botsl .inputbox, .inputbox, .form-validate input, .login-fields input, .form-validate select, input#recaptcha_response_field,
+/* Start NSP GK4 Stuff */img.nspImage, .nspVmStore span.addtocart-button input.addtocart-button, h4.nspHeader a, .gkTabsWrap.vertical ol li, 
+/* Start K2 Stuff */span.catItemImage img, span.itemImage img, span.genericItemImage img, span.userItemImage img, a.subCategoryImage img, #k2Container .k2ReadMore, 
+/* Start Virtuemart Stuff */ .category-view img, .featured-view img, .latest-view img, .related-products-view img, .browse-view img, input.addtocart-button{
+	opacity:1.0;      
+	-webkit-transition: all 0.4s ease; /* Saf3.2+, Chrome */
+       -moz-transition: all 0.4s ease; /* FF3.7+ */
+	     -o-transition: all 0.4s ease; /* Opera 10.5 */
+            transition: all 0.4s ease;
+	 -webkit-transform: scale(1.0);	
+    	-moz-transform: scale(1.0);
+}
+.pagination ul li:hover a, div.k2Pagination ul li:hover a, fieldset{
+	-webkit-transition: background 0.4s ease; /* Saf3.2+, Chrome */
+       -moz-transition: background 0.4s ease; /* FF3.7+ */
+	     -o-transition: background 0.4s ease; /* Opera 10.5 */
+            transition: background 0.4s ease;
+}
+
+/*------------- ROUNDED SETTING ------------------*/
+.nspVmStore .addtocart-bar span.addtocart-button input.addtocart-button, ul.social li a{
+	-webkit-border-radius:40px;
+ 	 -khtml-border-radius:40px;
+	   -moz-border-radius:40px; 
+    	    border-radius:40px; 
+}
+
+table.cart-summary .vm2-remove_from_cart,
+table.cart-summary .vm2-add_quantity_cart, #mycart .circle-in-cart{
+	-webkit-border-radius:24px;
+ 	 -khtml-border-radius:24px;
+	   -moz-border-radius:24px; 
+    	    border-radius:24px; 
+	}
+	
+.orderlistcontainer div.activeOrder, 
+.display-number select.inputbox{
+	-webkit-border-radius:4px;
+ 	 -khtml-border-radius:4px;
+	   -moz-border-radius:4px; 
+    	    border-radius:4px; 
+	
+	}

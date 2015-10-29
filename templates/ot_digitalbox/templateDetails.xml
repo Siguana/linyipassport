@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+	<name>ot_digitalbox</name>
+	<creationDate>May 2012</creationDate>
+	<author>OmegaTheme.com</author>
+	<authorEmail>services@omegatheme.com</authorEmail>
+	<authorUrl>http://omegatheme.com</authorUrl>
+	<copyright>Copyright (C) 2008 - 2012 OmegaTheme. All Rights Reserved</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>2.5.0</version>
+	<description><![CDATA[
+		<img src="../templates/ot_digitalbox/template_thumbnail.png" style="float: right; margin: 0px 0px 10px 10px;" alt="OT DigitalBox template" />
+		<div style="font-size: 13px;">
+		<strong>OT DigitalBox</strong> joomla 2.5 template from <strong>OmegaTheme</strong>. 
+		<br /><br /><strong>OmegaTheme</strong><br />Professional, clean and powerfull Joomla templates.<br /><a href="http://omegatheme.com/" title="OmegaTheme homepage">http://omegatheme.com</a>.
+		<br /><br /><strong>Omega Templates</strong><br />See a template product of all Omegatheme templates.<br /><a href="http://www.omegatheme.com/joomla.html" title="Go to OmegaTheme templates overview">http://www.omegatheme.com/joomla.html</a>.
+		<br /><br /><strong>Omega New and Updates</strong><br />Read the News, updates, tutorials and get help for all Omegatheme products.<br /><a href="http://omegatheme.com" title="OmegaTheme templates News, updates and more">http://omegatheme.com</a>.
+		</div>
+		]]>
+	</description>
+	
+	<!-- 	For core templates, we also install/uninstall the language files in the core language folders.
+	-->
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_ot_digitalbox.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_ot_digitalbox.sys.ini</language>
+	</languages>
+	<administration>
+		<languages folder="language">
+			<language tag="en-GB">en-GB/en-GB.tpl_ot_digitalbox.ini</language>
+			<language tag="en-GB">en-GB/en-GB.tpl_ot_digitalbox.sys.ini</language>
+		</languages>
+	</administration>
+	
+	<files>
+		<folder>admin</folder>
+		<folder>css</folder>
+		<folder>elements</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>language</folder>
+		<folder>lib</folder>
+		<folder>scripts</folder>
+		
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>params.ini</filename>
+		<filename>favicon.ico</filename>
+		<filename>component.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+	<positions>
+		<position>logo</position>
+		<position>headertop-1</position>
+		<position>headertop-2</position>
+		<position>mainmenu</position>
+		<position>top-extend</position>
+		<position>breadcrumb</position>
+		<position>banner</position>
+		<position>topbox-1</position>
+		<position>topbox-2</position>
+		<position>topbox-3</position>
+		<position>topbox-4</position>
+		<position>topbox-5</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top-content</position>
+		<position>bottom-content</position>
+		<position>bottom-extend-1</position>
+		<position>bottom-extend-2</position>
+		<position>bottom-extend-3</position>
+		<position>bottom-extend-4</position>
+		<position>bottom-extend-5</position>
+		<position>bottombox-1</position>
+		<position>bottombox-2</position>
+		<position>bottombox-3</position>
+		<position>bottombox-4</position>
+		<position>bottombox-5</position>
+		<position>bottom-1</position>
+		<position>bottom-2</position>
+	</positions>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="PRESETSTYLES" addfieldpath="/templates/ot_digitalbox/elements/">
+				<field name="layoutStyle" 
+					type="radio" 
+					default="orange" 
+					label="TPL_PRESET_STYLES" 
+					description="TPL_PRESET_STYLES_DESC" >
+						<option value="orange">orange</option>
+				</field>
+			</fieldset>
+			
+			<fieldset name="LAYOUTS" addfieldpath="/templates/ot_digitalbox/elements/">
+			
+				<field name="CustomWidthTemplate" 
+					type="radio" 
+					default="0" 
+					label="TPL_CUSTOM_WIDTH_TEMPLATE"
+					description="TPL_CUSTOM_WIDTH_TEMPLATE_DESC" >
+						<option value="1">Yes</option>
+						<option value="0">No</option>
+				</field>
+				
+				<field name="width_template" 
+					type="text" 
+					default="980px" 
+					size="10" 
+					label="TPL_TEMPLATE_WIDTH" 
+					description="TPL_TEMPLATE_WIDTH_DESC" />
+				
+				<field name="width_left" 
+					type="text" 
+					default="240px" 
+					size="10" 
+					label="TPL_LEFT_COLUMN_WIDTH" 
+					description="TPL_LEFT_COLUMN_WIDTH_DESC" />
+				
+				<field name="width_right"
+					type="text" 
+					default="240px" 
+					size="10" 
+					label="TPL_RIGHT_COLUMN_WIDTH" 
+					description="TPL_RIGHT_COLUMN_WIDTH_DESC" />
+				
+				<field type="spacer" name="spacer1" label="&lt;div style=&quot;width: 300%; font-weight:bold;font-size:12px;padding: 4px 0px;margin:0;&quot;&gt;&lt;hr/&gt;&lt;/div&gt;" />
+				
+				<field name="layoutType" 
+					type="radio" 
+					default="left-content-right" 
+					label="TPL_DEFAULT_LAYOUT_TYLE" 
+					description="TPL_DEFAULT_LAYOUT_TYLE_DESC" >
+						<option value="left-content-right">TPL_LEFT_CONTENT_RIGHT</option>
+						<option value="left-right-content">TPL_LEFT_RIGHT_CONTENT</option>
+						<option value="content-left-right">TPL_CONTENT_LEFT_RIGHT</option>
+				</field>
+				
+				<field type="spacer" name="spacer2" label="&lt;div style=&quot;width: 300%; font-weight:bold;font-size:12px;padding: 4px 0px;margin:0;&quot;&gt;&lt;hr/&gt;Custom Width of Boxes&lt;/div&gt;" />
+				
+				<field name="CustomWidthtopBoxes" 
+					type="radio" 
+					default="default" 
+					label="TPL_CUSTOM_WIDTH_BOXES"
+					description="TPL_CUSTOM_WIDTH_BOXES_DESC" >
+						<option value="custom">Yes</option>
+						<option value="default">No</option>
+				</field>
+				
+				<field name="unitWidthtopBoxes" 
+					type="radio" 
+					default="%" 
+					label="TPL_UNIT_OF_WIDTH"
+					description="TPL_UNIT_OF_WIDTH_DESC" >
+						<option value="%">TPL_PERCENT</option>
+						<option value="px">TPL_PIXCEL</option>
+				</field>
+				
+				<field type="spacer" name="width_topboxes_label" label="TPL_CUSTOM_WIDTH_TOP_BOXES" description="TPL_CUSTOM_WIDTH_TOP_BOXES_DESC" />
+				<field name="width_topboxes" 
+					type="textarea" 
+					default="(100);
+									(50, 50);
+									(33, 33, 33);
+									(25, 25, 25, 25);
+									(20, 20, 20, 20, 20);"
+					cols="50"
+					rows="5" 
+					label="" 
+					description="" />
+				
+				<field name="CustomWidthbottomExtends" 
+					type="radio" 
+					default="default" 
+					label="TPL_CUSTOM_WIDTH_BOXES"
+					description="TPL_CUSTOM_WIDTH_BOXES_DESC" >
+						<option value="custom">Yes</option>
+						<option value="default">No</option>
+				</field>
+				
+				<field name="unitWidthbottomExtends" 
+					type="radio" 
+					default="%" 
+					label="TPL_UNIT_OF_WIDTH"
+					description="TPL_UNIT_OF_WIDTH_DESC" >
+						<option value="%">TPL_PERCENT</option>
+						<option value="px">TPL_PIXCEL</option>
+				</field>
+				
+				<field type="spacer" name="width_bottomextends_label" label="TPL_CUSTOM_WIDTH_BOTTOM_EXTENDS" description="TPL_CUSTOM_WIDTH_BOTTOM_EXTENDS_DESC" />
+				<field name="width_bottomextends" 
+					type="textarea" 
+					default="(100);
+									(50, 50);
+									(33, 33, 33);
+									(25, 25, 25, 25);
+									(20, 20, 20, 20, 20);"
+					cols="50"
+					rows="5" 
+					label="" 
+					description="" />
+					
+				<field name="CustomWidthbottomBoxes" 
+					type="radio" 
+					default="default" 
+					label="TPL_CUSTOM_WIDTH_BOXES"
+					description="TPL_CUSTOM_WIDTH_BOXES_DESC" >
+						<option value="custom">Yes</option>
+						<option value="default">No</option>
+				</field>
+				
+				<field name="unitWidthbottomBoxes" 
+					type="radio" 
+					default="%" 
+					label="TPL_UNIT_OF_WIDTH"
+					description="TPL_UNIT_OF_WIDTH_DESC" >
+						<option value="%">TPL_PERCENT</option>
+						<option value="px">TPL_PIXCEL</option>
+				</field>
+				
+				<field type="spacer" name="width_bottomboxes_label" label="TPL_CUSTOM_WIDTH_BOTTOM_BOXES" description="TPL_CUSTOM_WIDTH_BOTTOM_BOXES_DESC" />
+				<field name="width_bottomboxes" 
+					type="textarea" 
+					default="(100);
+									(50, 50);
+									(33, 33, 33);
+									(25, 25, 25, 25);
+									(20, 20, 20, 20, 20);"
+					cols="50"
+					rows="5" 
+					label="" 
+					description="" />
+			</fieldset>
+			
+			<fieldset name="SETTINGS" addfieldpath="/templates/ot_digitalbox/elements/">
+				
+				<field name="colorchoser_script" 
+					type="color" 
+					default="" 
+					label=" " 
+					description=" " />
+				
+				<field name="customBackground" 
+					type="radio" 
+					default="0" 
+					label="TPL_CUSTOM_BACKGROUND"
+					description="TPL_CUSTOM_BACKGROUND_DESC" >
+						<option value="1">Yes</option>
+						<option value="0">No</option>
+				</field>
+				
+				<field name="body_bgcolor" 
+					type="text" 
+					default="#666666" 
+					class="color {hash:true}" 
+					label="TPL_BODY_BACKGROUND" 
+					description="TPL_BODY_BACKGROUND_DESC" />
+				
+				<field name="header_bgcolor" 
+					type="text" 
+					default="#333333" 
+					class="color {hash:true}" 
+					label="TPL_HEADER_BACKGROUND" 
+					description="TPL_HEADER_BACKGROUND_DESC" />
+				
+				<field name="topboxes_bgcolor" 
+					type="text" 
+					default="#100F14" 
+					class="color {hash:true}"
+					label="TPL_TOPBOXES_BACKGROUND" 
+					description="TPL_TOPBOXES_BACKGROUND_DESC" />
+				
+				<field name="bottomextends_bgcolor" 
+					type="text" 
+					default="#333333" 
+					class="color {hash:true}"
+					label="TPL_EXTENDBOXES_BACKGROUND" 
+					description="TPL_EXTENDBOXES_BACKGROUND_DESC" />
+				
+				<field name="bottomboxes_bgcolor" 
+					type="text" 
+					default="#F7F4EC" 
+					class="color {hash:true}"
+					label="TPL_BOTTOMBOXES_BACKGROUND" 
+					description="TPL_BOTTOMBOXES_BACKGROUND_DESC" />
+				
+				<field name="footer_bgcolor" 
+					type="text" 
+					default="#333333" 
+					class="color {hash:true}"
+					label="TPL_FOOTER_BACKGROUND" 
+					description="TPL_FOOTER_BACKGROUND_DESC" />
+				
+				<field name="gfont_list" 
+					type="googlefontsloader" 
+					default="" 
+					label=" " 
+					description=" " />
+				
+				<field name="gfont_script" 
+					type="googlefontscript" 
+					default="" 
+					label=" " 
+					description=" " />
+				
+				<field name="gfont_preview" 
+					type="googlefontpreview" 
+					default="" 
+					label=" " 
+					description=" " />
+				
+				<field type="spacer" name="spacer3" label="&lt;div style=&quot;width: 300%; font-weight:bold;font-size:12px;padding: 4px 0px;margin:0;&quot;&gt;&lt;hr/&gt;Custom Body Font&lt;/div&gt;" />
+				
+				<field name="CustomBodyFont" 
+					type="radio" 
+					default="0" 
+					label="TPL_CUSTOM_BODY_FONT"
+					description="TPL_CUSTOM_BODY_FONT_DESC" >
+						<option value="1">Yes</option>
+						<option value="0">No</option>
+				</field>
+				
+				<field name="font_family" 
+					type="googlefonts" 
+					default="" 
+					label="TPL_FONT_FAMILY" 
+					description="TPL_FONT_FAMILY_DESC" />
+				
+				<field name="color_text" 
+					type="text"
+					class="color {hash:true}"
+					default="#333333" 
+					label="TPL_TEXT_COLOR" 
+					description="TPL_TEXT_COLOR_DESC" />
+				
+				<field name="color_links" 
+					type="text" 
+					class="color {hash:true}"
+					default="#CB3742" 
+					label="TPL_LINKS_COLOR" 
+					description="TPL_LINKS_COLOR_DESC" />
+				
+				<field name="fontSize" 
+					type="text" 
+					default="12px" 
+					size="10" 
+					label="TPL_FONT_SIZE" 
+					description="TPL_FONT_SIZE_DESC" />
+				
+				<field type="spacer" name="spacer4" label="&lt;div style=&quot;width: 300%; font-weight:bold;font-size:12px;padding: 4px 0px;margin:0;&quot;&gt;&lt;hr/&gt;Custom Headings Font&lt;/div&gt;" />
+				
+				<field name="CustomHeadingFont" 
+					type="radio" 
+					default="0" 
+					label="TPL_CUSTOM_HEADING_FONT"
+					description="TPL_CUSTOM_HEADING_FONT_DESC" >
+						<option value="1">Yes</option>
+						<option value="0">No</option>
+				</field>
+				
+				<field name="h1font_family" 
+					type="googlefonts" 
+					default="" 
+					label="TPL_H1_FONT_FAMILY" 
+					description="TPL_H1_FONT_FAMILY_DESC" />
+				
+				<field name="h1font_size" 
+					type="text" 
+					default="3em" 
+					size="10" 
+					label="TPL_H1_FONT_SIZE" 
+					description="TPL_H1_FONT_SIZE_DESC" />
+				
+				<field name="h1_color" 
+					type="text" 
+					class="color {hash:true}" 
+					default="#1EA3A5" 
+					label="TPL_H1_COLOR" 
+					description="TPL_H1_COLOR_DESC" />
+				
+				<field name="h2font_family" 
+					type="googlefonts" 
+					default="" 
+					label="TPL_H2_FONT_FAMILY" 
+					description="TPL_H2_FONT_FAMILY_DESC" />
+				
+				<field name="h2font_size" 
+					type="text" 
+					default="2em" 
+					size="10" 
+					label="TPL_H2_FONT_SIZE" 
+					description="TPL_H2_FONT_SIZE_DESC" />
+				
+				<field name="h2_color" 
+					type="text" 
+					class="color {hash:true}" 
+					default="#1EA3A5" 
+					label="TPL_H2_COLOR" 
+					description="TPL_H2_COLOR_DESC" />
+				
+				<field name="h3font_family" 
+					type="googlefonts" 
+					default="" 
+					label="TPL_H3_FONT_FAMILY" 
+					description="TPL_H3_FONT_FAMILY_DESC" />
+				
+				<field name="h3font_size" 
+					type="text" 
+					default="1.5em" 
+					size="10" 
+					label="TPL_H3_FONT_SIZE" 
+					description="TPL_H3_FONT_SIZE_DESC" />
+				
+				<field name="h3_color" 
+					type="text" 
+					class="color {hash:true}" 
+					default="#1EA3A5" 
+					label="TPL_H3_COLOR" 
+					description="TPL_H3_COLOR_DESC" />
+				
+				<field name="h4font_family" 
+					type="googlefonts" 
+					default="" 
+					label="TPL_H4_FONT_FAMILY" 
+					description="TPL_H4_FONT_FAMILY_DESC" />
+				
+				<field name="h4font_size" 
+					type="text" 
+					default="1.25em" 
+					size="10" 
+					label="TPL_H4_FONT_SIZE" 
+					description="TPL_H4_FONT_SIZE_DESC" />
+				
+				<field name="h4_color" 
+					type="text" 
+					class="color {hash:true}" 
+					default="#1EA3A5" 
+					label="TPL_H4_COLOR" 
+					description="TPL_H4_COLOR_DESC" />
+				
+				<field name="h5font_family" 
+					type="googlefonts" 
+					default="" 
+					label="TPL_H5_FONT_FAMILY" 
+					description="TPL_H5_FONT_FAMILY_DESC" />
+				
+				<field name="h5font_size" 
+					type="text" 
+					default="1em" 
+					size="10" 
+					label="TPL_H5_FONT_SIZE" 
+					description="TPL_H5_FONT_SIZE_DESC" />
+				
+				<field name="h5_color" 
+					type="text" 
+					class="color {hash:true}" 
+					default="#1EA3A5" 
+					label="TPL_H5_COLOR" 
+					description="TPL_H5_COLOR_DESC" />
+				
+				<field name="h6font_family" 
+					type="googlefonts" 
+					default="" 
+					label="TPL_H6_FONT_FAMILY" 
+					description="TPL_H6_FONT_FAMILY_DESC" />
+				
+				<field name="h6font_size" 
+					type="text" 
+					default="1em" 
+					size="10" 
+					label="TPL_H6_FONT_SIZE" 
+					description="TPL_H6_FONT_SIZE_DESC" />
+				
+				<field name="h6_color" 
+					type="text" 
+					class="color {hash:true}" 
+					default="#1EA3A5" 
+					label="TPL_H6_COLOR" 
+					description="TPL_H6_COLOR_DESC" />
+				
+				<field type="spacer" name="spacer5" label="&lt;div style=&quot;width: 300%; font-weight:bold;font-size:12px;padding: 4px 0px;margin:0;&quot;&gt;&lt;hr/&gt;Custom Main Menu Font&lt;/div&gt;" />
+				
+				<field name="CustomMainMenu" 
+					type="radio" 
+					default="0" 
+					label="TPL_CUSTOM_MAINMENU"
+					description="TPL_CUSTOM_MAINMENU_DESC" >
+						<option value="1">Yes</option>
+						<option value="0">No</option>
+				</field>
+				
+				<field name="mainnavfont_family" 
+					type="googlefonts" 
+					default="" 
+					label="TPL_FONT_FAMILY_MAINMENU" 
+					description="TPL_FONT_FAMILY_MAINMENU_DESC" />
+				
+				<field name="mainnavfont_size" 
+					type="text" 
+					default="12px" 
+					size="10" 
+					label="TPL_FONT_SIZE_MAINMENU" 
+					description="TPL_FONT_SIZE_MAINMENU_DESC" />
+				
+				<field name="mainnav_color" 
+					type="text" 
+					default="#E9E9E9" 
+					class="color {hash:true}" 
+					label="TPL_COLOR_MAINMENU" 
+					description="TPL_COLOR_MAINMENU_DESC" />
+				
+				<field type="spacer" name="spacer6" label="&lt;div style=&quot;width: 300%; font-weight:bold;font-size:12px;padding: 4px 0px;margin:0;&quot;&gt;&lt;hr/&gt;Custom Blockquote Font&lt;/div&gt;" />
+				
+				<field name="CustomBlockquote" 
+					type="radio" 
+					default="0" 
+					label="TPL_CUSTOM_BLOCKQUOTE"
+					description="TPL_CUSTOM_BLOCKQUOTE_DESC" >
+						<option value="1">Yes</option>
+						<option value="0">No</option>
+				</field>
+				
+				<field name="blockquotefont_family" 
+					type="googlefonts" 
+					default="" 
+					label="TPL_FONT_FAMILY_BLOCKQUOTE" 
+					description="TPL_FONT_FAMILY_BLOCKQUOTE_DESC" />
+				
+				<field name="blockquotefont_size" 
+					type="text" 
+					default="12px" 
+					size="10" 
+					label="TPL_FONT_SIZE_BLOCKQUOTE" 
+					description="TPL_FONT_SIZE_BLOCKQUOTE_DESC" />
+				
+				<field name="blockquote_color" 
+					type="text" 
+					class="color {hash:true}" 
+					default="#333333" 
+					label="TPL_COLOR_BLOCKQUOTE" 
+					description="TPL_COLOR_BLOCKQUOTE_DESC" />
+				
+			</fieldset>
+		</fields>
+	</config>
+</extension>

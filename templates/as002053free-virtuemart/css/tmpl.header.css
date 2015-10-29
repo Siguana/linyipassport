@@ -1,0 +1,551 @@
+/**************************************************************************************/
+/*
+/*		Designed by 'AS Designing'
+/*		Web: http://www.asdesigning.com
+/*		Web: http://www.astemplates.com
+/*		License: Creative Commons
+/*
+/**************************************************************************************/
+
+
+/**************************************************************************************/
+/*   Header
+/**************************************************************************************/
+/**************************************************************************************/
+
+
+#header
+{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+#header .content
+{
+	margin: 0px auto 0px auto;
+	overflow: visible;	
+}
+
+
+/**************************************************************************************/
+/*   Header Row 0			  														  */
+
+#header .row0
+{
+	margin: 0px 0px 0px 0px;
+	padding: 15px 0px 15px 0px;	
+	text-align: right;
+    width: 50%;
+    float: right;
+    height: 140px;
+}
+
+#header .row0 .content
+{
+	padding: 10px 0px;	
+	overflow: hidden;
+    border-bottom: 1px solid #ddd;
+}
+
+#header .row0 .content.row0col2
+{
+    border: none;
+}
+
+#header .row0 .search
+{
+}
+
+#header .row0 .search input
+{
+	float: right;
+	width: 75px;
+	height: 18px;
+	margin: 0px 0px 0px 0px;
+	padding: 7px 4px 9px 35px;
+	background-color: transparent;
+	background-image: url('../images/bg.search.png');
+	background-repeat: no-repeat;
+	background-position: top left;	
+    transition:width 2s;
+    -webkit-transition:width 2s; /* Safari */
+}
+
+#header .row0 .search input:hover, #header .row0 .search input:focus
+{
+    width: 180px;
+    transition:width 2s;
+    -webkit-transition:width 2s; /* Safari */
+}
+
+#header .row0 ul
+{
+	height: 35px;
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+	overflow: hidden;
+    width: auto;
+    float: left;	
+}
+
+#header .row0 ul.menu_vm_account
+{
+    float: right;
+}
+
+#header .row0 li
+{
+	height: 30px;
+	overflow: hidden;
+	display: inline;
+	background-image: none;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+    float: left;
+}
+
+#header .row0  li a
+{
+	height: 35px;
+	overflow: hidden;
+}
+
+#header .row0 ul.menu_vm_account li
+{
+    padding: 11px 0 0;
+}
+
+#header .row0 ul.menu_vm_account li a, #header .row0 ul.menu_vm_account li span
+{
+    padding-left: 15px;
+    font-size: 11px;
+}
+
+#header .row0 li a img
+{
+	position: relative;
+	margin: 5px 13px 0px 3px;
+}
+
+
+/**************************************************************************************/
+/*   Header Row 1			  														  */
+
+#header .row1
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+    width: 40%;
+    float: left;
+}
+
+#header .row1 .content
+{
+	padding: 0px;
+}
+
+#header .row1 img
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+
+#header .row1 .row1col1
+{
+	float: left;
+	min-height: 0%;
+	margin: 10px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background-color: transparent;
+}
+
+#header .row1 .row1col2
+{
+	width: 480px;
+	float: right;
+	text-align: right;
+	margin: 25px 5px 0px 0px;
+	line-height: 20px;	
+}
+
+#header .row1 .row1col2 ul li 
+{
+    height: 15px;
+    margin: 0;
+    padding: 3px 50px 3px 25px;
+	list-style: none outside none;
+    background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#header .row1 #companyname
+{
+	height: 90px;
+	margin: 0px 0px 35px 0px;	
+}
+
+#header .row1 .companyname
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+    font-weight: normal;
+	border: none;
+}
+
+#header .row1 #companyname a
+{
+	border: none;
+}
+
+#header .row1 .slogan
+{
+	border: none;
+	font-size: 10px;
+	font-weight: normal;
+	margin: -7px 1px 0px 0px;
+	text-align: right;	
+}
+
+#header .row1 .companycontacts
+{
+	font-size: 12px;
+}
+
+#header .row1 .companycontacts .callnow b
+{
+	margin: 0px 0px 0px 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/********** Top Menu ***************************************************************/
+
+#header .row2 #topmenu
+{
+	min-height: 57px;
+	float: left;
+	margin: 0px 0px 30px 0px;
+	padding: 0px 0px 0px 0px;
+	position: relative;		
+	z-index: 20;
+	text-align: center;
+}
+
+#header .row2 #topmenu ul.menu
+{
+	float: left;
+	display: block;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+	text-align: center;
+	list-style-type: none;
+	overflow: visible;
+	left: -2px;
+}
+
+#header .row2 #topmenu ul.menu li 
+{  
+	float: left;
+	margin: 0px 0px 0px -1px;	
+	padding: 0px 0px 0px 0px;
+	position: relative; 
+	list-style: none; 
+	background: none;
+	z-index: 100;
+	overflow: visible;
+}
+
+#header .row2 #topmenu ul.menu li:last-child
+{
+	background-image: none;
+}
+
+#header .row2 #topmenu ul.menu li a 
+{
+	height: 33px;
+	display: block;	
+	padding: 22px 30px 2px 30px; 
+	font-weight: normal;
+	text-decoration: none;  
+	border: none;
+	border-style: none;
+	outline-style: none;
+	position: relative;
+	text-align: center;
+}
+
+#header .row2 #topmenu ul.menu li.current,
+#header .row2 #topmenu ul.menu li.active,
+#header .row2 #topmenu ul.menu li.actives,
+#header .row2 #topmenu ul.menu li:hover
+{
+	display: block;
+}
+
+#header .row2 #topmenu ul.menu li span
+{
+	display: block;
+}
+
+#header .row2 #topmenu ul.menu ul 
+{
+	display: none; 
+	margin: 0px 0px 0px 0px;
+	padding: 5px 0px 5px 0px;
+	top: 57px;
+	left: -1px; 
+	position: absolute !important;
+	z-index: 0 !important;
+	overflow: visible;
+	text-shadow: none;
+}
+
+#header .row2 #topmenu ul.menu > ul > li  
+{
+	float: none !important; 
+}
+
+#header .row2 #topmenu ul.menu ul .bgtop,
+#header .row2 #topmenu ul.menu ul .bgbottom
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+#header .row2 #topmenu ul.menu ul li
+{ 	
+	height: 15px;
+	margin: 0px 0px 0px 0px;
+	padding: 7px 0px 6px 0px;
+	border: none;
+	background-image: none;
+}
+
+#header .row2 #topmenu ul.menu ul li a,
+#header .row2 #topmenu ul.menu ul li span.separator,
+#header .row2 #topmenu ul.menu ul li ul li a,
+#header .row2 #topmenu ul.menu ul li ul li span.separator
+{ 	
+	margin: 0px 0px 0px 0px !important;	
+	padding: 0px 0px 0px 35px !important; 
+	text-align: left;		
+	display: block; 
+	text-decoration:none;
+	outline-style: none;
+	border: none;	
+	background-image: none;
+}
+
+#header .row2 #topmenu ul.menu li.current ul,
+#header .row2 #topmenu ul.menu li.active ul,
+#header .row2 #topmenu ul.menu li.actives ul,
+#header .row2 #topmenu ul.menu li:hover ul
+#header .row2 #topmenu ul.menu ul li,
+#header .row2 #topmenu ul.menu ul li:hover
+{
+}
+
+#header .row2 #topmenu ul.menu ul li.parent
+{
+	background-position: top right;
+}
+
+#header .row2 #topmenu ul.menu ul ul 
+{
+	display: none;
+	margin: 0px 0px 0px 0px;
+	padding: 1px 0px 0px 0px;
+	top: -16px;
+}
+
+#header .row2 #topmenu ul.menu ul ul li
+{
+}
+
+#header .row2 #topmenu ul.menu ul ul li a 
+{ 	
+	padding: 0px !important;	
+	text-align: center;
+	display: block; 
+	text-decoration: none;
+}
+
+#header .row2 #topmenu ul.menu ul li.parent ul li a
+{
+	background-image: none;
+}
+
+#header .row2 #headerimg
+{
+	float: right;	
+}
+
+	
+/**************************************************************************************/
+/*  Header Row 3 			  														  */
+
+#header .row3
+{
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 30px;
+	background-color: transparent;
+}
+
+#header .row3 .content
+{
+	margin: 0px auto 0px auto;	
+	padding: 0px;
+	overflow: hidden;	
+	display: block;
+	clear: both;
+}
+
+#header .row3 h1,
+#header .row3 h2, 
+#header .row3 h3,
+#header .row3 h4,
+#header .row3 h5
+{
+	margin: 0px 0px 18px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+
+#header .row3 .slider
+{
+	float: left;
+	padding: 0px 0px 0px 0px;
+    background-attachment: fixed;
+}
+
+#header .row3 p
+{
+	padding: 0px 0px 10px 0px;	
+}
+
+#header .row3col1
+{
+	float: left;
+	margin: 0px 0px 0px 0px;
+}
+
+#header .row3col2 .toprow p
+{
+	padding: 0px 0px 0px 0px;	
+}
+
+#header .row3col2
+{
+	float: right;
+	margin: 0px 0px 0px 0px;	
+}
+
+#header .row3col2 .bottomrow p
+{
+	padding: 0px 0px 10px 0px;	
+}
+
+#header .row3 .toprow
+{
+	padding: 25px;
+	margin-bottom: 0px;
+    background-attachment: fixed;
+}
+
+#header .bottomrow
+{
+	padding: 0px;
+	padding-top: 25px;
+}
+
+
+
+
+/**************************************************************************************/
+/*   Row 4			  																  */
+
+#header .row4
+{
+	margin: 0px 0px 30px 0px;
+	padding: 0px 0px 0px 0px;		
+	overflow: hidden;
+}
+
+#header .row4 h1,
+#header .row4 h2,
+#header .row4 h3
+{
+	margin: 0px 0px 15px 0px;
+	padding: 0px 0px 0px 0px;
+	overflow: hidden !important;
+	text-shadow: none;	
+}
+
+#header .row4 p
+{
+	padding: 0px 0px 0px 0px;	
+}
+
+#header .row4 p.imgframe
+{
+	padding: 0px 0px 10px 0px;	
+}
+
+#header .row4 p img
+{
+	margin: 0px 0px 0px 0px;	
+}
+
+#header .row4 li
+{
+	list-style: none outside none;
+	padding: 0px 0px 0px 20px;
+}
+
+#header .row4 .content
+{
+	overflow: hidden;
+}
+
+#header .row4 .wrapper
+{
+	overflow: hidden;
+	margin: 0px 0px 3px 0px;	
+}
+
+#header .row4 .moduletable
+{
+	margin: 0px 0px 0px 0px;
+	padding: 30px 25px 30px 25px;	
+}
+
+#header .row4 .row4col1,
+#header .row4 .row4col2,
+#header .row4 .row4col3,
+#header .row4 .row4col4
+{
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	overflow: hidden;
+}
+
+#header .row4 ul
+{
+	clear: none;
+}
+
+#header .row4 img.left
+{
+	margin: 0px 20px 10px 0px;	
+}
+
+#header .row4 img.right
+{
+	margin: 0px 0px 10px 20px;	
+}
+
+

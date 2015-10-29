@@ -1,0 +1,237 @@
+.sj-accordion-menu{
+	margin:0 0;
+	background:#00b6f3;
+	border-top:5px solid #eaeaea;
+	border-bottom:5px solid #eaeaea;
+}
+.sj-accordion-menu a {
+	text-decoration: none;
+	background: none;
+	font-family: arial;
+}
+
+.sj-accordion-menu a:hover,
+.sj-accordion-menu a:visited,
+.sj-accordion-menu a:active,
+.sj-accordion-menu a:focus{
+	/*background: none;*/
+}
+
+.sj-accordion-menu ul {
+	list-style: none !important;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+.sj-accordion-menu li {
+	cursor: pointer;
+	background: none;
+	padding-top:7px;
+	padding-bottom:7px;
+	border-bottom:1px solid #33c5f5;
+}
+.sj-accordion-menu li:hover.level1, .sj-accordion-menu li.opened{
+	background:#00A3DA ;
+}
+.sj-accordion-menu li.opened .sj-item-wrapper .sj-menu-link{
+	
+}
+.sj-accordion-menu li a{
+	background: url(../images/ico_feature.png) no-repeat center left;
+	padding-left:40px;
+	margin-left:5px;
+}
+.sj-accordion-menu li a.Home{
+	background: url(../images/ico_home.png) no-repeat center left;
+	
+}
+.sj-accordion-menu li a.Features{
+	background: url(../images/ico_feature.png) no-repeat center left;
+}
+.sj-accordion-menu li a.Joomla{
+	background: url(../images/ico_joomla.png) no-repeat center left;
+}
+.sj-accordion-menu li a.Allfiles {
+	background: url(../images/ico_allfile.png) no-repeat center left;
+}
+.sj-accordion-menu li a.Mobile {
+	background: url(../images/ico_mobile.png) no-repeat center left;
+}
+.sj-accordion-menu li a.Computing {
+	background: url(../images/ico_comp.png) no-repeat center left;
+}
+.sj-accordion-menu li a.TV {
+	background: url(../images/ico_tv.png) no-repeat center left;
+}
+.sj-accordion-menu li a.Photo {
+	background: url(../images/ico_photo.png) no-repeat center left;
+}
+.sj-accordion-menu li a.Accessories {
+	background: url(../images/ico_access.png) no-repeat center left;
+}
+
+
+.rtl .sj-accordion-menu li a{
+	background: url(../images/ico_feature.png) no-repeat center right;
+	padding-right:40px;
+	margin-right:5px;
+	padding-left:0px;
+}
+.rtl .sj-accordion-menu li a.Home{
+	background: url(../images/ico_home.png) no-repeat center right;
+}
+.rtl .sj-accordion-menu li a.Feat{
+	background: url(../images/ico_feature.png) no-repeat center right;
+}
+.rtl .sj-accordion-menu li a.Joom{
+	background: url(../images/ico_joomla.png) no-repeat center right;
+}
+.rtl .sj-accordion-menu li a.Allfiles {
+	background: url(../images/ico_allfile.png) no-repeat center right;
+}
+.rtl .sj-accordion-menu li a.Mobile {
+	background: url(../images/ico_mobile.png) no-repeat center right;
+}
+.rtl .sj-accordion-menu li a.Computing {
+	background: url(../images/ico_comp.png) no-repeat center right;
+}
+.rtl .sj-accordion-menu li a.TV {
+	background: url(../images/ico_tv.png) no-repeat center right;
+}
+.rtl .sj-accordion-menu li a.Photo {
+	background: url(../images/ico_photo.png) no-repeat center right;
+}
+.rtl .sj-accordion-menu li a.Accessories {
+	background: url(../images/ico_access.png) no-repeat center right;
+}
+
+
+.rtl .sj-accordion-menu  li ul li .sj-item-wrapper a{
+	padding-right:24px;
+	background: url(../images/ico_li_r.png) no-repeat center right !important;
+	padding-left:0px;
+	margin-right:20px;
+	margin-left:0px;
+	float:right;
+}
+.rtl .sj-ul-wrapper > ul.level2 li{
+	/*padding-top:3px;
+	padding-bottom:0px;*/
+	/*margin-left:0px;
+	margin-right:20px;*/
+}
+.rtl .sj-accordion-menu li ul li .sj-item-wrapper .sj-menu-link{
+	float:right;
+	padding-right:0px;
+}
+.sj-accordion-menu>li>.sj-item-wrapper {
+	height: 25px;
+}
+
+.sj-accordion-menu>li>.sj-item-wrapper a {
+	line-height: 25px;
+	font-size: 12px;
+	font-weight: 100;
+	text-transform:uppercase;
+	display:inline-block;
+}
+
+.sj-accordion-menu li .sj-item-wrapper .sj-menu-button {
+	width: 16px;
+	height: 16px;
+	/*margin: 9px 5px 0px 5px;*/
+	overflow: hidden;
+	margin-top:10px;
+}
+
+.sj-accordion-menu  li .sj-ul-wrapper {
+	display: none;
+}
+
+.sj-accordion-menu  li ul li .sj-item-wrapper {
+	height: 18px;
+}
+.sj-accordion-menu  li ul li .sj-item-wrapper .sj-menu-link {
+	width:80%;
+} 
+.sj-accordion-menu  li ul li .sj-item-wrapper a {
+	background: url(../images/ico_li.png) no-repeat center left !important;
+	padding-left: 13px;
+	line-height: normal;
+	padding-left:24px;
+	padding-right:0px;
+	margin-left:20px;
+	display:inline-block;
+	/*border-bottom:1px solid #00a3da;*/
+}
+
+.sj-accordion-menu li:last-child,.sj-accordion-menu>li.last {
+	/*border-bottom: none;*/
+}
+
+.sj-ul-wrapper > ul a {
+	color: #666;
+}
+.sj-ul-wrapper > ul a:hover {
+	color: #7B96CF;
+}
+.sj-accordion-menu li .sj-ul-wrapper .sj-item-wrapper .sj-menu-link {
+	padding: 0;
+}
+.sj-ul-wrapper > ul.level2 a {
+	color: #ffffff;
+	font-weight:100;
+}
+.sj-ul-wrapper > ul.level2 li:hover,
+.sj-ul-wrapper > ul.level2 li.current,
+.rtl .sj-accordion-menu li ul li:hover,
+.sj-ul-wrapper > ul.level2 li.opened {
+	/*text-decoration:underline;*/
+	/*border-bottom:1px solid #ffffff;*/
+	background:#1aacde;
+}
+.sj-ul-wrapper > ul.level2 {
+	/*padding-left: 5px !important;*/
+	background-color:#00a3da;
+	border-top:1px solid #2eb1dc;
+	margin-top:7px!important;
+	margin-bottom:7px !important;
+}
+.sj-ul-wrapper > ul.level2 li{
+	border-bottom:none;
+	/*padding-bottom:8px;
+	padding-top:8px;*/	
+	/*margin-left:20px;*/
+}
+
+.sj-accordion-menu li.level2.opened > .sj-item-wrapper a,
+.sj-accordion-menu li.level4.opened > .sj-item-wrapper a,
+.sj-accordion-menu li.level2 > .sj-item-wrapper a:hover,
+.sj-accordion-menu li.level4 > .sj-item-wrapper a:hover,
+.sj-accordion-menu li.level1 > .sj-item-wrapper a,
+.sj-accordion-menu li.level3 > .sj-item-wrapper a {
+	color: #ffffff;
+}
+.sj-accordion-menu li.level1.opened > .sj-item-wrapper a,
+.sj-accordion-menu li.level3.opened > .sj-item-wrapper a,
+.sj-accordion-menu li.level1 > .sj-item-wrapper a:hover,
+.sj-accordion-menu li.level3 > .sj-item-wrapper a:hover,
+.sj-accordion-menu li.level2 > .sj-item-wrapper a,
+.sj-accordion-menu li.level4 > .sj-item-wrapper a {
+	color: #fffff;
+}
+.rtl .sj-accordion-menu li .sj-item-wrapper .sj-menu-link {
+	float: right;
+	padding-right:5px;
+}
+.rtl .sj-accordion-menu li .sj-item-wrapper .sj-menu-button {
+	float: left;
+	text-align:center;
+}
+.rtl .sj-accordion-menu li {
+    /*padding: 7px 0px 7px 0px;*/
+	padding-right:0px;
+}
+.rtl .sj-ul-wrapper > ul.level2 {
+   /* padding: 0 5px 0 0 !important;*/
+}

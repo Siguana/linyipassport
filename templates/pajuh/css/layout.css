@@ -1,0 +1,28 @@
+
+/* MAIN LAYOUT DIVS
+--------------------------------------------------------- */
+.wrap {width:1200px}
+.main {width:1110px;}
+
+/* Form*/
+#ja-botsl .acymailing_form .inputbox{width:250px!important;}
+
+
+/* MAIN NAVIGATION 
+--------------------------------------------------------- */
+/* hide menu button by default */
+#ja-menu-button {display: none; position: relative;}
+
+
+/* EXTENTIONS 
+--------------------------------------------------------- */
+
+/* NSP Modules */
+#ja-latest .nspArts {width:1130px!important;}
+.gkTabsContainer .nspArts {width:797px!important}
+
+/* Slideshow CK*/
+.camera_fakehover {min-height:450px;}
+
+/* K2 Component */
+.itemImage img, .catItemImage img, .tagItemImage img, .userItemImage img, .itemIntroText img, .catItemIntroText img{width:100%!important; max-width:100%!important;}

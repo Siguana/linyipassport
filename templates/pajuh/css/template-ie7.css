@@ -1,0 +1,18 @@
+.nspCol3, .width33{width: expression((this.parentNode.clientWidth/3 - parseInt(this.currentStyle['paddingLeft']) - parseInt(this.currentStyle['paddingRight'])) + 'px');}
+.nspCol4 {width: expression((this.parentNode.clientWidth/4 - parseInt(this.currentStyle['paddingLeft']) - parseInt(this.currentStyle['paddingRight'])) + 'px');}
+
+#ja-headline .nspCol3{border-right:none;}
+#ja-mainnav .search .inputbox{height:18px!important; width:120px!important;}
+#userlogin #user-login {left:-166px;}
+input.default[type="submit"] {vertical-align:top;}
+
+.category-view .row .product .spacer, 
+.featured-view .row .product .spacer, 
+.latest-view .row .product .spacer, 
+.topten-view .row .product .spacer, 
+.related-products-view .row .product .spacer, 
+.browse-view .row .product .spacer {
+	padding:0 25px 25px 0!important;
+}
+
+.browse-view .row{margin-left:0!important;}

@@ -1,0 +1,89 @@
+/**************************************************************************************/
+/*
+/*		Designed by 'AS Designing'
+/*		Web: http://www.asdesigning.com
+/*		Web: http://www.astemplates.com
+/*		License: Creative Commons
+/*
+/**************************************************************************************/
+
+#vm_cart_currency
+{
+    float:left;
+    margin-bottom: 30px;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+
+#vm_cart_currency .vmcart_left 
+{
+    float: left;
+    width: 50%;
+}
+#vm_cart_currency .currency_right
+{
+    float: right;
+    width: 50%;
+}
+
+.top1{margin: 1px 0 0;} 
+.top2{margin: 2px 0 0;} 
+.top3{margin: 3px 0 0;} 
+.top4{margin: 4px 0 0;} 
+.top5{margin: 5px 0 0;} 
+.top10{margin: 10px 0 0;} 
+.top20{margin: 20px 0 0;}
+.top30{margin: 30px 0 0;}
+.top40{margin: 40px 0 0;}
+.top50{margin: 50px 0 0;}
+
+.bottom1{margin: 0 0 1px;}
+.bottom2{margin: 0 0 2px;}
+.bottom3{margin: 0 0 3px;}
+.bottom4{margin: 0 0 4px;}
+.bottom5{margin: 0 0 5px;}
+.bottom10{margin: 0 0 10px;}
+.bottom20{margin: 0 0 20px;}
+.bottom30{margin: 0 0 30px;}
+.bottom40{margin: 0 0 40px;}
+
+
+.width50
+{
+    width: 50%;
+}
+
+.width20
+{
+    width: 20%;
+}
+
+.width50
+{
+    width: 50%;
+}
+
+.floatleft
+{
+    float:left;
+}
+
+.floatright
+{
+    float:right;
+}
+
+.opened
+{
+    display: block;
+}
+
+.closed
+{
+    display: none;
+}
+
+.scrooler img:hover
+{
+    opacity: 0.9;
+}

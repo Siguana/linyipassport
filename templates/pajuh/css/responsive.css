@@ -1,0 +1,256 @@
+/* Responsive Style Sheet - Defines base styles for mobile devices /
+
+/* STANDARD DESKTOP
+-----------------------------------------------------------------------------------*/
+
+@media (max-width: 1220px) {
+	
+	.main {width:900px;}
+	.wrap {width:980px;}
+	#ja-topsl .ja-moduletable h5 {line-height:1.5em; top:20px; padding:0 20px;}
+
+	/* Form */
+	#ja-botsl .acymailing_form .inputbox{width:200px!important;}
+
+	/* NSP Modules */
+	#ja-latest .nspArts{width:925px!important;}
+	.gkTabsContainer .nspArts {width:650px!important}
+	.grid-slider h4.nspHeader a {top:-155px;}
+	.gkTabsContainer .nspVmStore {padding:10px 5px!important;}
+
+	
+	/* Slideshow CK */
+	.camera_fakehover {min-height:350px;}
+
+	/* K2 */
+	.itemImage img, span.catItemImage img, .tagItemImage img, .userItemImage img{width:100%!important; max-width:100%!important; height:auto;}
+	div.itemCommentsForm form input.inputbox, div.itemCommentsForm form textarea.inputbox {width:60%!important;}
+	
+	/* Virtuemart */
+	.orderby-displaynumber .width75 {width:70%;}
+	.orderby-displaynumber .width25 {width:30%;}
+	div.category-view div.category img {width: 100%;}
+
+
+	/* MiniK2 Portfolio Modules */
+	#folio-container li, #stage li a img { width:210px!important; height:166px!important; }
+	#stage li a .description {width:100%!important; text-align:center;}
+	#stage li a:hover .description {height:166px!important;}
+	#stage li a .description h3{padding:30px 20px 10px 20px!important;}
+	#stage li a .description p{display:none;}
+
+	/* others  */
+	ul.client-list li{width:42%;}
+}
+
+
+/* ONLY TABLET (PORTRAIT) 
+------------------------------------------------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 959px) {
+	
+	.wrap {width:750px;}
+	.main {width:680px;}
+	#ja-right .ja-moduletable {margin:20px 0 40px 0!important; padding:0!important;}
+	#ja-botsl .ja-box-left .ja-moduletable, 
+	#ja-botsl .ja-box-right .ja-moduletable, 
+	#ja-botsl .ja-box-center .ja-moduletable{
+		padding-left:0!important; padding-right:30px!important; margin-left:0!important; margin-right:0!important;}
+	#ja-botsl .main{padding-bottom:5px!important;}
+	#ja-topsl .ja-moduletable h5 {font-size:12px; line-height:1.4em!important; top:10px!important; padding:0 12px!important;}
+
+	/* Slideshow CK */
+	.camera_fakehover {min-height: 265px;}
+
+	/* NSP Module */
+	#ja-latest .nspArts, .gkTabsContainer .nspArts {width:700px!important;}
+	#ja-headline .nspArt p.nspInfo {display:none;}
+	.grid-slider h4.nspHeader a {top:-130px; padding-left:20px; padding-right:20px; font-size:14px; line-height:22px;}
+
+	/* Mini K2 Portfolio */
+	#filter span{display:none}
+	#filter a{margin:0 3px 10px 0!important;}
+	#folio-container li, #stage li a img {width:210px!important; height:166px!important; }
+	#stage li a:hover .description {height:166px!important;}
+	#stage li a .description h3{padding:35px 25px 10px 25px!important;}
+
+	/* Others */
+	ul.client-list li{width:46%;}
+	ul.social li {margin-right:1px!important}
+}
+
+
+/* ONLY PHONES and TABLET (Portrait) 
+----------------------------------------------------------------*/
+
+@media (max-width: 959px) {
+	
+	#ja-mainnav .search{padding:8px 12px!important;}
+	#ja-mainnav .search .inputbox{width:85px;}
+	#ja-botsl .acymailing_form .inputbox{width:100px!Important;}
+	#ja-current-content, #ja-main, .main #ja-mainbody, #ja-inset1, #ja-right.column, #ja-left.column{float:none!important; width:100%!important; /* Frontpage Content */}
+	.ja-inset1 div.ja-moduletable, .ja-inset1 .div.moduletable, .ja-inset1 div.ja-module, .ja-inset1 div.module {margin-right:0!important;}
+	
+	/* K2 */
+	#k2Container {padding-top:0;}
+		
+	/* NSP Modules */
+	#ja-headline h4.nspHeader {padding-top:5px;}
+	.nspVirtuemart h4.nspHeader a {padding:8px;}
+	.nspVmStore {padding:10px 8px!important;}
+	
+	/* Main Nav ---*/
+	#ja-mainnav {clear:both; display:block; height:auto; color:#fff;}
+	#ja-mainnav #ja-megamenu .childcontent {position:static; display:block!important; width:100%!important; height:auto!important;}
+
+	/* Mega Menu Layout ---*/
+	.ja-megamenu {background:#222!important; clear:both;}
+	.rjd-active .ja-megamenu {display:block!important; /* Show menu when active */}
+
+	div.ja-megamenu ul.level0 li.mega {border:0; height:auto; margin:0; width: 100%;}
+	div.ja-megamenu ul.level0 li.mega a.mega {padding:13px 15px!important; border-top:1px solid #2c2c2c;}
+	div.ja-megamenu ul.level0 li.mega a.mega:hover,
+	div.ja-megamenu ul.level0 li.mega.over a.mega {background:#1f1f1f!important;}
+	div.ja-megamenu ul.level0 li.mega.active a.mega {border-top:none; background:none;}
+	div.ja-megamenu div.childcontent-inner {border:none; width:100%!important; box-shadow:none; margin:0!important; padding:0 0 10px 0!important; }
+	div.ja-megamenu div.group-title {margin-left:0;}
+	div.ja-megamenu div.group-content ul.level1 {margin-top:0; margin-bottom:0;}
+
+	.ja-megamenu ul.level0 li.haschild span.menu-title,
+	.ja-megamenu ul.level0 li.mega span.menu-title {font-size:inherit!important; padding:0!important; margin:0!important; text-transform:none!important;}
+	.ja-megamenu ul.level0 li.mega span.menu-desc {display: none;}
+	.ja-megamenu ul.level1 li.mega span.menu-title {font-weight:normal;}
+	.ja-megamenu .childcontent-inner-wrap {width:100%!important; display:block!important; opacity:1!important; padding-top:0!important}
+	.ja-megamenu .childcontent-inner {background-color:#292929!important; padding-bottom:5px!important;}
+	.ja-megamenu ul.level1 .childcontent-inner {padding:0!important;}
+	.ja-megamenu .megacol {width:100%!important; }
+
+	div.ja-megamenu ul.level1 li.mega {height:auto!important; background:none!important;}
+	div.ja-megamenu ul.level1 li.mega a.mega {height:auto!important; border-top:0!important; margin-left:0;  padding:6px 15px!important;}
+	div.ja-megamenu .group-title, div.ja-megamenu .group-content {background:none!important;}
+	div.ja-megamenu .group-title .menu-title {font-weight:bold!important;}
+	div.ja-megamenu .group-content {padding-left:15px;}
+
+
+	#ja-megamenu li.rjd-active { background: #222; }
+	#ja-megamenu li.rjd-active .childcontent {display:block!important; left:0!important; margin:0!important; position:absolute; top:40px!important;	width:100%!important;}
+	#ja-megamenu ul.level0 li.rjd-active .childcontent-inner-wrap,
+	#ja-megamenu ul.level0 li.rjd-active .childcontent-inner {margin:0!important; width:100%!important;}
+
+	/* Hide lv 2 Content */
+	#ja-megamenu ul.level1 li.rjd-active .childcontent,
+	#ja-megamenu ul.level1 .childcontent {display:none!important;}
+	#ja-megamenu ul.level1 .childcontent {margin:0!important;}
+	#ja-megamenu div.childcontent-inner ul.megamenu {}
+	div.ja-megamenu ul.level1 li.mega a.mega:hover,
+	div.ja-megamenu ul.level1 li.mega.over a.mega {border-top:0!important; background:none!important;}
+	div#ja-megamenu ul.level2 {margin-left:10px!important;}
+
+	/* Menu Button --- */
+	/* to use this value to detect responsive
+	 * > 3: mean responsive
+	 * 4: is mobile device, which the menu show only first level
+	 */
+	#ja-menu-button{background:#222; display:block!important; float:left; font-size:1.2em; font-weight:bold; padding:0 15px; line-height:49px; height:49px; text-transform:uppercase; z-index:4;}
+	#ja-menu-button:hover, .rjd-active #ja-menu-button {background:#222; cursor:pointer;}
+}
+
+
+/* ONLY PHONES
+----------------------------------------------------*/
+
+@media (max-width: 767px) {
+	
+	body#bd h1.logo {float:none; margin:0 auto; padding:65px 0 5px 0;}
+	body#bd .main {width:290px;}
+	.wrap {width:100%;}
+	#ja-wrapper .ja-box-left .ja-moduletable, 
+	#ja-wrapper .ja-box-right .ja-moduletable, 
+	#ja-wrapper .ja-box-center .ja-moduletable{padding-left:0; padding-right:0; margin-left:0!important; margin-right:0!important;}
+	#ja-container .ja-moduletable, #ja-botsl .ja-moduletable{margin-bottom:35px;}
+	#ja-topnav{float:left!important; margin:0!important;}
+	#userlogin {margin:0!important;}
+	#ja-header{padding-bottom:20px!important;}
+	#ja-wrapper .column{float:none; width:100%!important;}
+	#ja-right .ja-moduletable, #ja-left .ja-moduletable {margin-left:0!important;}
+	#ja-botsl .ja-box-left .ja-moduletable, #ja-botsl .ja-box-right .ja-moduletable, #ja-botsl .ja-box-center .ja-moduletable{padding-left:0!important; padding-right:0!important; margin-left:0!important; margin-right:0!important;}
+	#ja-botsl .main{padding-bottom:5px!important;}
+	#ja-footer .ja-copyright{margin:0 auto!important; text-align:center; width:100%!important}
+	#ja-footer .ja-footnav {display:none;}
+	#ja-portfolio h3{text-align:center;}
+	#ja-topsl .main{padding-bottom:0!important;}
+	#ja-promo {display:none;}
+	
+	/* NSP Modules */
+	#ja-latest .nspArts, .nspVmShop .gkTabsContainer .nspArts {width:310px!important;}
+	.nspArt.nspCol3 {width:100%; margin-bottom:1px;}
+	.nspArt.nspCol4 {width:50%; margin-bottom:1px;}
+	
+	/* Tabs Gk5 */
+	.gkTabsWrap.vertical ol {position:relative!important; top:5px!important; left:0!important; right:auto!important;}
+	.gkTabsContainer {margin-top:20px;}
+	
+	/* Slideshow CK*/
+	.camera_fakehover {min-height:180px;}
+	
+	/* Mini K2 Portfolio */
+	#filter{position:relative; right:0; top:0;}
+	#filter a{margin:0 10px 10px 0!important;}
+	#folio-container li, #stage li a img { width:290px!important; height:229px!important; }
+	#stage li a:hover .description {height:229px!important;}
+	#stage li a .description h3{padding:35px 30px 10px 30!important;}
+	
+	/* Virtuemart */
+	#mycart {width:92%;}
+	.width33 {width:50%!important}
+	.width45, .width55, .width50 {width:100%;}
+	.productdetails-view div.main-image{padding-right:0;}
+	.productdetails-view h1 {margin-top:20px!important;}
+	.category-view .row .category .spacer{padding:0 18px 0 0;}
+	.category-view .row	{display:inline!important;}
+	.billto-shipto .width50{margin-bottom:30px;}
+	.formLoginWrap input.default[type="submit"] {margin-top:5px;}
+	.cart-view a.continue_link {position:absolute; right:0; top:0;}
+	table.cart-summary td{padding:8px 3px;}
+	table.cart-summary tr th, table.ordersList tr th {padding:6px 1px!important;}
+	table.cart-summary input.quantity-input {width:88%;}
+
+}
+
+/* ONLY PHONES (Landscape) 
+----------------------------------------------------*/
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+	body.bd .wrap {width:460px;}
+	body#bd .main {width: 390px;}
+
+	/* NSP Module */
+	#ja-latest .nspArts, .nspVmShop .gkTabsContainer .nspArts{width:410px!important;}
+	.grid-slider h4.nspHeader a {top:-140px; padding-left:15px; padding-right:15px; font-size:14px; line-height:22px;}
+
+	/* K2 */
+	#k2Container {padding-top:0;}
+	span.itemImage, span.catItemImage, span.userItemImage, span.tagItemImage{margin:0!important;}
+	div.itemCommentsForm form input.inputbox, div.itemCommentsForm form textarea.inputbox {width:96%!important;}
+	div.itemCommentsForm form input#submitCommentButton{margin:15px 0 5px 0!important; float:left!important;}
+	div.itemSocialSharing, span.itemImageCredits {display:none;}
+	#recaptcha_logo, #recaptcha_tagline{display:none!important;}
+
+	/* Others  */
+	ul.client-list li{width:46%;}
+
+
+/* Only Phones (Portrait) 
+----------------------------------------------------------*/
+
+@media (max-width: 479px) {
+
+	/* Base */
+	body { word-wrap: break-word; }
+	.wrap {width:100%;}
+	
+	/* Slideshow CK*/
+	.camera_fakehover {min-height:200px;}
+
+}

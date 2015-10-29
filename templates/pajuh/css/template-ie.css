@@ -1,0 +1,8 @@
+.clearfix {display: inline-block; } /* IE7xhtml*/
+.button, #member-registration .validate, .form-validate button{padding:6px 8px 5px 8px!important; vertical-align:top;}
+.ja-breadcrums{padding-bottom:10px;}
+#userlogin #user-login {left:-163px;}
+
+.nspArt img:hover, .items-leading img:hover, .items-row img:hover, span.catItemImage img:hover, span.itemImage img:hover, span.userItemImage img:hover, a.subCategoryImage img:hover{filter:alpha(opacity=60)}
+.nspArt img.nspImage{width:auto!important;}
+.grid-slider .nspArt img:hover, .grid-slider .nspArt:hover img.nspImage, #ja-topsl .ja-moduletable:hover img{filter:alpha(opacity=20)}

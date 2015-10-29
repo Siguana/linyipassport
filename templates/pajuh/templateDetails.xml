@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension
+	version="2.5"
+	type="template"
+	method="upgrade" client="site">
+	<name>pajuh</name>
+	<version>1.14.3</version>
+	<creationDate>02 February 2013</creationDate>
+	<author>ThemeSoul.com</author>
+	<authorEmail>maskeenan@gmail.com</authorEmail>
+	<authorUrl>http://www.ThemeSoul.com</authorUrl>
+	<copyright>Copyright (C), ThemeSoul.com. All Rights Reserved.</copyright>
+	<license>Commercial http://themeforest.net/wiki/support/legal-terms/licensing-terms/</license>
+	<description>Pajuh J2.5 - Premium Template for Joomla 2.5</description>
+	<engine>t3</engine>
+	<files>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>info.xml</filename>
+		<filename>params.ini</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>language</folder>
+		<folder>blocks</folder>
+		<folder>etc</folder>
+		<folder>themes</folder>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>info</folder>
+		<folder>js</folder>
+	</files>
+
+	<languages folder="languages">
+		<language tag="en-GB">en-GB/en-GB.tpl_pajuh.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_pajuh.sys.ini</language>
+	</languages>
+
+	<positions>
+	</positions>
+
+	<config>
+		<fields name="params" addfieldpath="/plugins/system/jat3/jat3/core/element">
+			<fieldset name="STANDARD_SETTING" label="Standard Setting">
+				<field name="group_disable" type="japaramhelpert3" function="@group">
+					<option for="all" value="hide" hideRow="true">setting_screen, setting_direction</option>
+				</field>
+			</fieldset>
+		</fields>
+    </config>
+</extension>

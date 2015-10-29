@@ -1,0 +1,32 @@
+/**
+ * @copyright	Copyright (C) 2005 - 2012 Open Source Matters, Inc. All rights reserved.
+ * @license		GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+/* Start Common Styles */
+
+body {
+	text-align: right;
+}
+
+.TD{
+	text-align: left;
+}
+
+#errorboxbody {
+	text-align: right;
+}
+#techinfo {
+	text-align: right;
+}
+ul.links li {
+    line-height: 37px;
+    list-style: none outside none;
+    padding: 2px 70px 2px 0;
+}
+ul.links li.homepage {
+	background: url(../images/e404Home-icon.png) no-repeat right center;
+}
+ul.links li.searchsite {
+	background: url(../images/e404Search-icon.png) no-repeat right center;
+}

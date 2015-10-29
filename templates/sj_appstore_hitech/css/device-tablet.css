@@ -1,0 +1,198 @@
+/******************************************
+***          YT Framework: CSS          ***
+*******************************************/
+
+
+body .yt-main {
+    width: 720px;
+	max-width:1200px;
+}
+#content_sidebar .sidebar-inner{
+
+}
+#content_sidebar.active .sidebar-inner{
+    display: block;
+    left: 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9999;;
+}
+#content_sidebar {
+    left: -260px;
+    position: fixed !important;
+    top: 0 !important;
+    width: 260px;
+    z-index: 998;
+    overflow: inherit !important;
+}
+#content_sidebar .btn-sidebar{
+	background: url(../images/ico-menu.png) no-repeat;
+	cursor: pointer;
+    height: 88px;
+    right: -30px;
+    position: absolute;
+    top: 10%;
+    width: 30px;
+    z-index: 9999;
+}
+#content_sidebar .btn-sidebar:hover {
+	background: url(../images/ico-menu-ov.png) no-repeat;
+}
+/* ----------------------------*/
+/*     Block: yt_menuwrap      */
+/* ----------------------------*/
+#yt_menuwrap .yt-main{
+	width:685px;
+	padding-left:35px;
+}
+div.level1.separator, 
+a.level1 {
+    padding: 0 10px !important;
+}
+div.separator.level1 span.menu-title, 
+a.level1 span.menu-title {
+    padding: 6px 0 !important;
+}
+ul.navirtl .level1 span.menu-desc, 
+ul.navi .level1 span.menu-desc {
+	display:none;
+}
+
+/* ----------------------------*/
+/*     Block: yt_spotlight1    */
+/* ----------------------------*/
+#user3,
+#user4,
+#user5{
+	width:33.3% !important;
+}
+#yt_spotlight1 #user6{
+	width:100% !important;
+	height:auto !important;
+}
+/* ----------------------------*/
+/*     Block: content          */
+/* ----------------------------*/
+
+#right_top,
+#right_bottom{
+	width:480px !important;
+	float:none !important;
+}
+/*#right_top .moduletable.masonry-brick,
+#right_bottom .moduletable.masonry-brick{
+	width:200px;
+}*/
+#right1,
+right2{
+	width:120px !important;
+	float:none !important;
+}
+/* ----------------------------*/
+/*     Block: yt_spotlight2    */
+/* ----------------------------*/
+
+#usera,
+#userb,
+#userc{
+	width:33.3% !important;
+}
+#yt_spotlight2 #userd{
+	width:100% !important;
+	height:auto !important;
+}
+
+/* ----------------------------*/
+/*     Block: yt_spotlight3    */
+/* ----------------------------*/
+#user11,
+#user12,
+#user13 {
+	width:33.3% !important;
+}
+#yt_spotlight3 #user14 {
+	width:100% !important;
+	height:auto !important;
+}
+#yt_spotlight3 #user10,
+#yt_spotlight3 #user14 img {
+	display: none;
+}
+/* ----------------------------*/
+/*     Block: #yt_footer       */
+/* ----------------------------*/
+#yt_footer .yt-main-in2 > * {
+	display: block;
+	width: 100% !important;
+	text-align: center !important;
+}
+#yt_footer #footnav1 ul {
+	float: none;
+	padding: 10px 0 5px;
+}
+#yt_footer .logo-footer a {
+	margin: 0 auto;
+}
+#yt_footer {
+    height: auto !important;
+}
+.group-footnav{
+	width:100% !important;
+	overflow:hidden;
+	padding-bottom:15px;
+	margin:0 auto;
+	float:none !important;
+}
+#yt_footer #footnav ul{
+	float:none !important;
+	text-align:center;
+}
+.yt-linkfooter{
+	float:none !important;
+	text-align:center;
+}
+.yt-copyright{
+	width:100% !important;
+	text-align:center;
+	margin:0 auto;
+	float:none !important;
+}
+
+#content_main{
+	width: 100% !important;
+	padding-top:0px;
+}
+.group-main-top{
+	padding: 0 15px;
+	width:688px;
+}
+/*.group-main-top #nav_top{
+	margin-right:50px;
+}*/
+#content_listing .item {
+	width: 240px;
+	/*width:239px;*/
+}
+#content_listing .item-inner .item-inner1 {
+    margin: 6px 0 6px 7px;
+}
+.rtl #content_listing .item-inner .item-inner1 {
+    margin: 5px 5px 5px 0 !important;
+}
+.productdetails-view .product-details.cols-2 {
+    width: 480px;
+}
+.com_virtuemart .product-details.cols-2 .images-detail,
+.com_virtuemart .product-details.cols-2 .form-detail {
+	width: 100%;
+}
+.form-detail span.vote {
+	display: block;
+	clear: both;
+}
+.com_virtuemart .product-details.cols-2 .form-detail .product-price,
+.com_virtuemart .product-details.cols-2 .form-detail .addtocart-area {
+	width: 50%;
+	float: left;
+}

@@ -1,0 +1,662 @@
+/**
+ # ot_digitalbox - 	OT DigitalBox  Template for Joomla 2.5!
+ # author 			OmegaTheme.com
+ # copyright 		Copyright(C) 2012 - OmegaTheme.com. All Rights Reserved.
+ # @license 		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Website: 		http://omegatheme.com
+ # Technical 		support: Forum - http://omegatheme.com/forum/
+ **/
+ /**------------------------------------------------------------------------
+ * file: customs.css 2.5.0 00001, May 2012 12:00:00Z OmegaTheme $
+ * package:	OT DigitalBox Template
+ *------------------------------------------------------------------------*/
+
+
+/* CUSTOM STYLE SEARCH MODULE */
+.ot-headertop form.default-search{
+	
+}
+.ot-headertop form.default-search div{
+	margin: 0;
+	padding: 0;
+}
+.ot-headertop form.default-search input.searchfield{
+	float: left;
+    margin-top: 2px;
+    padding: 2px;
+    width: 60%;
+}
+
+/* CUSTOM STYLE OT VIRTUEMART PRODUCT */
+.ot-custom-vmgroup{
+	
+}
+.ot-custom-vmproduct{
+	float: left;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.ot-custom-vmproduct-i{
+	overflow: hidden;
+}
+.ot-custom-products-row-top,
+.ot-custom-products-row-bottom{
+	width: 100%;
+	float: left;
+}
+.ot-custom-vmproduct .spacer{
+	margin-right: 8px;
+	padding: 0;
+}
+.ot-custom-vmproduct .spacer .ot-custom-product{
+	background: url(../images/product-topbg.png) repeat-x 0 0;
+}
+.ot-custom-vmproduct .spacer .ot-custom-product-i{
+	background: url(../images/product-bottombg.png) repeat-x 0 100%;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+
+.ot-custom-vmproduct .product-name,
+.ot-custom-vmproduct .product-s-desc{
+	width: 92%;
+	margin: 10px 0;
+	padding: 0 4%;
+}
+.ot-custom-vmproduct .product-name h5,
+.ot-custom-vmproduct .product-name h5 a{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.ot-custom-vmproduct .product-name h5{
+	
+}
+.ot-custom-vmproduct .product-image{
+	background: url(../images/product-img-bottom-border.png) repeat-x 0 bottom;
+	margin: 0;
+	padding: 0px 0;
+	padding-bottom: 2px;
+}
+.ot-custom-vmproduct .product-image img{
+	padding: 0px 0;
+}
+.ot-custom-vmproduct .product-price{
+	margin: 10px 0;
+	text-align: center;
+}
+.ot-custom-vmproduct .product-price span,
+.ot-custom-vmproduct .product-price span.PricesalesPrice{
+	font-family: 'Oswald',"Trebuchet MS";
+	font-size: 18px;
+}
+.ot-custom-vmproduct .product-addtocart{
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+.ot-custom-vmproduct .product-addtocart span.addtocart-button,
+.ot-custom-vmproduct .product-addtocart a.product-details{
+	background: url(../images/addtocart-button.png) no-repeat;
+	border: none;
+	border-radius: 0 0 0 0;
+	color: #FFF;
+	font-weight: bold;
+	height: 28px;
+	line-height: 28px;
+	margin: 0;
+	padding: 0;
+	text-indent: 28px;
+	width: 128px;
+}
+.featured-view .spacer .product-addtocart span, 
+.latest-view .spacer .product-addtocart span, 
+.topten-view .spacer .product-addtocart span, 
+.related-products-view .spacer .product-addtocart span, 
+.browse-view .row .product .spacer .product-addtocart span{
+	color: #fff;
+}
+.ot-custom-vmproduct .product-addtocart span.addtocart-button input.addtocart-button,
+.ot-custom-vmproduct .product-addtocart span.addtocart-button input.notify-button,
+.ot-custom-vmproduct .product-addtocart a.product-details span{
+	background: none;
+	border: none;
+	border-radius: 0 0 0 0;
+	color: #FFF;
+	height: 28px;
+	line-height: 28px;
+	margin: 0;
+	padding: 0;
+	text-indent: 42px;
+	width: 128px;
+}
+.ot-custom-vmproduct .product-addtocart span.addtocart-button:hover,
+.ot-custom-vmproduct .product-addtocart a.product-details:hover{
+	background-position: 0 -28px;
+	border-radius: 0 0 0 0;
+}
+.ot-custom-vmproduct .product-addtocart span.addtocart-button:hover input.addtocart-button,
+.ot-custom-vmproduct .product-addtocart span.addtocart-button:hover input.notify-button,
+.ot-custom-vmproduct .product-addtocart a.product-details:hover span{
+	border-radius: 0 0 0 0;
+	color: #FFF;
+}
+
+.ot-custom-vmproduct .product-addtocart .addtocart-area{
+	float: right;
+	margin: 0px;
+}
+.ot-custom-vmproduct .product-addtocart span.addtocart-button{
+	width: auto;
+}
+.ot-custom-vmproduct .product-addtocart span.addtocart-button input.addtocart-button, 
+.ot-custom-vmproduct .product-addtocart span.addtocart-button input.notify-button{
+	
+}
+
+/* CUSTOM STYLE HEADER-TOP MODULE */
+/*------- SEARCH MODULE------------ */
+.ot-headertop-2 form.default-search{
+	margin-top: 36px;
+}
+.ot-headertop-2 form.default-search div.search{
+	background: url(../images/search-bg.png) no-repeat;
+	width: 320px;
+	height: 30px;
+}
+.ot-headertop-2 form.default-search input#mod-search-searchword{
+	background: none;
+	border: medium none;
+	max-width: 220px;
+    margin: 3px;
+    padding: 4px
+}
+.ot-headertop-2 form.default-search input.button{
+	background: url(../images/search-button-submit.png) no-repeat;
+	border: none;
+	width: 92px;
+	height: 30px;
+	float: right;
+	text-align: center;
+	text-transform: uppercase;
+}
+/*------- CART MODULE------------ */
+.ot-headertop-2 .OtCustom-vmCartModule{
+	background: url(../images/cart-icon.png);
+	float: right;
+	height: 68px;
+	margin-right: 15px;
+	margin-top: 10px;
+	text-align: center;
+	width: 70px;
+}
+
+/*------- CUSTOM LAYOUT VIRTUEMART PRODUCTS MODULE------------ */
+.custom-default .spacer{
+	padding: 0 10px;
+}
+.ot-custom-products-page{
+	
+}
+.ot-custom-products-page .ot-custom-product-name-addtocart{
+	width: 49%;
+	float: left;
+}
+.ot-custom-products-page .ot-custom-product-name-addtocart .product-name h5 a{
+	color: #FFF;
+}
+.ot-custom-products-page .ot-custom-product-name-addtocart .product-addtocart a.product-details{
+	background: url(../images/demo/button-more-details.png) no-repeat right 0;
+	color: #333333;
+	display: inline;
+	float: left;
+	font-weight: bold;
+	height: 25px;
+	padding: 0 25px 0 10px;
+	text-align: left;
+}
+.ot-custom-products-page .ot-custom-product-image{
+	width: 49%;
+	float: right;
+}
+.ot-custom-products-page .ot-custom-product-image img{
+	width: 95%;
+	float: right;
+}
+
+/* CUSTOM LEFT _ RIGHT */
+.ot-leftcolumn,
+.ot-rightcolumn{
+	
+}
+.ot-leftcolumn .custom-vmproduct .product-image,
+.ot-rightcolumn .custom-vmproduct .product-image{
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	margin: 10px 0;
+	padding: 0;
+	float: left;
+}
+.ot-leftcolumn .custom-vmproduct .product-image img,
+.ot-rightcolumn .custom-vmproduct .product-image img{
+	max-height: 100%;
+    max-width: 90%;
+}
+.ot-leftcolumn .custom-vmproduct,
+.ot-rightcolumn .custom-vmproduct{
+	
+}
+
+.ot-leftcolumn .custom-vmproduct .product-name,
+.ot-rightcolumn .custom-vmproduct .product-name{
+	margin: 10px 0;
+	padding: 0;
+}
+.ot-leftcolumn .custom-vmproduct .product-name a,
+.ot-leftcolumn .custom-vmproduct .product-name h5,
+.ot-rightcolumn .custom-vmproduct .product-name a,
+.ot-rightcolumn .custom-vmproduct .product-name h5{
+	font-family: arial;
+	font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.ot-leftcolumn .custom-vmproduct .product-price,
+.ot-rightcolumn .custom-vmproduct .product-price{
+	text-align: left;
+}
+.ot-leftcolumn .custom-vmproduct .product-price span.PricesalesPrice,
+.ot-rightcolumn .custom-vmproduct .product-price span.PricesalesPrice{
+	color: #dd0001;
+}
+.ot-leftcolumn .custom-vmproduct div.product-addtocart,
+.ot-rightcolumn .custom-vmproduct div.product-addtocart{
+	
+}
+.ot-leftcolumn .custom-vmproduct div.product-addtocart a.product-details,
+.ot-rightcolumn .custom-vmproduct div.product-addtocart a.product-details{
+	background: url(../images/addtocart-button.png) no-repeat;
+	display: block;
+	font-weight: bold;
+	height: 28px;
+	margin: 0;
+	padding: 0;
+	text-indent: 28px;
+	width: 128px;
+}
+.ot-leftcolumn .custom-vmproduct div.product-addtocart a.product-details:hover,
+.ot-rightcolumn .custom-vmproduct div.product-addtocart a.product-details:hover{
+	background-position: 0 -28px;
+}
+
+/* CUSTOM LOGIN MODULE */
+form#form-login{
+	
+}
+form#form-login fieldset.input{
+	border: none;
+}
+form#form-login fieldset.input #form-login-username input#modlgn_username,
+form#form-login fieldset.input #form-login-password input#modlgn_passwd{
+	width: 90%;
+	padding: 3px 2px;
+}
+form#form-login fieldset.input #form-login-username{
+	
+}
+form#form-login fieldset.input #form-login-username input#modlgn_username{
+	
+}
+form#form-login fieldset.input #form-login-password{
+	
+}
+form#form-login fieldset.input #form-login-password input#modlgn_passwd{
+	
+}
+form#form-login fieldset.input input.submit-button,
+form#form-login div.log-out input.submit-button{
+	background: #333 url(../images/login-icon.png) no-repeat 5px 5px;
+	border: none;
+	color: #fff;
+	font-weight: bold;
+	padding: 5px 10px;
+	padding-left: 30px;
+}
+form#form-login ul li{
+	border: none;
+	padding: 2px 0;
+}
+form#form-login ul li a{
+	font-size: 11px;
+}
+
+/* Custom Style for Layout Type Left - Right - Content */
+body.left-right-content div.ot-mainbody{
+
+}
+body.left-right-content div.ot-mainbody div.ot-rightcolumn{
+	float: left;
+	margin-left: 0;
+	margin-right: 10px;
+}
+/* Custom Style for Layout Type Content - Left - Right */
+body.content-left-right div.ot-mainbody{
+	
+}
+body.content-left-right div.ot-mainbody div.ot-leftcolumn{
+	float: right;
+	margin-left: 10px;
+	margin-right: 0px;
+}
+
+/* CUSTOM WIDTH */
+.floatLeft{
+	float: left;
+}
+.floatRight{
+	float: right;
+}
+.width1 {
+	width:1%;
+}
+.width2 {
+	width:2%;
+}
+.width3 {
+	width:3%;
+}
+.width4 {
+	width:4%;
+}
+.width5 {
+	width:5%;
+}
+.width6 {
+	width:6%;
+}
+.width7 {
+	width:7%;
+}
+.width8 {
+	width:8%;
+}
+.width9 {
+	width:9%;
+}
+.width10 {
+	width:10%;
+}
+.width11 {
+	width:11%;
+}
+.width12 {
+	width:12%;
+}
+.width13 {
+	width:13%;
+}
+.width14 {
+	width:14%;
+}
+.width15 {
+	width:15%;
+}
+.width16 {
+	width:16%;
+}
+.width17 {
+	width:17%;
+}
+.width18 {
+	width:18%;
+}
+.width19 {
+	width:19%;
+}
+.width20 {
+	width:20%;
+}
+.width21 {
+	width:21%;
+}
+.width22 {
+	width:22%;
+}
+.width23 {
+	width:23%;
+}
+.width24 {
+	width:24%;
+}
+.width25 {
+	width:25%;
+}
+.width26 {
+	width:26%;
+}
+.width27 {
+	width:27%;
+}
+.width28 {
+	width:28%;
+}
+.width29 {
+	width:29%;
+}
+.width30 {
+	width:30%;
+}
+.width31 {
+	width:31%;
+}
+.width32 {
+	width:32%;
+}
+.width33 {
+	width:33%;
+}
+.width34 {
+	width:34%;
+}
+.width35 {
+	width:35%;
+}
+.width36 {
+	width:36%;
+}
+.width37 {
+	width:37%;
+}
+.width38 {
+	width:38%;
+}
+.width39 {
+	width:39%;
+}
+.width40 {
+	width:40%;
+}
+.width41 {
+	width:41%;
+}
+.width42 {
+	width:42%;
+}
+.width43 {
+	width:43%;
+}
+.width44 {
+	width:44%;
+}
+.width45 {
+	width:45%;
+}
+.width46 {
+	width:46%;
+}
+.width47 {
+	width:47%;
+}
+.width48 {
+	width:48%;
+}
+.width49 {
+	width:49%;
+}
+.width50 {
+	width:50%;
+}
+.width51 {
+	width:51%;
+}
+.width52 {
+	width:52%;
+}
+.width53 {
+	width:53%;
+}
+.width54 {
+	width:54%;
+}
+.width55 {
+	width:55%;
+}
+.width56 {
+	width:56%;
+}
+.width57 {
+	width:57%;
+}
+.width58 {
+	width:58%;
+}
+.width59 {
+	width:59%;
+}
+.width60 {
+	width:60%;
+}
+.width61 {
+	width:61%;
+}
+.width62 {
+	width:62%;
+}
+.width63 {
+	width:63%;
+}
+.width64 {
+	width:64%;
+}
+.width65 {
+	width:65%;
+}
+.width66 {
+	width:66%;
+}
+.width67 {
+	width:67%;
+}
+.width68 {
+	width:68%;
+}
+.width69 {
+	width:69%;
+}
+.width70 {
+	width:70%;
+}
+.width71 {
+	width:71%;
+}
+.width72 {
+	width:72%;
+}
+.width73 {
+	width:73%;
+}
+.width74 {
+	width:74%;
+}
+.width75 {
+	width:75%;
+}
+.width76 {
+	width:76%;
+}
+.width77 {
+	width:77%;
+}
+.width78 {
+	width:78%;
+}
+.width79 {
+	width:79%;
+}
+.width81 {
+	width:81%;
+}
+.width82 {
+	width:82%;
+}
+.width83 {
+	width:83%;
+}
+.width84 {
+	width:84%;
+}
+.width85 {
+	width:85%;
+}
+.width86 {
+	width:86%;
+}
+.width87 {
+	width:87%;
+}
+.width88 {
+	width:88%;
+}
+.width89 {
+	width:89%;
+}
+.width90 {
+	width:90%;
+}
+.width91 {
+	width:91%;
+}
+.width92 {
+	width:92%;
+}
+.width93 {
+	width:93%;
+}
+.width94 {
+	width:94%;
+}
+.width95 {
+	width:95%;
+}
+.width96 {
+	width:96%;
+}
+.width97 {
+	width:97%;
+}
+.width98 {
+	width:98%;
+}
+.width99 {
+	width:99%;
+}
+.width100 {
+	width:100%;
+}
+
+
+

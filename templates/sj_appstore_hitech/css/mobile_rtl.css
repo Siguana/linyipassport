@@ -1,0 +1,32 @@
+.inline_menu,
+.inline_logo {
+	right:auto;
+    left: 4%;
+}
+.top a {
+    float: left;
+}
+.yt-switch_modes {
+    margin:  0 0;
+}
+.yt-fontsize li {
+    float: right;
+    margin: 0 0 0 10px;
+}
+#yt_bottommenu ul.menu li {
+    background-position: right center;
+}
+#yt-mobilemenu {
+    margin: 9px 7px 0 0;
+}
+ul.yt-login-links li {
+    background-position: right center;
+}
+p#form-login-remember input {
+    float: right;
+    margin: 8px 0 0 10px;
+}
+#btn_login, #btn_regis {
+    float: right;
+    margin: 0 10px 0 0;
+}

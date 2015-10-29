@@ -1,0 +1,20 @@
+/* Logo */
+h1.logo a{
+	background: url(../images/logo.png) no-repeat; /*please check on themes folder if you're not using default color skin*/
+}
+
+/* Color */
+::-webkit-selection {background: #7ea500;}
+   ::-moz-selection {background: #7ea500;}
+        ::selection {background: #7ea500;}
+
+a:hover, #ja-container a:hover, #ja-wrapper h4.nspHeader a:hover, div.k2LatestCommentsBlock ul li a span:hover, .itemToolbar a, #ja-container .xt-nav.top a.current, #ja-portfolio .xt-nav.top a.current, .asterisk, #ja-topsl a, a.readon, table.cart-summary tr:last-child span, div.control-buttons strong, .cart-view a.continue_link, .dtree a.nodeSel {color:#7ea500;}
+
+#user-login .button, #ja-container p.readmore span, ul.social li a, .pagination ul li span.pagenav, div.k2Pagination ul li span.pagenav, .pagination ul li:hover a, div.k2Pagination ul li:hover a, #filter a.active, #ja-mainnav .main, .ja-megamenu .childcontent-inner, a.k2ReadMore, .custom .xt-nav a.current span, #ja-navhelper strong, #ja-topsl .ja-moduletable h4, .nspVmStore .addtocart-bar span.addtocart-button input.addtocart-button, table.cart-summary .vm2-add_quantity_cart, .row .product .product-info a.product-details, #facebox .popup > div > div > a:hover, .homepage h4.nspHeader a, .gkTabsWrap.vertical ol li.active, .gkTabsWrap.horizontal ol li.active, .gkTabsContainer h4.nspHeader a, .category-view .row .category .spacer h2 a span, #ja-botsl input[type="submit"], #mycart .circle-in-cart, div.vmCartModule .show_cart a {background-color:#7ea500;}
+
+button:hover, .button:hover, input[type="submit"]:hover, input[type="button"]:hover, #ja-container p.readmore span:hover, #filter a.active:hover, a.k2ReadMore:hover, div.control-buttons .default:hover, .product-info a.product-details:hover, .homepage h4.nspHeader a:hover, div.checkout-button-top .vm-button-correct:hover, .gkTabsWrap.vertical ol li:hover, .gkTabsWrap.horizontal ol li:hover, div.addtocart-bar span.addtocart-button input.addtocart-button:hover, div.vmCartModule .show_cart a:hover {background-color:#719305;}
+.xt-pane{border-top:6px solid #7ea500;}
+
+span.custom-variant-inputbox input.custom-attribute:hover, input.vm-default:hover, span.quantity-box input.quantity-input:hover, .ask-a-question-view input.counter:hover, .ask-a-question-view input#email:hover, table.user-details input:hover, #userForm select:hover{border:1px solid #7ea500;}
+
+.ja-moduletable h3 span, .row .product h2 a, .productdetails-view h1, .product-description .title, .customer-reviews .title, .productdetails-view h4, div.billto-shipto span, .userfields_info, legend .userfields_info, #pop-up-vmcart .moduletable h3, h3.heading {background:url(../images/title-span.png) 0 100% no-repeat;}
